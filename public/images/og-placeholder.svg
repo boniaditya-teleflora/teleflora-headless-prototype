@@ -1,0 +1,13 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#FFFFFF"/>
+  <circle cx="287" cy="193" r="92" fill="#E67E97"/>
+  <circle cx="480" cy="147" r="82" fill="#F2C5D0"/>
+  <circle cx="623" cy="226" r="110" fill="#C74861"/>
+  <circle cx="407" cy="315" r="104" fill="#F3D7C8"/>
+  <circle cx="566" cy="358" r="106" fill="#F2C24B"/>
+  <path d="M508 522C510 439 471 341 350 239M554 522C561 424 581 330 665 225" stroke="#729769" stroke-width="28" stroke-linecap="round"/>
+  <path d="M366 438H710L668 546H408L366 438Z" fill="#D8B8A6"/>
+  <text x="760" y="244" fill="#8D2F4E" font-family="Georgia, serif" font-size="58" font-weight="700">Teleflora</text>
+  <text x="760" y="310" fill="#2F2430" font-family="Arial, sans-serif" font-size="42">Headless Prototype</text>
+  <text x="760" y="372" fill="#6D5B64" font-family="Arial, sans-serif" font-size="28">Next.js florist storefront foundation</text>
+</svg>

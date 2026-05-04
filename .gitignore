@@ -1,0 +1,14 @@
+.next
+node_modules
+.vercel
+dist
+coverage
+*.log
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+env.local
+.env*
+!.env.example
+.chrome-*
+homepage-*.png

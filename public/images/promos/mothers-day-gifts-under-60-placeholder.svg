@@ -1,0 +1,16 @@
+<svg width="246" height="308" viewBox="0 0 246 308" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="246" height="308" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="246" height="199" fill="#F7F1EC"/>
+  <circle cx="75" cy="86" r="35" fill="#D74769"/>
+  <circle cx="114" cy="64" r="31" fill="#F4C8D3"/>
+  <circle cx="155" cy="87" r="37" fill="#E96E8C"/>
+  <circle cx="104" cy="126" r="39" fill="#F2A4B5"/>
+  <circle cx="148" cy="131" r="38" fill="#C8425F"/>
+  <path d="M92 178H162L150 199H104L92 178Z" fill="#D8B7A6"/>
+  <path d="M105 178H149L142 199H112L105 178Z" fill="#F7E8C4"/>
+  <path d="M99 176C88 139 72 126 57 109" stroke="#518D5F" stroke-width="8" stroke-linecap="round"/>
+  <path d="M146 176C154 140 169 125 184 108" stroke="#518D5F" stroke-width="8" stroke-linecap="round"/>
+  <rect y="199" width="246" height="109" fill="#F23878"/>
+  <text x="24" y="252" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" letter-spacing="0.5">MOTHER'S DAY</text>
+  <text x="24" y="284" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" letter-spacing="0.5">GIFTS UNDER $60</text>
+</svg>

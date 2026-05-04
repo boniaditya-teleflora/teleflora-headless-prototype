@@ -1,0 +1,96 @@
+{
+  "slug": "red-roses",
+  "name": "Red Roses Signature Bouquet",
+  "shortDescription": "A classic dozen red roses with eucalyptus accents in a keepsake vase, designed for romantic and milestone gifting.",
+  "price": 84.99,
+  "currency": "USD",
+  "image": {
+    "src": "/images/products/red-roses-main.svg",
+    "alt": "Red roses bouquet hero illustration"
+  },
+  "badges": ["Best Seller", "Same-Day"],
+  "deliveryNote": "Order by 2 PM local time for same-day florist delivery in supported markets.",
+  "sku": "TF-RED-ROSES-001",
+  "images": [
+    {
+      "src": "/images/products/red-roses-main.svg",
+      "alt": "Front angle of the red roses signature bouquet"
+    },
+    {
+      "src": "/images/products/red-roses-detail.svg",
+      "alt": "Close-up of roses and eucalyptus texture"
+    },
+    {
+      "src": "/images/products/red-roses-vase.svg",
+      "alt": "Bouquet shown inside a keepsake vase"
+    }
+  ],
+  "category": {
+    "slug": "flowers",
+    "title": "Flowers"
+  },
+  "messageNote": "Gift messaging will plug into a future checkout flow; the PDP reserves space for card messaging guidance now.",
+  "giftOptionsNote": "Add-on surfaces can later support chocolate, candles, keepsake gifts, or configurable bundle offers.",
+  "variants": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "description": "Full and classic",
+      "price": 84.99,
+      "sku": "TF-RED-ROSES-001",
+      "dimensions": "Approx. 18 in H x 16 in W"
+    },
+    {
+      "id": "deluxe",
+      "label": "Deluxe",
+      "description": "More roses and fuller greens",
+      "price": 99.99,
+      "sku": "TF-RED-ROSES-002",
+      "dimensions": "Approx. 19 in H x 17 in W"
+    },
+    {
+      "id": "premium",
+      "label": "Premium",
+      "description": "Most dramatic, lush presentation",
+      "price": 119.99,
+      "sku": "TF-RED-ROSES-003",
+      "dimensions": "Approx. 20 in H x 18 in W"
+    }
+  ],
+  "addOns": [
+    {
+      "id": "chocolates",
+      "label": "Artisan chocolates",
+      "description": "A small box of chocolates for a polished finish.",
+      "price": 12.99
+    },
+    {
+      "id": "plush",
+      "label": "Keepsake plush",
+      "description": "A soft companion gift for birthdays and romantic sends.",
+      "price": 18.99
+    },
+    {
+      "id": "balloon",
+      "label": "Occasion balloon",
+      "description": "Adds a celebratory touch to the hand delivery.",
+      "price": 5.99
+    }
+  ],
+  "details": {
+    "description": "Teleflora's Blue Belle Bouquet is a sweet Mother's Day flower arrangement of soft pink, white, and lavender blooms, beautifully presented in Teleflora's Blue Belle Vase keepsake-perfect for celebrating Mom with fresh spring charm. Teleflora's Blue Belle Bouquet features white roses, pink spray roses, lavender alstroemeria, pink carnations, lavender button spray chrysanthemums, and white sinuata statice, accented with dusty miller, parvifolia eucalyptus, and Cleopatra leatherleaf fern, in Teleflora's Blue Belle Vase.",
+    "vase": "This blue glass vase features sculpted with cut-crystal inspired design, perfect for year-round floral arrangements or everyday décor.",
+    "orientation": "All-around",
+    "careTips": [
+      "Refresh water daily and remove any leaves below the water line.",
+      "Trim stems at an angle after two days.",
+      "Display away from direct heat, sunlight, and ripening fruit."
+    ]
+  },
+  "trustMessages": [
+    "Hand-arranged by a local florist",
+    "Same-day delivery may be available",
+    "Delivery details reviewed before checkout"
+  ],
+  "relatedProductSlugs": ["spring-garden", "orchid-grace", "sunlit-tulips"]
+}

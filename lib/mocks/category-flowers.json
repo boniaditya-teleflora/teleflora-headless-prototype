@@ -1,0 +1,65 @@
+{
+  "slug": "flowers",
+  "title": "Flowers",
+  "description": "Fresh-cut arrangements designed for gifting moments, delivery convenience, and polished merchandising storytelling.",
+  "seoTitle": "Flower Delivery and Fresh Arrangements",
+  "seoDescription": "Explore fresh floral arrangements with same-day delivery messaging, reusable product cards, and a mock commerce foundation.",
+  "heroImage": {
+    "src": "/images/categories/plp-hero.svg",
+    "alt": "Fresh flower assortment arranged across a table"
+  },
+  "products": [
+    {
+      "slug": "red-roses",
+      "name": "Red Roses Signature Bouquet",
+      "shortDescription": "A classic dozen red roses with eucalyptus accents in a keepsake vase.",
+      "price": 84.99,
+      "currency": "USD",
+      "image": {
+        "src": "/images/products/red-roses-main.svg",
+        "alt": "Red roses bouquet hero illustration"
+      },
+      "badges": ["Best Seller", "Same-Day"],
+      "deliveryNote": "Local florist delivery available today"
+    },
+    {
+      "slug": "spring-garden",
+      "name": "Spring Garden Mix",
+      "shortDescription": "Seasonal tulips, lisianthus, and fresh greenery in a soft ceramic vessel.",
+      "price": 69.99,
+      "currency": "USD",
+      "image": {
+        "src": "/images/products/spring-garden.svg",
+        "alt": "Spring garden floral arrangement"
+      },
+      "badges": ["Seasonal"],
+      "deliveryNote": "Available for next-day delivery"
+    },
+    {
+      "slug": "orchid-grace",
+      "name": "Orchid Grace",
+      "shortDescription": "Elegant white orchids with layered texture for sympathy and milestone occasions.",
+      "price": 92.0,
+      "currency": "USD",
+      "image": {
+        "src": "/images/products/orchid-grace.svg",
+        "alt": "White orchid floral arrangement"
+      },
+      "badges": ["Premium"],
+      "deliveryNote": "Hand-delivered by local florist partner"
+    },
+    {
+      "slug": "sunlit-tulips",
+      "name": "Sunlit Tulips",
+      "shortDescription": "Golden tulips and peach ranunculus arranged for warm, celebratory gifting moments.",
+      "price": 58.5,
+      "currency": "USD",
+      "image": {
+        "src": "/images/products/sunlit-tulips.svg",
+        "alt": "Yellow tulip arrangement"
+      },
+      "badges": ["Great Value"],
+      "deliveryNote": "Delivery available within standard local window"
+    }
+  ]
+}

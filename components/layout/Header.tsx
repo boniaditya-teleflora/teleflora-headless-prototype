@@ -1,0 +1,133 @@
+import Link from "next/link";
+
+import { Container } from "@/components/layout/Container";
+import { Navigation } from "@/components/layout/Navigation";
+import { getCategoryHref } from "@/lib/config/category-routes";
+
+function UserIcon() {
+  return (
+    <svg className="header-icon" viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+      <path d="M10 10.2a4.1 4.1 0 1 0 0-8.2 4.1 4.1 0 0 0 0 8.2Z" />
+      <path d="M2.9 18a7.1 7.1 0 0 1 14.2 0" />
+    </svg>
+  );
+}
+
+function CartIcon() {
+  return (
+    <svg className="header-icon" viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+      <path d="M2 3h2.5l1.8 9.4h8.5l1.5-6.5H5.3" />
+      <path d="M7.6 17.2h.1M14.3 17.2h.1" />
+    </svg>
+  );
+}
+
+function SearchIcon() {
+  return (
+    <svg className="header-icon" viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+      <path d="m15.3 15.3-3.2-3.2" />
+      <circle cx="8.8" cy="8.8" r="5" />
+    </svg>
+  );
+}
+
+function TelefloraLogo() {
+  return (
+    <svg
+      className="brand-mark__logo"
+      xmlns="http://www.w3.org/2000/svg"
+      width="1121"
+      height="258"
+      viewBox="0 0 1121 258"
+      overflow="visible"
+      enableBackground="new 0 0 1121 258"
+      fill="currentColor"
+      aria-hidden="true"
+      focusable="false"
+    >
+      <path d="M105.198,99.239H59.545V55.242H33.742v43.997H0v21.836h33.742v85.016c0,32.09,5.955,51.938,42.676,51.938c9.591,0,21.173-1.657,30.103-5.625l-0.992-23.489c-6.948,3.639-15.219,5.294-22.827,5.294c-22.827,0-23.157-15.878-23.157-35.726v-77.408h45.652V99.239z" />
+      <path d="M235.795,210.726c-12.241,15.544-27.128,23.484-49.292,23.484c-28.119,0-48.628-22.825-50.613-49.619h125.047v-8.274c0-51.276-29.774-81.044-73.441-81.044c-45.651,0-79.394,33.415-79.394,81.379c0,44.99,29.773,81.378,78.401,81.378c28.78,0,50.615-8.599,68.809-32.087L235.795,210.726z M135.889,162.757c3.309-26.135,22.165-43.665,50.613-43.665c28.449,0,45.651,17.53,46.645,43.665H135.889z" />
+      <path d="M283.404,254.055h25.802V3.967h-25.802V254.055z" />
+      <path d="M459.375,210.726c-12.24,15.544-27.126,23.484-49.292,23.484c-28.118,0-48.628-22.825-50.614-49.619h125.048v-8.274c0-51.276-29.774-81.044-73.442-81.044c-45.649,0-79.393,33.415-79.393,81.379c0,44.99,29.773,81.378,78.401,81.378c28.78,0,50.615-8.599,68.809-32.087L459.375,210.726z M359.47,162.757c3.311-26.135,22.167-43.665,50.614-43.665c28.448,0,45.65,17.53,46.646,43.665H359.47z" />
+      <path d="M521.212,254.055h25.805v-132.98h37.711V99.239h-37.711v-29.11c0-26.794,0.991-46.312,27.787-46.312c5.956,0,11.909,1.321,17.534,3.312l3.637-23.161C591.015,1.319,582.744,0,576.128,0c-41.684,0-54.917,26.792-54.917,64.505v34.733H487.47v21.836h33.742V254.055z" />
+      <path d="M604.574,254.055h25.803V3.967h-25.803V254.055z" />
+      <path d="M649.544,176.651c0,48.298,35.066,81.378,82.703,81.378c47.638,0,82.703-33.08,82.703-81.378c0-48.299-35.065-81.379-82.703-81.379C684.611,95.272,649.544,128.352,649.544,176.651z M677.333,176.651c0-32.421,21.501-57.56,54.914-57.56s54.914,25.138,54.914,57.56c0,32.422-21.501,57.558-54.914,57.558S677.333,209.073,677.333,176.651z" />
+      <path d="M831.828,254.055h25.802v-75.421c0-35.397,13.891-57.559,45.319-57.559c4.629,0,9.594,0.655,13.894,1.983l1.656-26.136c-3.638-1.318-7.277-1.65-10.586-1.65c-25.475,0-44.657,14.221-51.608,29.439h-0.663c0-8.601-0.659-17.2-0.659-25.473h-24.479c0,10.254,1.325,22.492,1.325,36.718V254.055z" />
+      <path d="M945.886,135.957c12.242-11.245,29.441-16.865,45.979-16.865c24.15,0,38.375,11.576,38.375,34.068v4.634h-9.922c-38.043,0-97.592,2.977-97.592,54.251c0,30.104,26.137,45.983,57.564,45.983c23.484,0,40.69-11.244,50.947-27.129h0.658c0,6.619,0,16.212,1.654,23.155h24.809c-1.325-7.932-2.316-17.856-2.316-26.792v-66.492c0-43.664-19.184-65.499-64.836-65.499c-22.498,0-45.652,7.607-61.532,23.82L945.886,135.957z M1030.24,179.627v9.928c-0.662,25.138-15.878,46.644-45.646,46.644c-19.522,0-34.076-7.284-34.076-26.8c0-20.844,21.172-29.772,53.922-29.772H1030.24z" />
+      <path d="M1100.321,255.727c11.104,0,20.591-8.628,20.591-20.431c0-11.7-9.487-20.323-20.591-20.323c-11.209,0-20.697,8.623-20.697,20.323C1079.624,247.099,1089.112,255.727,1100.321,255.727z M1083.722,235.296c0-9.65,7.275-16.927,16.599-16.927c9.217,0,16.493,7.277,16.493,16.927c0,9.81-7.276,17.028-16.493,17.028C1090.998,252.324,1083.722,245.106,1083.722,235.296z M1096.01,236.908h4.098l6.194,10.191h3.99l-6.687-10.348c3.456-0.432,6.097-2.264,6.097-6.469c0-4.636-2.748-6.686-8.303-6.686h-8.95v23.503h3.561V236.908z M1096.01,233.891v-7.273h4.847c2.482,0,5.125,0.538,5.125,3.451c0,3.608-2.695,3.822-5.713,3.822H1096.01z" />
+    </svg>
+  );
+}
+
+export function Header() {
+  return (
+    <header className="site-header">
+      <div className="utility-bar">
+        <Container className="utility-bar__inner">
+          <Link href="/" className="brand-mark m-supernav-logo logo" aria-label="Teleflora home" title="Teleflora logo" itemProp="brand" itemScope>
+            <TelefloraLogo />
+          </Link>
+
+          <nav className="utility-bar__links" aria-label="Customer shortcuts">
+            <Link href={getCategoryHref("flowers")}>International Delivery</Link>
+            <a href="tel:8004935610">(800) 493-5610</a>
+            <Link href={getCategoryHref("flowers")} className="utility-bar__help">
+              Need Help?
+            </Link>
+            <Link href={getCategoryHref("flowers")} className="header-icon-link">
+              <UserIcon />
+              <span>Log In</span>
+            </Link>
+            <Link href="/product/red-roses" className="header-icon-link header-icon-link--cart" aria-label="Cart">
+              <CartIcon />
+              <span className="sr-only">Cart</span>
+            </Link>
+          </nav>
+
+          <form className="header-search" action={getCategoryHref("flowers")} role="search">
+            <label htmlFor="site-header-search" className="sr-only">
+              Search
+            </label>
+            <input id="site-header-search" name="q" type="search" placeholder="Search" autoComplete="off" />
+            <button type="submit" aria-label="Search">
+              <SearchIcon />
+            </button>
+          </form>
+        </Container>
+      </div>
+
+      <div className="site-header__main">
+        <Container className="site-header__inner">
+          <Navigation />
+          <nav className="mobile-header-actions" aria-label="Mobile header actions">
+            <Link
+              href="/"
+              className="brand-mark brand-mark--mobile-header m-supernav-logo logo"
+              aria-label="Teleflora home"
+              title="Teleflora logo"
+              itemProp="brand"
+              itemScope
+            >
+              <TelefloraLogo />
+            </Link>
+            <Link href={getCategoryHref("flowers")} className="header-icon-link mobile-header-actions__icon" aria-label="Log in">
+              <UserIcon />
+              <span className="sr-only">Log In</span>
+            </Link>
+            <Link href="/product/red-roses" className="header-icon-link header-icon-link--cart mobile-header-actions__icon" aria-label="Cart">
+              <CartIcon />
+              <span className="sr-only">Cart</span>
+            </Link>
+          </nav>
+          <form className="header-quick-order" action={getCategoryHref("flowers")}>
+            <button type="submit">In a hurry?</button>
+            <label htmlFor="header-recipient-zip" className="sr-only">
+              Recipient Zip Code
+            </label>
+            <input id="header-recipient-zip" name="zip" inputMode="numeric" placeholder="Recipient Zip" />
+          </form>
+        </Container>
+      </div>
+    </header>
+  );
+}

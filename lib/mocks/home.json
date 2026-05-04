@@ -1,0 +1,638 @@
+{
+  "hero": {
+    "eyebrow": "Mother's Day delivery",
+    "heading": "Make Mom's Day",
+    "subheading": "Show her how much you care with Mother's Day flowers she will adore.",
+    "primaryCta": {
+      "label": "SHOP MOTHER'S DAY",
+      "href": "/category/flowers"
+    },
+    "secondaryCta": {
+      "label": "Shop same-day flowers",
+      "href": "/category/flowers"
+    },
+    "highlights": [
+      "Same-day options",
+      "Local florist arranged",
+      "Hand delivered with care"
+    ],
+    "image": {
+      "src": "https://img.teleflora.com/images/o_0/l_backgrounds:4.24-T26M300A_SOCIAL,pg_1/w_1400,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:50/backgrounds/4.24-T26M300A_SOCIAL/Flowers",
+      "alt": "Pink Mother's Day flowers in a vase on a breakfast tray"
+    }
+  },
+  "quickShop": {
+    "eyebrow": "In a hurry?",
+    "heading": "Quick shop by occasion, date, and ZIP.",
+    "description": "Start with the details that determine product availability and delivery timing.",
+    "occasions": [
+      "Mother's Day",
+      "Birthday",
+      "Thank You",
+      "Get Well",
+      "Sympathy",
+      "Congratulations"
+    ],
+    "deliveryWindows": [
+      "Today",
+      "Tomorrow",
+      "This week"
+    ],
+    "zipPlaceholder": "90210"
+  },
+  "occasionShortcuts": [
+    {
+      "key": "same-day",
+      "href": "#",
+      "image": "https://img.teleflora.com/image/upload/f_auto,q_50/w_276,h_189/backgrounds/Homepage_SameDayTile2"
+    },
+    {
+      "key": "birthday",
+      "href": "#",
+      "image": "https://img.teleflora.com/image/upload/f_auto,q_50/w_276,h_189/backgrounds/Homepage_BirthdayTile2"
+    },
+    {
+      "key": "mothers-day",
+      "href": "#",
+      "image": "https://img.teleflora.com/image/upload/f_auto,q_50/w_276,h_189/v1767032376/backgrounds/Homepage_MothersDayTile-276X189"
+    },
+    {
+      "key": "thank-you",
+      "href": "#",
+      "image": "https://img.teleflora.com/image/upload/f_auto,q_50/w_276,h_189/backgrounds/Homepage_ThankYouTile-276X189"
+    },
+    {
+      "key": "get-well",
+      "href": "#",
+      "image": "https://img.teleflora.com/image/upload/f_auto,q_50/w_276,h_189/backgrounds/Homepage_GetWellTile2"
+    },
+    {
+      "key": "sympathy",
+      "href": "#",
+      "image": "https://img.teleflora.com/image/upload/f_auto,q_50/w_276,h_189/backgrounds/Homepage_SympathyTile2"
+    }
+  ],
+  "homepageSections": [
+    {
+      "id": "mothers-day-story",
+      "type": "promoSplit",
+      "title": "MAKE MOM FEEL SEEN",
+      "copy": "Mom has always worried that she isn't enough. This Mother's Day, show her that she's everything and more. Watch our new film and surprise her with a bouquet from",
+      "inlineLink": {
+        "label": "Teleflora.com.",
+        "href": "/category/flowers"
+      },
+      "theme": "lavender",
+      "brandText": "teleflora.",
+      "backgroundImage": "https://img.teleflora.com/images/o_0/l_flowers:T26M100A,pg_1/w_360,h_280,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T26M100A/TeleflorasPrettyDaydreamBouquet",
+      "rightImage": {
+        "src": "https://img.teleflora.com/image/upload/f_auto,q_auto,w_700/backgrounds/MDAY_Nav_T26M400A",
+        "alt": "A florist preparing bright Mother's Day flowers"
+      }
+    },
+    {
+      "id": "deal-of-the-day",
+      "type": "promoSplit",
+      "title": "DEAL of the DAY",
+      "copy": "You pick the price and our local florists will design a one-of-a-kind arrangement using the freshest seasonal flowers.",
+      "ctaLabel": "ORDER NOW",
+      "ctaHref": "/category/flowers",
+      "theme": "deal",
+      "imagePosition": "right",
+      "rightImage": {
+        "src": "https://img.teleflora.com/images/o_0/l_backgrounds:4.24-T26M300A_SOCIAL,pg_1/w_700,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:50/backgrounds/4.24-T26M300A_SOCIAL/Flowers",
+        "alt": "Close up of pink and purple flowers"
+      }
+    },
+    {
+      "id": "flower-subscription",
+      "type": "subscriptionPromo",
+      "title": "THE GIFT THAT KEEPS BLOOMING",
+      "copy": "Celebrate all year with a Teleflora flower subscription.",
+      "ctaLabel": "GET STARTED",
+      "ctaHref": "/category/flowers",
+      "theme": "subscription",
+      "brandText": "teleflora. SUBSCRIPTIONS",
+      "leftImage": {
+        "src": "https://img.teleflora.com/image/upload/f_auto,q_auto,w_700/backgrounds/MDAY_Nav_T26M400A",
+        "alt": "Florist arranging bright flowers"
+      }
+    }
+  ],
+  "bouquetCollections": {
+    "sections": [
+      {
+        "id": "mothers-day-collection",
+        "title": "MOTHER'S DAY COLLECTION",
+        "subtitle": "Shop our new bouquets to find the perfect gift for Mom.",
+        "cta": {
+          "label": "SHOP MOTHER'S DAY",
+          "href": "#"
+        },
+        "theme": "hero-purple",
+        "backgroundColor": "#b47ad7",
+        "products": [
+          {
+            "id": "pretty-daydream",
+            "name": "Teleflora's Pretty Daydream Bouquet",
+            "price": "$64.99",
+            "href": "#",
+            "image": "https://img.teleflora.com/images/o_0/l_flowers:T26M100A,pg_1/w_360,h_360,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T26M100A/TeleflorasPrettyDaydreamBouquet",
+            "alt": "Teleflora's Pretty Daydream Bouquet"
+          },
+          {
+            "id": "blue-belle",
+            "name": "Teleflora's Blue Belle Bouquet",
+            "price": "$59.99",
+            "href": "#",
+            "image": "https://img.teleflora.com/images/o_0/l_flowers:T26M200A,pg_1/w_360,h_360,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T26M200A/TeleflorasBlueBelleBouquet",
+            "alt": "Teleflora's Blue Belle Bouquet"
+          },
+          {
+            "id": "watercolor-garden",
+            "name": "Teleflora's Watercolor Garden Bouquet",
+            "price": "$49.99",
+            "href": "#",
+            "image": "https://img.teleflora.com/images/o_0/l_flowers:T26M400A,pg_1/w_360,h_360,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T26M400A/TeleflorasWatercolorGardenBouquet",
+            "alt": "Teleflora's Watercolor Garden Bouquet"
+          },
+          {
+            "id": "pink-rhapsody",
+            "name": "Teleflora's Pink Rhapsody Bouquet",
+            "price": "$54.99",
+            "href": "#",
+            "image": "https://img.teleflora.com/images/o_0/l_flowers:T26M300A,pg_1/w_360,h_360,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T26M300A/TeleflorasPinkRhapsodyBouquet",
+            "alt": "Teleflora's Pink Rhapsody Bouquet"
+          },
+          {
+            "id": "amelia",
+            "name": "Teleflora's Amelia Bouquet",
+            "price": "$99.99",
+            "href": "#",
+            "image": "https://img.teleflora.com/images/o_0/l_flowers:T26M500A,pg_1/w_360,h_360,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T26M500A/TeleflorasAmeliaBouquet",
+            "alt": "Teleflora's Amelia Bouquet"
+          }
+        ]
+      },
+      {
+        "id": "mod-mom",
+        "title": "THE MOD MOM",
+        "theme": "floral-banner",
+        "backgroundImage": "https://img.teleflora.com/images/o_0/l_backgrounds:4.24-T26M300A_SOCIAL,pg_1/w_1400,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:50/backgrounds/4.24-T26M300A_SOCIAL/Flowers",
+        "products": [
+          {
+            "id": "contemporary-blossoms",
+            "name": "Teleflora's Contemporary Blossoms Bouquet",
+            "price": "$59.99",
+            "href": "#",
+            "image": "https://img.teleflora.com/images/o_0/l_flowers:T25F110A,pg_1/w_360,h_360,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T25F110A/TeleflorasContemporaryBlossomsBouquet",
+            "alt": "Teleflora's Contemporary Blossoms Bouquet"
+          },
+          {
+            "id": "garden-whimsy",
+            "name": "Teleflora's Garden Whimsy Bouquet",
+            "price": "$69.99",
+            "href": "#",
+            "image": "https://img.teleflora.com/images/o_0/l_flowers:T26M210A,pg_1/w_360,h_360,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T26M210A/TeleflorasGardenWhimsyBouquet",
+            "alt": "Teleflora's Garden Whimsy Bouquet"
+          },
+          {
+            "id": "lush-garden",
+            "name": "Teleflora's Lush Garden Bouquet",
+            "price": "$64.99",
+            "href": "#",
+            "image": "https://img.teleflora.com/images/o_0/l_flowers:T24S100A,pg_1/w_360,h_360,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T24S100A/TeleflorasLushGardenBouquet",
+            "alt": "Teleflora's Lush Garden Bouquet"
+          },
+          {
+            "id": "mod-magnifique",
+            "name": "Teleflora's Mod Magnifique Bouquet",
+            "price": "$54.99",
+            "href": "#",
+            "image": "https://img.teleflora.com/images/o_0/l_flowers:TEV69-9A,pg_1/w_360,h_360,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/TEV69-9A/TeleflorasModMagnifiqueBouquet",
+            "alt": "Teleflora's Mod Magnifique Bouquet"
+          },
+          {
+            "id": "catch-the-sun",
+            "name": "Teleflora's Catch The Sun Bouquet",
+            "price": "$69.99",
+            "href": "#",
+            "image": "https://img.teleflora.com/images/o_0/l_flowers:TEV67-8A,pg_1/w_360,h_360,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/TEV67-8A/TeleflorasCatchTheSunBouquet",
+            "alt": "Teleflora's Catch The Sun Bouquet"
+          }
+        ]
+      },
+      {
+        "id": "vibrant-mom",
+        "title": "THE VIBRANT MOM",
+        "theme": "floral-banner",
+        "backgroundImage": "https://img.teleflora.com/images/o_0/l_backgrounds:4.24-T26M300A_SOCIAL,pg_1/w_1400,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:50/backgrounds/4.24-T26M300A_SOCIAL/Flowers",
+        "products": [
+          {
+            "id": "citrus-sunset",
+            "name": "Teleflora's Citrus Sunset Bouquet",
+            "price": "$49.99",
+            "href": "#",
+            "image": "https://img.teleflora.com/images/o_0/l_flowers:TEV75-5A,pg_1/w_360,h_360,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/TEV75-5A/TeleflorasCitrusSunsetBouquet",
+            "alt": "Teleflora's Citrus Sunset Bouquet"
+          },
+          {
+            "id": "how-sweet-it-is",
+            "name": "How Sweet It Is Bouquet",
+            "price": "$39.99",
+            "href": "#",
+            "image": "https://img.teleflora.com/images/o_0/l_flowers:T46-1A,pg_1/w_360,h_360,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T46-1A/HowSweetItIsBouquet",
+            "alt": "How Sweet It Is Bouquet"
+          },
+          {
+            "id": "spread-sunshine",
+            "name": "Teleflora's Spread Sunshine Bouquet",
+            "price": "$59.99",
+            "href": "#",
+            "image": "https://img.teleflora.com/images/o_0/l_flowers:TEV68-1A,pg_1/w_360,h_360,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/TEV68-1A/TeleflorasSpreadSunshineBouquet",
+            "alt": "Teleflora's Spread Sunshine Bouquet"
+          },
+          {
+            "id": "sunset-serenade",
+            "name": "Teleflora's Sunset Serenade Bouquet",
+            "price": "$54.99",
+            "href": "#",
+            "image": "https://img.teleflora.com/images/o_0/l_flowers:TEV72-6A,pg_1/w_360,h_360,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/TEV72-6A/TeleflorasSunsetSerenadeBouquet",
+            "alt": "Teleflora's Sunset Serenade Bouquet"
+          },
+          {
+            "id": "precious-jewel",
+            "name": "Teleflora's Precious Jewel Bouquet",
+            "price": "$59.99",
+            "href": "#",
+            "image": "https://img.teleflora.com/images/o_0/l_flowers:T23S105A,pg_1/w_360,h_360,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T23S105A/TeleflorasPreciousJewelBouquet",
+            "alt": "Teleflora's Precious Jewel Bouquet"
+          }
+        ]
+      },
+      {
+        "id": "soft-sweet-mom",
+        "title": "THE SOFT & SWEET MOM",
+        "theme": "floral-banner",
+        "backgroundImage": "https://img.teleflora.com/images/o_0/l_backgrounds:4.24-T26M300A_SOCIAL,pg_1/w_1400,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:50/backgrounds/4.24-T26M300A_SOCIAL/Flowers",
+        "products": [
+          {
+            "id": "enchanted-moments",
+            "name": "Teleflora's Enchanted Moments Bouquet",
+            "price": "$54.99",
+            "href": "#",
+            "image": "https://img.teleflora.com/images/o_0/l_flowers:TEV72-5A,pg_1/w_360,h_360,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/TEV72-5A/TeleflorasEnchantedMomentsBouquet",
+            "alt": "Teleflora's Enchanted Moments Bouquet"
+          },
+          {
+            "id": "bee-delighted",
+            "name": "Teleflora's Bee Delighted Bouquet",
+            "price": "$69.99",
+            "href": "#",
+            "image": "https://img.teleflora.com/images/o_0/l_flowers:T20E205A,pg_1/w_360,h_360,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T20E205A/TeleflorasBeeDelightedBouquet",
+            "alt": "Teleflora's Bee Delighted Bouquet"
+          },
+          {
+            "id": "arrive-in-style",
+            "name": "Arrive In Style Bouquet",
+            "price": "$44.99",
+            "href": "#",
+            "image": "https://img.teleflora.com/images/o_0/l_flowers:T55-2A,pg_1/w_360,h_360,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T55-2A/ArriveInStyleBouquet",
+            "alt": "Arrive In Style Bouquet"
+          },
+          {
+            "id": "pretty-posy",
+            "name": "Teleflora's Pretty Posy Bouquet",
+            "price": "$54.99",
+            "href": "#",
+            "image": "https://img.teleflora.com/images/o_0/l_flowers:TEV73-8A,pg_1/w_360,h_360,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/TEV73-8A/TeleflorasPrettyPosyBouquet",
+            "alt": "Teleflora's Pretty Posy Bouquet"
+          },
+          {
+            "id": "pastel-party",
+            "name": "Teleflora's Pastel Party Bouquet",
+            "price": "$49.99",
+            "href": "#",
+            "image": "https://img.teleflora.com/images/o_0/l_flowers:TEV70-6A,pg_1/w_360,h_360,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/TEV70-6A/TeleflorasPastelPartyBouquet",
+            "alt": "Teleflora's Pastel Party Bouquet"
+          }
+        ]
+      }
+    ]
+  },
+  "featuredCategories": [
+    {
+      "slug": "flowers",
+      "title": "Fresh flowers",
+      "description": "Core arrangements for birthdays, sympathy, anniversaries, and everyday sending.",
+      "image": {
+        "src": "/images/categories/flowers.svg",
+        "alt": "Pink and coral flower arrangement"
+      }
+    },
+    {
+      "slug": "flowers",
+      "title": "Designer favorites",
+      "description": "Premium looks with polished presentation and expressive seasonal color.",
+      "image": {
+        "src": "/images/categories/designer.svg",
+        "alt": "Designer floral arrangement with layered blooms"
+      }
+    },
+    {
+      "slug": "flowers",
+      "title": "Everyday gifting",
+      "description": "Accessible bouquets for thoughtful sends that do not need a holiday.",
+      "image": {
+        "src": "/images/categories/everyday.svg",
+        "alt": "Colorful bouquet for everyday gifting"
+      }
+    }
+  ],
+  "productRails": [
+    {
+      "eyebrow": "Mother's Day collection",
+      "heading": "Bouquets to make her feel seen",
+      "description": "Fresh favorites for Mother's Day gifting, from soft pastels to statement color.",
+      "cta": {
+        "label": "Shop Mother's Day",
+        "href": "/category/flowers"
+      },
+      "items": [
+        {
+          "slug": "spring-garden",
+          "name": "Spring Garden Mix",
+          "shortDescription": "Seasonal tulips, lisianthus, and fresh greenery in a soft ceramic vessel.",
+          "price": 69.99,
+          "currency": "USD",
+          "image": {
+            "src": "/images/products/spring-garden.svg",
+            "alt": "Spring garden floral arrangement"
+          },
+          "badges": [
+            "Mother's Day"
+          ],
+          "deliveryNote": "Available for next-day delivery"
+        },
+        {
+          "slug": "sunlit-tulips",
+          "name": "Sunlit Tulips",
+          "shortDescription": "Golden tulips and peach ranunculus arranged for warm, celebratory gifting moments.",
+          "price": 58.5,
+          "currency": "USD",
+          "image": {
+            "src": "/images/products/sunlit-tulips.svg",
+            "alt": "Yellow tulip arrangement"
+          },
+          "badges": [
+            "Great Value"
+          ],
+          "deliveryNote": "Delivery available within standard local window"
+        },
+        {
+          "slug": "orchid-grace",
+          "name": "Orchid Grace",
+          "shortDescription": "Elegant white orchids with layered texture for sympathy and milestone occasions.",
+          "price": 92,
+          "currency": "USD",
+          "image": {
+            "src": "/images/products/orchid-grace.svg",
+            "alt": "White orchid floral arrangement"
+          },
+          "badges": [
+            "Premium"
+          ],
+          "deliveryNote": "Hand-delivered by local florist partner"
+        },
+        {
+          "slug": "red-roses",
+          "name": "Red Roses Signature Bouquet",
+          "shortDescription": "A classic dozen red roses with eucalyptus accents in a keepsake vase.",
+          "price": 84.99,
+          "currency": "USD",
+          "image": {
+            "src": "/images/products/red-roses-main.svg",
+            "alt": "Red roses bouquet hero illustration"
+          },
+          "badges": [
+            "Best Seller",
+            "Same-Day"
+          ],
+          "deliveryNote": "Local florist delivery available today"
+        }
+      ]
+    },
+    {
+      "eyebrow": "Birthday flowers",
+      "heading": "Send a birthday hooray",
+      "description": "Colorful arrangements for milestone birthdays, surprise deliveries, and cheerful celebrations.",
+      "cta": {
+        "label": "Shop birthday",
+        "href": "/category/flowers"
+      },
+      "items": [
+        {
+          "slug": "red-roses",
+          "name": "Red Roses Signature Bouquet",
+          "shortDescription": "A classic dozen red roses with eucalyptus accents in a keepsake vase.",
+          "price": 84.99,
+          "currency": "USD",
+          "image": {
+            "src": "/images/products/red-roses-main.svg",
+            "alt": "Red roses bouquet hero illustration"
+          },
+          "badges": [
+            "Best Seller",
+            "Same-Day"
+          ],
+          "deliveryNote": "Local florist delivery available today"
+        },
+        {
+          "slug": "spring-garden",
+          "name": "Spring Garden Mix",
+          "shortDescription": "Seasonal tulips, lisianthus, and fresh greenery in a soft ceramic vessel.",
+          "price": 69.99,
+          "currency": "USD",
+          "image": {
+            "src": "/images/products/spring-garden.svg",
+            "alt": "Spring garden floral arrangement"
+          },
+          "badges": [
+            "Seasonal"
+          ],
+          "deliveryNote": "Available for next-day delivery"
+        },
+        {
+          "slug": "sunlit-tulips",
+          "name": "Sunlit Tulips",
+          "shortDescription": "Golden tulips and peach ranunculus arranged for warm, celebratory gifting moments.",
+          "price": 58.5,
+          "currency": "USD",
+          "image": {
+            "src": "/images/products/sunlit-tulips.svg",
+            "alt": "Yellow tulip arrangement"
+          },
+          "badges": [
+            "Great Value"
+          ],
+          "deliveryNote": "Delivery available within standard local window"
+        },
+        {
+          "slug": "orchid-grace",
+          "name": "Orchid Grace",
+          "shortDescription": "Elegant white orchids with layered texture for sympathy and milestone occasions.",
+          "price": 92,
+          "currency": "USD",
+          "image": {
+            "src": "/images/products/orchid-grace.svg",
+            "alt": "White orchid floral arrangement"
+          },
+          "badges": [
+            "Premium"
+          ],
+          "deliveryNote": "Hand-delivered by local florist partner"
+        }
+      ]
+    }
+  ],
+  "featuredProducts": {
+    "eyebrow": "Best sellers",
+    "heading": "Top arrangements for thoughtful sending",
+    "description": "Popular bouquets ready for local florist delivery.",
+    "items": [
+      {
+        "slug": "red-roses",
+        "name": "Red Roses Signature Bouquet",
+        "shortDescription": "A classic dozen red roses with eucalyptus accents in a keepsake vase.",
+        "price": 84.99,
+        "currency": "USD",
+        "image": {
+          "src": "/images/products/red-roses-main.svg",
+          "alt": "Red roses bouquet hero illustration"
+        },
+        "badges": [
+          "Best Seller",
+          "Same-Day"
+        ],
+        "deliveryNote": "Local florist delivery available today"
+      },
+      {
+        "slug": "spring-garden",
+        "name": "Spring Garden Mix",
+        "shortDescription": "Seasonal tulips, lisianthus, and fresh greenery in a soft ceramic vessel.",
+        "price": 69.99,
+        "currency": "USD",
+        "image": {
+          "src": "/images/products/spring-garden.svg",
+          "alt": "Spring garden floral arrangement"
+        },
+        "badges": [
+          "Seasonal"
+        ],
+        "deliveryNote": "Available for next-day delivery"
+      },
+      {
+        "slug": "orchid-grace",
+        "name": "Orchid Grace",
+        "shortDescription": "Elegant white orchids with layered texture for sympathy and milestone occasions.",
+        "price": 92,
+        "currency": "USD",
+        "image": {
+          "src": "/images/products/orchid-grace.svg",
+          "alt": "White orchid floral arrangement"
+        },
+        "badges": [
+          "Premium"
+        ],
+        "deliveryNote": "Hand-delivered by local florist partner"
+      }
+    ]
+  },
+  "campaignFeature": {
+    "eyebrow": "Make mom feel seen",
+    "heading": "Celebrate her with blooms that feel personal.",
+    "description": "Choose soft pastels, cheerful color, or classic roses arranged by a local florist and delivered with care.",
+    "image": {
+      "src": "/images/categories/designer.svg",
+      "alt": "Layered pink and coral floral arrangement for a seasonal campaign"
+    },
+    "cta": {
+      "label": "Explore the collection",
+      "href": "/category/flowers"
+    },
+    "highlights": [
+      "Fresh for the season",
+      "Hand arranged",
+      "Delivered with care"
+    ]
+  },
+  "promotions": [
+    {
+      "kicker": "Same-day delivery",
+      "title": "Fresh flowers when timing matters",
+      "description": "Enter a recipient ZIP and delivery date to find bouquets available near them.",
+      "icon": {
+        "src": "/images/promos/same-day.svg",
+        "alt": "Delivery truck with flowers"
+      }
+    },
+    {
+      "kicker": "Seasonal campaigns",
+      "title": "Flowers for every upcoming moment",
+      "description": "Shop Mother's Day, birthdays, sympathy, thank you, and everyday arrangements from one place.",
+      "icon": {
+        "src": "/images/promos/campaign.svg",
+        "alt": "Campaign card illustration with flowers"
+      }
+    },
+    {
+      "kicker": "Local florists",
+      "title": "Hand-arranged by nearby partners",
+      "description": "Every bouquet is designed to feel fresh, personal, and ready for the occasion.",
+      "icon": {
+        "src": "/images/categories/flowers.svg",
+        "alt": "Fresh flower arrangement"
+      }
+    }
+  ],
+  "editorialContent": {
+    "heading": "Same-day local flower delivery and more",
+    "sections": [
+      {
+        "title": "Flowers online, arranged nearby",
+        "body": "Order fresh flowers for delivery to a loved one's door, with arrangements fulfilled through local florist partners."
+      },
+      {
+        "title": "Occasions for every sender",
+        "body": "Birthday, sympathy, get well, congratulations, thank you, and everyday arrangements give shoppers several natural paths into the catalog."
+      },
+      {
+        "title": "Deals and flexible gifting",
+        "body": "Homepage modules can promote deal-of-the-day bouquets, seasonal value ranges, and delivery-aware recommendations."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Who offers local flower delivery online?",
+        "answer": "Bouquets are arranged through local florist partners near the recipient and hand delivered with care."
+      },
+      {
+        "question": "Is same-day flower delivery supported?",
+        "answer": "Same-day options depend on recipient ZIP, local availability, and the delivery date selected at checkout."
+      },
+      {
+        "question": "How do I choose flowers for an occasion?",
+        "answer": "Start with the occasion, then choose a color mood and price range that fit the recipient and delivery timing."
+      }
+    ]
+  },
+  "newsletter": {
+    "heading": "Get fresh offers and occasion reminders.",
+    "description": "Receive seasonal bouquet ideas, delivery reminders, and exclusive promotions.",
+    "benefits": [
+      "Holiday reminders",
+      "Exclusive offers",
+      "Fresh floral inspiration"
+    ]
+  }
+}
