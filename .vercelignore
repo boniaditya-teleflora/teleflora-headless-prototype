@@ -1,0 +1,12 @@
+.git
+.next
+.vercel
+node_modules
+coverage
+dist
+*.log
+*.tsbuildinfo
+.chrome-*
+homepage-*.png
+product-data-*.png
+teleflora-headless-prototype.git
