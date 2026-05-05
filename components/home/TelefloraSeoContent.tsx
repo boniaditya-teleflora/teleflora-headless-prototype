@@ -83,7 +83,7 @@ const seoContentBlocks: SeoContentBlock[] = [
         " for online flowers or same-day delivery, we've got you covered! In addition to Teleflora coupons, we also have ",
         {
           label: "Deal of the Day",
-          href: "/deal-of-the-day/?prodID=prod220003"
+          href: "/product/deal-of-the-day"
         },
         " bouquets. You pick a price and a local florist will create a one-of-a-kind flower arrangement with their own signature style using the season’s freshest blooms!"
       ]

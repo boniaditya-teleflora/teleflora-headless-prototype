@@ -21,11 +21,13 @@ export function ProductInfo({ product }: ProductInfoProps) {
         ) : null}
       </div>
       <h1>{product.name}</h1>
-      <div className="info-panel__rating" aria-label="Customer rating 4.8 out of 5">
-        <span aria-hidden="true">{"\u2605\u2605\u2605\u2605\u2605"}</span>
-        <strong>4.8</strong>
-        <span>Florist favorite</span>
-      </div>
+      {product.rating ? (
+        <div className="info-panel__rating" aria-label={`Customer rating ${product.rating.value} out of 5`}>
+          <span aria-hidden="true">{"\u2605\u2605\u2605\u2605\u2605"}</span>
+          <strong>{product.rating.value.toFixed(1)}</strong>
+          <span>{product.rating.label}</span>
+        </div>
+      ) : null}
       <PurchasePanel product={product} />
     </section>
   );

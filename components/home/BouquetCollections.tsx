@@ -10,6 +10,8 @@ import {
 import { TelefloraSeoContent } from "@/components/home/TelefloraSeoContent";
 import { Container } from "@/components/layout/Container";
 import {
+  DEAL_OF_THE_DAY_BOUQUET,
+  LOCAL_FLORIST_BOUQUETS,
   TF_BOUQUET_PROMO_SECTIONS,
   TRENDING_BOUQUETS_SECTION,
   type HomeBouquetPromoSectionConfig
@@ -47,89 +49,6 @@ const SUBSCRIPTIONS_BANNER_MARKUP = `
       <img class="subscriptions-banner__image" src="${SUBSCRIPTIONS_BANNER_DESKTOP_IMAGE}" width="1400" height="392" alt="Floral Subscriptions" loading="lazy" decoding="async">
     </picture>
   </a>
-`.trim();
-
-const DOTD_BANNER_MARKUP = `
-  <div>
-    <a onclick="addcookie('DOTD')" href="/deal-of-the-day/?prodID=prod220003">
-      <picture>
-        <source srcset="https://img.teleflora.com/image/upload/w_1400/f_auto,q_50/backgrounds/DOTD_H_1400x392-hp-desktop-may26" media="(min-width: 961px)">
-        <source srcset="https://img.teleflora.com/image/upload/w_640/f_auto,q_50/backgrounds/DOTD_640x464-hp-mobile-may26" media="(max-width: 960px)">
-        <img
-          width="1400"
-          height="392"
-          data-src="https://img.teleflora.com/image/upload/w_1400/f_auto,q_50/backgrounds/DOTD_H_1400x392-hp-desktop-may26"
-          alt="Deal of the Day - Seasonal fresh flowers at a special price"
-          loading="lazy"
-          class="lazyload"
-          src="https://img.teleflora.com/image/upload/w_1400/f_auto,q_50/backgrounds/DOTD_H_1400x392-hp-desktop-may26">
-      </picture>
-    </a>
-  </div>
-`.trim();
-
-const LOCAL_FLORIST_MARKUP = `
-  <div class="olapic-slider-widget olapic-slider">
-    <div class="olapic-slider-header">
-      <h3>LOCAL FLORIST ARRANGED BOUQUETS</h3>
-    </div>
-    <div class="olapic-slider-body">
-      <a class="olapic-nav-button olapic-nav-prev" href="#"></a>
-      <div class="olapic-slider-wrapper">
-        <div class="olapic-carousel-list-container" data-min-items-for-slider="">
-          <ul class="olapic-carousel" style="display:inline-block">
-            <li tabindex="0" onclick="subCatUgc();" id="pic1LI" class="instagram" data-olapic-photo-id="2641871736" style="background-image: url('https://img.teleflora.com/image/upload/f_auto,c_fill,g_auto,h_220,q_auto:best,w_220/olapic/T26M200A-blue_belle'); height: 200px; width: 200px;">
-              <span class="olapic-type-IMAGE"><i></i></span>
-              <a tabindex="0" id="pic1Anchor" class="olapic-item" href="https://www.teleflora.com/bouquet/telefloras-blue-belle-bouquet?prodID=P_T26M200A" title="This sweet blue Mother's Day flower arrangement is full of fresh spring charm.">
-                <div class="olapic-user-info desktopTitle">
-                  <span id="pic1title" class="olapic-user-name olapic-realname">Blue Belle</span>
-                  <span class="shopthislook">Buy it</span>
-                </div>
-              </a>
-            </li>
-            <li tabindex="0" onclick="subCatUgc();" id="pic2LI" class="instagram" data-olapic-photo-id="2829042445" style="background-image: url('https://img.teleflora.com/image/upload/f_auto,c_fill,g_auto,h_220,q_auto:best,w_220/olapic/T26M310A-haute_pink'); height: 200px; width: 200px;">
-              <span class="olapic-type-IMAGE"><i></i></span>
-              <a tabindex="0" id="pic2Anchor" class="olapic-item" href="https://www.teleflora.com/bouquet/telefloras-haute-pink-bouquet?prodID=P_T26M310A" title="Celebrate Mom with a beautiful bouquet of pink and lavender blooms.">
-                <div class="olapic-user-info desktopTitle">
-                  <span id="pic2title" class="olapic-user-name olapic-realname">Haute Pink</span>
-                  <span class="shopthislook">Buy it</span>
-                </div>
-              </a>
-            </li>
-            <li tabindex="0" onclick="subCatUgc();" id="pic3LI" class="instagram" data-olapic-photo-id="2552258289" style="background-image: url('https://img.teleflora.com/image/upload/f_auto,c_fill,g_auto,h_220,q_auto:best,w_220/olapic/T26M110A-painted-petals'); height: 200px; width: 200px;">
-              <span class="olapic-type-IMAGE"><i></i></span>
-              <a tabindex="0" id="pic3Anchor" class="olapic-item" href="https://www.teleflora.com/bouquet/telefloras-painted-petals-bouquet?prodID=P_T26M110A" title="Brighten her Mother's Day with a vibrant mix of pink and purple petals.">
-                <div class="olapic-user-info desktopTitle">
-                  <span id="pic3title" class="olapic-user-name olapic-realname">Painted Petals</span>
-                  <span class="shopthislook">Buy it</span>
-                </div>
-              </a>
-            </li>
-            <li tabindex="0" onclick="subCatUgc();" id="pic4LI" class="instagram" data-olapic-photo-id="2829243176" style="background-image: url('https://img.teleflora.com/image/upload/f_auto,c_fill,g_auto,h_220,q_auto:best,w_220/olapic/T26M410A-dream_in_bloom'); height: 200px; width: 200px;">
-              <span class="olapic-type-IMAGE"><i></i></span>
-              <a tabindex="0" id="pic4Anchor" class="olapic-item" href="https://www.teleflora.com/bouquet/telefloras-dream-in-bloom-bouquet?prodID=P_T26M410A" title="Make Mom smile with fresh pastel blooms arranged in a garden-inspired vase.">
-                <div class="olapic-user-info desktopTitle">
-                  <span id="pic4title" class="olapic-user-name olapic-realname">Dream in Bloom</span>
-                  <span class="shopthislook">Buy it</span>
-                </div>
-              </a>
-            </li>
-            <li tabindex="0" onclick="subCatUgc();" id="pic5LI" class="instagram" data-olapic-photo-id="2546271550" style="background-image: url('https://img.teleflora.com/image/upload/f_auto,c_fill,g_auto,h_220,q_auto:best,w_220/olapic/T26M500A-amelia'); height: 200px; width: 200px;">
-              <span class="olapic-type-IMAGE"><i></i></span>
-              <a tabindex="0" id="pic5Anchor" class="olapic-item" href="https://www.teleflora.com/bouquet/telefloras-amelia-bouquet?prodID=P_T26M500A" title="Delight Mom with a mix of pink and lavender blooms in Teleflora's Amelia Vase.">
-                <div class="olapic-user-info desktopTitle">
-                  <span id="pic5title" class="olapic-user-name olapic-realname">Amelia</span>
-                  <span class="shopthislook">Buy it</span>
-                </div>
-              </a>
-            </li>
-          </ul>
-          <div class="olapic-carousel-partial-container"></div>
-        </div>
-      </div>
-      <a class="olapic-nav-button olapic-nav-next" href="#"></a>
-    </div>
-  </div>
 `.trim();
 
 function getVisualVariant(theme: BouquetCollection["theme"]) {
@@ -206,7 +125,35 @@ function SubscriptionsBanner() {
 }
 
 function DotdBannerCart() {
-  return <section id="dotd-banner-cart" dangerouslySetInnerHTML={{ __html: DOTD_BANNER_MARKUP }} />;
+  const href = DEAL_OF_THE_DAY_BOUQUET?.href ?? getCategoryHref("flowers");
+  const label = DEAL_OF_THE_DAY_BOUQUET?.name ?? "Deal of the Day";
+
+  return (
+    <section id="dotd-banner-cart">
+      <div>
+        <Link href={href} aria-label={`Shop ${label}`}>
+          <picture>
+            <source
+              srcSet="https://img.teleflora.com/image/upload/w_1400/f_auto,q_50/backgrounds/DOTD_H_1400x392-hp-desktop-may26"
+              media="(min-width: 961px)"
+            />
+            <source
+              srcSet="https://img.teleflora.com/image/upload/w_640/f_auto,q_50/backgrounds/DOTD_640x464-hp-mobile-may26"
+              media="(max-width: 960px)"
+            />
+            <img
+              width="1400"
+              height="392"
+              alt={`${label} - seasonal fresh flowers at a special price`}
+              loading="lazy"
+              className="lazyload"
+              src="https://img.teleflora.com/image/upload/w_1400/f_auto,q_50/backgrounds/DOTD_H_1400x392-hp-desktop-may26"
+            />
+          </picture>
+        </Link>
+      </div>
+    </section>
+  );
 }
 
 function TrendingBouquetsSection() {
@@ -228,12 +175,49 @@ function TrendingBouquetsSection() {
 }
 
 function LocalFloristArrangedBouquets() {
+  if (!LOCAL_FLORIST_BOUQUETS.length) {
+    return null;
+  }
+
   return (
-    <section
-      id="local-florist-arranged-bouquets"
-      className="local-florist-arranged-bouquets"
-      dangerouslySetInnerHTML={{ __html: LOCAL_FLORIST_MARKUP }}
-    />
+    <section id="local-florist-arranged-bouquets" className="local-florist-arranged-bouquets">
+      <div className="olapic-slider-widget olapic-slider">
+        <div className="olapic-slider-header">
+          <h3>LOCAL FLORIST ARRANGED BOUQUETS</h3>
+        </div>
+        <div className="olapic-slider-body">
+          <span className="olapic-nav-button olapic-nav-prev" aria-hidden="true" />
+          <div className="olapic-slider-wrapper">
+            <div className="olapic-carousel-list-container">
+              <ul className="olapic-carousel">
+                {LOCAL_FLORIST_BOUQUETS.map((product) => {
+                  const title = product.title ?? product.name;
+                  const style = {
+                    backgroundImage: `url("${product.image}")`
+                  } as CSSProperties;
+
+                  return (
+                    <li key={product.id} tabIndex={0} className="instagram" style={style}>
+                      <span className="olapic-type-IMAGE" aria-hidden="true">
+                        <i />
+                      </span>
+                      <Link className="olapic-item" href={product.href} title={product.alt} aria-label={`Shop ${title}`}>
+                        <div className="olapic-user-info desktopTitle">
+                          <span className="olapic-user-name olapic-realname">{title}</span>
+                          <span className="shopthislook">{product.ctaLabel ?? "Buy it"}</span>
+                        </div>
+                      </Link>
+                    </li>
+                  );
+                })}
+              </ul>
+              <div className="olapic-carousel-partial-container" />
+            </div>
+          </div>
+          <span className="olapic-nav-button olapic-nav-next" aria-hidden="true" />
+        </div>
+      </div>
+    </section>
   );
 }
 

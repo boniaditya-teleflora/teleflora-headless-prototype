@@ -46,16 +46,18 @@ export function generateCategoryMetadata(category: {
 export function generateProductMetadata(product: ProductPageData) {
   const pathname = `/product/${product.slug}`;
   const primaryImage = product.images[0]?.src ?? "/images/og-placeholder.svg";
+  const title = product.seo?.title ?? product.name;
+  const description = product.seo?.description ?? product.shortDescription;
 
   return {
-    title: product.name,
-    description: product.shortDescription,
+    title,
+    description,
     alternates: {
       canonical: buildAbsoluteUrl(pathname)
     },
     openGraph: {
-      title: `${product.name} | ${SITE_NAME}`,
-      description: product.shortDescription,
+      title: `${title} | ${SITE_NAME}`,
+      description,
       url: buildAbsoluteUrl(pathname),
       siteName: SITE_NAME,
       type: "website",
@@ -63,8 +65,8 @@ export function generateProductMetadata(product: ProductPageData) {
     },
     twitter: {
       card: "summary_large_image",
-      title: product.name,
-      description: product.shortDescription,
+      title,
+      description,
       images: [buildAbsoluteUrl(primaryImage)]
     }
   } satisfies Metadata;
@@ -86,7 +88,7 @@ export function getProductStructuredData(product: ProductPageData) {
     offers: {
       "@type": "Offer",
       priceCurrency: product.currency,
-      price: product.price.toFixed(2),
+      price: (product.salePrice ?? product.price).toFixed(2),
       availability: "https://schema.org/InStock",
       url: buildAbsoluteUrl(`/product/${product.slug}`)
     }

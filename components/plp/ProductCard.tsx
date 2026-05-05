@@ -17,6 +17,7 @@ function getProductHref(product: ProductSummary) {
 export function ProductCard({ product, variant = "standard" }: ProductCardProps) {
   const productHref = getProductHref(product);
   const isCategoryCard = variant === "category";
+  const displayPrice = product.salePrice ?? product.price;
 
   return (
     <Link href={productHref} className={`product-card product-card--${variant}`} aria-label={`View ${product.name}`}>
@@ -34,7 +35,8 @@ export function ProductCard({ product, variant = "standard" }: ProductCardProps)
         </span>
         {!isCategoryCard ? <p className="product-card__description">{product.shortDescription}</p> : null}
         <div className="product-card__meta">
-          <Price amount={product.price} currency={product.currency} />
+          <Price amount={displayPrice} currency={product.currency} />
+          {product.salePrice ? <span className="sr-only">Original price {product.price}</span> : null}
           {isCategoryCard ? (
             <span className="product-card__price-tip" aria-label="Total price may vary depending on options selected.">
               i

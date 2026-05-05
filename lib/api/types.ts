@@ -14,10 +14,14 @@ export type LinkGroup = {
 };
 
 export type ProductSummary = {
+  id?: string;
   slug: string;
+  aliases?: string[];
   name: string;
   shortDescription: string;
+  longDescription?: string;
   price: number;
+  salePrice?: number | null;
   currency: string;
   image: MediaAsset;
   badges: string[];
@@ -25,10 +29,25 @@ export type ProductSummary = {
   href?: string;
   productId?: string;
   skuId?: string;
+  category?: CategoryReference;
+  subcategory?: string;
+  occasion?: string[];
+  categorySlugs?: string[];
   filters?: {
     flower?: string[];
     color?: string[];
   };
+  rating?: {
+    value: number;
+    label: string;
+    count?: number;
+  };
+  seo?: {
+    title: string;
+    description: string;
+    keywords?: string[];
+  };
+  sourceUrl?: string;
 };
 
 export type BouquetProduct = {
@@ -196,13 +215,23 @@ export type ProductVariant = {
   price: number;
   sku: string;
   dimensions?: string;
+  height?: string;
+  width?: string;
+  image?: MediaAsset;
+};
+
+export type ProductAddOnOption = {
+  id: string;
+  label: string;
+  price: number;
 };
 
 export type ProductAddOn = {
   id: string;
   label: string;
   description: string;
-  price: number;
+  price?: number;
+  options?: ProductAddOnOption[];
 };
 
 export type ProductPageData = ProductSummary & {
@@ -216,9 +245,14 @@ export type ProductPageData = ProductSummary & {
   addOns?: ProductAddOn[];
   details?: {
     description: string;
+    longDescription?: string;
     vase?: string;
+    vaseImage?: MediaAsset;
     orientation?: string;
+    composition?: string[];
     careTips?: string[];
+    sizeGuideImage?: MediaAsset;
+    substitutionPolicy?: string;
   };
   trustMessages?: string[];
 };

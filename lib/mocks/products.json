@@ -1,0 +1,2091 @@
+{
+  "defaultAddOns": [
+    {
+      "id": "AP_MYLAR1",
+      "label": "Mylar Balloons",
+      "description": "Add a celebratory balloon to the hand delivery.",
+      "options": [
+        {
+          "id": "MYLAR1",
+          "label": "1 Balloon",
+          "price": 5.99
+        },
+        {
+          "id": "MYLAR2",
+          "label": "2 Balloons",
+          "price": 10.99
+        },
+        {
+          "id": "MYLAR3",
+          "label": "3 Balloons",
+          "price": 15.99
+        }
+      ]
+    },
+    {
+      "id": "AP_PLUSH1",
+      "label": "Stuffed Animal",
+      "description": "Pair the bouquet with a soft keepsake gift.",
+      "options": [
+        {
+          "id": "PLUSH1",
+          "label": "Small",
+          "price": 9.99
+        },
+        {
+          "id": "PLUSH2",
+          "label": "Medium",
+          "price": 19.99
+        },
+        {
+          "id": "PLUSH3",
+          "label": "Large",
+          "price": 29.99
+        }
+      ]
+    },
+    {
+      "id": "AP_CHOC1",
+      "label": "Chocolates",
+      "description": "Finish the gift with a box of chocolates.",
+      "options": [
+        {
+          "id": "CHOC1",
+          "label": "Small Box",
+          "price": 9.99
+        },
+        {
+          "id": "CHOC2",
+          "label": "Medium Box",
+          "price": 19.99
+        },
+        {
+          "id": "CHOC3",
+          "label": "Large Box",
+          "price": 29.99
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "P_T26M100A",
+      "productId": "P_T26M100A",
+      "slug": "telefloras-pretty-daydream-bouquet",
+      "name": "Teleflora's Pretty Daydream Bouquet",
+      "shortDescription": "A dreamy Mother's Day mix of peach, fuchsia, green, and purple blooms in a pearlescent purple keepsake vase.",
+      "longDescription": "Celebrate her sweetest moments with a soft but vibrant arrangement inspired by Teleflora's Pretty Daydream Bouquet. Peach roses, fuchsia carnations, cushion mums, statice, limonium, and fresh greenery are designed in a sculpted purple glass vase she can keep after the flowers fade.",
+      "price": 64.99,
+      "currency": "USD",
+      "image": {
+        "src": "https://img.teleflora.com/images/o_0/l_flowers:T26M100A,pg_1/w_360,h_360,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T26M100A/TeleflorasPrettyDaydreamBouquet",
+        "alt": "Teleflora's Pretty Daydream Bouquet in a purple vase"
+      },
+      "images": [
+        {
+          "src": "https://img.teleflora.com/images/o_0/l_flowers:T26M100A,pg_1/w_900,h_900,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T26M100A/TeleflorasPrettyDaydreamBouquet",
+          "alt": "Front view of Teleflora's Pretty Daydream Bouquet"
+        },
+        {
+          "src": "https://img.teleflora.com/images/o_0/l_flowers:T26M100C,pg_6/w_272,h_340,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T26M100C/TeleflorasPrettyDaydreamBouquet",
+          "alt": "Premium size guide image for Teleflora's Pretty Daydream Bouquet"
+        }
+      ],
+      "badges": ["Mother's Day", "New"],
+      "deliveryNote": "Same-day delivery may be available when ordered before the local cutoff.",
+      "sku": "T26M100A",
+      "skuId": "T26M100A",
+      "category": {
+        "slug": "mothers-day-flowers",
+        "title": "Mother's Day Flowers",
+        "catId": "cat210089"
+      },
+      "subcategory": "Mother's Day Collection",
+      "occasion": ["Mother's Day", "Spring", "Thank You"],
+      "categorySlugs": ["flowers", "mothers-day-flowers", "new-arrivals", "same-day-flower-delivery"],
+      "variants": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "description": "Full and Lush",
+          "price": 64.99,
+          "sku": "T26M100A",
+          "height": "17 3/4 in H",
+          "width": "17 1/2 in W"
+        },
+        {
+          "id": "deluxe",
+          "label": "Deluxe",
+          "description": "Opulent floral display",
+          "price": 74.99,
+          "sku": "T26M100B",
+          "height": "17 3/4 in H",
+          "width": "17 1/2 in W"
+        },
+        {
+          "id": "premium",
+          "label": "Premium",
+          "description": "Luxurious and Majestic",
+          "price": 84.99,
+          "sku": "T26M100C",
+          "height": "17 3/4 in H",
+          "width": "18 in W"
+        }
+      ],
+      "details": {
+        "description": "This Mother's Day bouquet blends peach roses, fuchsia carnations, miniature peach carnations, green and purple cushion chrysanthemums, purple statice, pink limonium, huckleberry, and salal in Teleflora's Pretty Daydream Vase.",
+        "longDescription": "The keepsake vase has sculpted purple glass with a pearlescent finish, giving the arrangement a polished spring look that works for Mother's Day and year-round display.",
+        "vase": "Sculpted purple glass vase with a pearlescent finish.",
+        "vaseImage": {
+          "src": "https://assets.teleflora.com/assets/products/AE1_/26M100.jpg",
+          "alt": "Teleflora's Pretty Daydream Vase"
+        },
+        "orientation": "All-Around",
+        "composition": ["Peach roses", "Fuchsia carnations", "Purple statice", "Pink limonium", "Fresh greenery"],
+        "careTips": ["Refresh water daily.", "Trim stems at an angle every two days.", "Display away from direct heat and bright sun."],
+        "sizeGuideImage": {
+          "src": "https://img.teleflora.com/images/o_0/l_flowers:T26M100C,pg_6/w_272,h_340,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T26M100C/TeleflorasPrettyDaydreamBouquet",
+          "alt": "Teleflora's Pretty Daydream Bouquet size guide"
+        }
+      },
+      "messageNote": "Add a personal card message after confirming the recipient ZIP code and delivery date.",
+      "giftOptionsNote": "Optional balloons, chocolates, and plush gifts are available on the PDP.",
+      "trustMessages": ["Hand-arranged by a local florist", "Same-day delivery may be available", "Keepsake vase included"],
+      "relatedProductSlugs": ["telefloras-blue-belle-bouquet", "telefloras-watercolor-garden-bouquet", "telefloras-amelia-bouquet"],
+      "filters": {
+        "flower": ["roses", "carnations", "chrysanthemums"],
+        "color": ["pink", "purple", "green"]
+      },
+      "rating": {
+        "value": 4.8,
+        "label": "Florist favorite",
+        "count": 218
+      },
+      "seo": {
+        "title": "Teleflora's Pretty Daydream Bouquet | Mother's Day Flowers",
+        "description": "Send Teleflora's Pretty Daydream Bouquet for Mother's Day with local florist delivery."
+      },
+      "sourceUrl": "https://www.teleflora.com/bouquet/telefloras-pretty-daydream-bouquet?prodID=P_T26M100A"
+    },
+    {
+      "id": "P_T26M200A",
+      "productId": "P_T26M200A",
+      "slug": "telefloras-blue-belle-bouquet",
+      "name": "Teleflora's Blue Belle Bouquet",
+      "shortDescription": "Soft pink, white, and lavender Mother's Day flowers in a blue glass keepsake vase.",
+      "longDescription": "Teleflora's Blue Belle Bouquet pairs spring-toned roses, alstroemeria, carnations, chrysanthemums, statice, eucalyptus, and fern in a sculpted blue vase with a cut-crystal-inspired look.",
+      "price": 59.99,
+      "currency": "USD",
+      "image": {
+        "src": "https://img.teleflora.com/images/o_0/l_flowers:T26M200A,pg_1/w_360,h_360,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T26M200A/TeleflorasBlueBelleBouquet",
+        "alt": "Teleflora's Blue Belle Bouquet in a blue glass vase"
+      },
+      "images": [
+        {
+          "src": "https://img.teleflora.com/images/o_0/l_flowers:T26M200A,pg_1/w_900,h_900,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T26M200A/TeleflorasBlueBelleBouquet",
+          "alt": "Front view of Teleflora's Blue Belle Bouquet"
+        },
+        {
+          "src": "https://img.teleflora.com/images/o_0/l_flowers:T26M200C,pg_6/w_272,h_340,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T26M200C/TeleflorasBlueBelleBouquet",
+          "alt": "Premium size guide image for Teleflora's Blue Belle Bouquet"
+        }
+      ],
+      "badges": ["Mother's Day", "Bestseller"],
+      "deliveryNote": "Same-day delivery may be available before the local florist cutoff.",
+      "sku": "T26M200A",
+      "skuId": "T26M200A",
+      "category": {
+        "slug": "mothers-day-flowers",
+        "title": "Mother's Day Flowers",
+        "catId": "cat210089"
+      },
+      "subcategory": "Mother's Day Collection",
+      "occasion": ["Mother's Day", "Spring", "Thinking of You"],
+      "categorySlugs": ["flowers", "mothers-day-flowers", "flower-bestsellers", "same-day-flower-delivery"],
+      "variants": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "description": "Full and Lush",
+          "price": 59.99,
+          "sku": "T26M200A",
+          "height": "13 3/4 in H",
+          "width": "15 in W"
+        },
+        {
+          "id": "deluxe",
+          "label": "Deluxe",
+          "description": "Opulent floral display",
+          "price": 69.99,
+          "sku": "T26M200B",
+          "height": "13 3/4 in H",
+          "width": "14 3/4 in W"
+        },
+        {
+          "id": "premium",
+          "label": "Premium",
+          "description": "Luxurious and Majestic",
+          "price": 79.99,
+          "sku": "T26M200C",
+          "height": "13 3/4 in H",
+          "width": "14 3/4 in W"
+        }
+      ],
+      "details": {
+        "description": "A sweet Mother's Day arrangement of white roses, pink spray roses, lavender alstroemeria, pink carnations, lavender button spray chrysanthemums, and white statice with eucalyptus and fern.",
+        "longDescription": "The blue glass vase has a sculpted cut-crystal-inspired pattern, making the piece suitable for spring gifting and everyday decor after delivery.",
+        "vase": "Blue sculpted glass vase with cut-crystal-inspired detail.",
+        "vaseImage": {
+          "src": "https://assets.teleflora.com/assets/products/AE1_/26M200.jpg",
+          "alt": "Teleflora's Blue Belle Vase"
+        },
+        "orientation": "All-Around",
+        "composition": ["White roses", "Pink spray roses", "Lavender alstroemeria", "Pink carnations", "White statice"],
+        "careTips": ["Keep the vase filled with fresh water.", "Remove spent blooms.", "Avoid direct sunlight."],
+        "sizeGuideImage": {
+          "src": "https://img.teleflora.com/images/o_0/l_flowers:T26M200C,pg_6/w_272,h_340,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T26M200C/Teleflora%27sBlueBelleBouquetPM",
+          "alt": "Teleflora's Blue Belle Bouquet size guide"
+        }
+      },
+      "messageNote": "Personalize the enclosure card during delivery setup.",
+      "giftOptionsNote": "Add-ons are available after choosing the bouquet size.",
+      "trustMessages": ["Hand-delivered by a local florist", "Keepsake vase included", "Availability checked by recipient ZIP"],
+      "relatedProductSlugs": ["telefloras-pretty-daydream-bouquet", "telefloras-pink-rhapsody-bouquet", "telefloras-watercolor-garden-bouquet"],
+      "filters": {
+        "flower": ["roses", "alstroemeria", "carnations", "chrysanthemums"],
+        "color": ["pink", "white", "purple", "blue"]
+      },
+      "rating": {
+        "value": 4.8,
+        "label": "Florist favorite",
+        "count": 244
+      },
+      "seo": {
+        "title": "Teleflora's Blue Belle Bouquet | Mother's Day Flowers",
+        "description": "Send Teleflora's Blue Belle Bouquet with soft spring flowers and a blue keepsake vase."
+      },
+      "sourceUrl": "https://www.teleflora.com/bouquet/telefloras-blue-belle-bouquet?prodID=P_T26M200A"
+    },
+    {
+      "id": "P_T26M400A",
+      "productId": "P_T26M400A",
+      "slug": "telefloras-watercolor-garden-bouquet",
+      "name": "Teleflora's Watercolor Garden Bouquet",
+      "shortDescription": "Peach and pink Mother's Day blooms in a floral metal container keepsake.",
+      "longDescription": "A cheerful garden-inspired bouquet with peach roses, pink alstroemeria, miniature carnations, Matsumoto asters, eucalyptus, and variegated pittosporum arranged in Teleflora's Watercolor Garden Vase.",
+      "price": 49.99,
+      "currency": "USD",
+      "image": {
+        "src": "https://img.teleflora.com/images/o_0/l_flowers:T26M400A,pg_1/w_360,h_360,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T26M400A/TeleflorasWatercolorGardenBouquet",
+        "alt": "Teleflora's Watercolor Garden Bouquet"
+      },
+      "images": [
+        {
+          "src": "https://img.teleflora.com/images/o_0/l_flowers:T26M400A,pg_1/w_900,h_900,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T26M400A/TeleflorasWatercolorGardenBouquet",
+          "alt": "Front view of Teleflora's Watercolor Garden Bouquet"
+        }
+      ],
+      "badges": ["Mother's Day", "Great Value"],
+      "deliveryNote": "Same-day delivery may be available in the recipient's area.",
+      "sku": "T26M400A",
+      "skuId": "T26M400A",
+      "category": {
+        "slug": "mothers-day-flowers",
+        "title": "Mother's Day Flowers",
+        "catId": "cat210089"
+      },
+      "subcategory": "Affordable Mother's Day Flowers",
+      "occasion": ["Mother's Day", "Spring", "Just Because"],
+      "categorySlugs": ["flowers", "mothers-day-flowers", "flowers-under-60", "same-day-flower-delivery"],
+      "variants": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "description": "Full and Lush",
+          "price": 49.99,
+          "sku": "T26M400A",
+          "height": "10 1/2 in H",
+          "width": "12 in W"
+        },
+        {
+          "id": "deluxe",
+          "label": "Deluxe",
+          "description": "Opulent floral display",
+          "price": 59.99,
+          "sku": "T26M400B",
+          "height": "10 1/2 in H",
+          "width": "12 1/4 in W"
+        },
+        {
+          "id": "premium",
+          "label": "Premium",
+          "description": "Luxurious and Majestic",
+          "price": 69.99,
+          "sku": "T26M400C",
+          "height": "10 1/2 in H",
+          "width": "13 in W"
+        }
+      ],
+      "details": {
+        "description": "Peach roses, pink alstroemeria, miniature pink carnations, and pink Matsumoto asters are accented with eucalyptus and variegated pittosporum in a floral keepsake container.",
+        "longDescription": "The watercolor-style metal container can later be used as a small catchall for pens, makeup brushes, or essentials.",
+        "vase": "Floral metal container with a watercolor-inspired pattern.",
+        "orientation": "All-Around",
+        "composition": ["Peach roses", "Pink alstroemeria", "Pink carnations", "Matsumoto asters", "Eucalyptus"],
+        "careTips": ["Refresh the water often.", "Keep flowers away from heat.", "Remove wilted stems as needed."]
+      },
+      "messageNote": "Card messaging is collected before checkout.",
+      "giftOptionsNote": "Optional gift add-ons are available on the product page.",
+      "trustMessages": ["Designed by a local florist", "Same-day options may be available", "Reusable keepsake container"],
+      "relatedProductSlugs": ["telefloras-pink-rhapsody-bouquet", "telefloras-blue-belle-bouquet", "how-sweet-it-is"],
+      "filters": {
+        "flower": ["roses", "alstroemeria", "carnations"],
+        "color": ["pink", "orange", "green"]
+      },
+      "rating": {
+        "value": 4.7,
+        "label": "Fresh favorite",
+        "count": 173
+      },
+      "seo": {
+        "title": "Teleflora's Watercolor Garden Bouquet | Mother's Day Flowers",
+        "description": "Send a cheerful pink and peach Mother's Day bouquet in a watercolor keepsake container."
+      },
+      "sourceUrl": "https://www.teleflora.com/bouquet/telefloras-watercolor-garden-bouquet?prodID=P_T26M400A"
+    },
+    {
+      "id": "P_T26M300A",
+      "productId": "P_T26M300A",
+      "slug": "telefloras-pink-rhapsody-bouquet",
+      "name": "Teleflora's Pink Rhapsody Bouquet",
+      "shortDescription": "Vibrant lavender, pink, and purple flowers in a sculpted pink vase.",
+      "longDescription": "A colorful Mother's Day arrangement featuring lavender roses, pink alstroemeria, fuchsia carnations, purple button mums, statice, dusty miller, and huckleberry in Teleflora's Pink Rhapsody Vase.",
+      "price": 54.99,
+      "currency": "USD",
+      "image": {
+        "src": "https://img.teleflora.com/images/o_0/l_flowers:T26M300A,pg_1/w_360,h_360,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T26M300A/TeleflorasPinkRhapsodyBouquet",
+        "alt": "Teleflora's Pink Rhapsody Bouquet"
+      },
+      "images": [
+        {
+          "src": "https://img.teleflora.com/images/o_0/l_flowers:T26M300A,pg_1/w_900,h_900,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T26M300A/TeleflorasPinkRhapsodyBouquet",
+          "alt": "Front view of Teleflora's Pink Rhapsody Bouquet"
+        }
+      ],
+      "badges": ["Mother's Day"],
+      "deliveryNote": "Local florist delivery may be available today.",
+      "sku": "T26M300A",
+      "skuId": "T26M300A",
+      "category": {
+        "slug": "mothers-day-flowers",
+        "title": "Mother's Day Flowers",
+        "catId": "cat210089"
+      },
+      "subcategory": "Affordable Mother's Day Flowers",
+      "occasion": ["Mother's Day", "Spring", "Birthday"],
+      "categorySlugs": ["flowers", "mothers-day-flowers", "flowers-under-60", "same-day-flower-delivery"],
+      "variants": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "description": "Full and Lush",
+          "price": 54.99,
+          "sku": "T26M300A",
+          "height": "12 3/4 in H",
+          "width": "15 1/4 in W"
+        },
+        {
+          "id": "deluxe",
+          "label": "Deluxe",
+          "description": "Opulent floral display",
+          "price": 64.99,
+          "sku": "T26M300B",
+          "height": "13 in H",
+          "width": "15 1/4 in W"
+        },
+        {
+          "id": "premium",
+          "label": "Premium",
+          "description": "Luxurious and Majestic",
+          "price": 74.99,
+          "sku": "T26M300C",
+          "height": "13 1/2 in H",
+          "width": "15 1/2 in W"
+        }
+      ],
+      "details": {
+        "description": "Lavender roses, pink alstroemeria, fuchsia carnations, purple button spray chrysanthemums, and lavender statice are accented with dusty miller and huckleberry.",
+        "longDescription": "The sculpted pink glass vase adds bold color and texture and can be reused as a decorative accent.",
+        "vase": "Sculpted pink glass vase with a vibrant pattern.",
+        "orientation": "All-Around",
+        "composition": ["Lavender roses", "Pink alstroemeria", "Fuchsia carnations", "Purple chrysanthemums", "Lavender statice"],
+        "careTips": ["Add fresh water daily.", "Trim stems after two days.", "Keep away from direct sun."]
+      },
+      "messageNote": "Add a gift message when you set delivery details.",
+      "giftOptionsNote": "Add balloons, chocolates, or plush gifts before adding to cart.",
+      "trustMessages": ["Local florist arranged", "Same-day delivery may be available", "Keepsake vase included"],
+      "relatedProductSlugs": ["telefloras-watercolor-garden-bouquet", "telefloras-pretty-daydream-bouquet", "telefloras-blue-belle-bouquet"],
+      "filters": {
+        "flower": ["roses", "alstroemeria", "carnations", "chrysanthemums"],
+        "color": ["pink", "purple"]
+      },
+      "rating": {
+        "value": 4.7,
+        "label": "Color favorite",
+        "count": 166
+      },
+      "seo": {
+        "title": "Teleflora's Pink Rhapsody Bouquet | Mother's Day Flowers",
+        "description": "Send a vibrant pink and purple bouquet arranged by a local Teleflora florist."
+      },
+      "sourceUrl": "https://www.teleflora.com/bouquet/telefloras-pink-rhapsody-bouquet?prodID=P_T26M300A"
+    },
+    {
+      "id": "P_T26M500A",
+      "productId": "P_T26M500A",
+      "slug": "telefloras-amelia-bouquet",
+      "name": "Teleflora's Amelia Bouquet",
+      "shortDescription": "A graceful luxury mix of pink and lavender blooms in an iridescent art-glass vase.",
+      "longDescription": "Teleflora's Amelia Bouquet is a polished Mother's Day gift featuring lavender roses, carnations, stock, button chrysanthemums, eucalyptus, dusty miller, and pittosporum in a hand-blown vase.",
+      "price": 99.99,
+      "currency": "USD",
+      "image": {
+        "src": "https://img.teleflora.com/images/o_0/l_flowers:T26M500A,pg_1/w_360,h_360,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T26M500A/TeleflorasAmeliaBouquet",
+        "alt": "Teleflora's Amelia Bouquet"
+      },
+      "images": [
+        {
+          "src": "https://img.teleflora.com/images/o_0/l_flowers:T26M500A,pg_1/w_900,h_900,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T26M500A/TeleflorasAmeliaBouquet",
+          "alt": "Front view of Teleflora's Amelia Bouquet"
+        }
+      ],
+      "badges": ["Luxury", "Mother's Day"],
+      "deliveryNote": "Hand-delivered by a local florist, with same-day availability in many areas.",
+      "sku": "T26M500A",
+      "skuId": "T26M500A",
+      "category": {
+        "slug": "mothers-day-flowers",
+        "title": "Mother's Day Flowers",
+        "catId": "cat210089"
+      },
+      "subcategory": "Luxury Bouquets for Mom",
+      "occasion": ["Mother's Day", "Anniversary", "Luxury"],
+      "categorySlugs": ["flowers", "mothers-day-flowers", "new-arrivals", "same-day-flower-delivery"],
+      "variants": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "description": "Full and Lush",
+          "price": 99.99,
+          "sku": "T26M500A",
+          "height": "19 1/2 in H",
+          "width": "17 1/2 in W"
+        },
+        {
+          "id": "deluxe",
+          "label": "Deluxe",
+          "description": "Opulent floral display",
+          "price": 109.99,
+          "sku": "T26M500B",
+          "height": "19 1/2 in H",
+          "width": "17 1/2 in W"
+        },
+        {
+          "id": "premium",
+          "label": "Premium",
+          "description": "Luxurious and Majestic",
+          "price": 119.99,
+          "sku": "T26M500C",
+          "height": "19 1/2 in H",
+          "width": "17 1/2 in W"
+        }
+      ],
+      "details": {
+        "description": "Lavender roses, lavender and purple carnations, lavender stock, purple button spray chrysanthemums, dusty miller, eucalyptus, and pittosporum are arranged in Teleflora's Amelia Vase.",
+        "longDescription": "Each vase has a distinctive iridescent finish, giving this luxury bouquet a one-of-a-kind keepsake quality.",
+        "vase": "Hand-blown art-glass vase with an iridescent finish.",
+        "orientation": "All-Around",
+        "composition": ["Lavender roses", "Purple carnations", "Lavender stock", "Button chrysanthemums", "Eucalyptus"],
+        "careTips": ["Refresh water daily.", "Keep stems below the water line clean.", "Display in a cool room."]
+      },
+      "messageNote": "Include a personal note for Mom or another recipient.",
+      "giftOptionsNote": "Optional add-ons can be paired with the bouquet.",
+      "trustMessages": ["Luxury keepsake vase", "Hand-arranged by a local florist", "Delivery reviewed before checkout"],
+      "relatedProductSlugs": ["telefloras-pretty-daydream-bouquet", "telefloras-blue-belle-bouquet", "telefloras-pink-rhapsody-bouquet"],
+      "filters": {
+        "flower": ["roses", "carnations", "chrysanthemums"],
+        "color": ["pink", "purple", "lavender"]
+      },
+      "rating": {
+        "value": 4.9,
+        "label": "Luxury pick",
+        "count": 98
+      },
+      "seo": {
+        "title": "Teleflora's Amelia Bouquet | Luxury Mother's Day Flowers",
+        "description": "Send a luxury pink and lavender Mother's Day bouquet in an iridescent keepsake vase."
+      },
+      "sourceUrl": "https://www.teleflora.com/bouquet/telefloras-amelia-bouquet?prodID=P_T26M500A"
+    },
+    {
+      "id": "P_TBC07-1A",
+      "productId": "P_TBC07-1A",
+      "slug": "telefloras-best-wishes-bouquet",
+      "name": "Teleflora's Best Wishes Bouquet",
+      "shortDescription": "A rainbow-bright rose bouquet in a golden metal cube with delicate cutout detail.",
+      "longDescription": "Send warm wishes for birthdays, congratulations, and just-because moments with peach roses, alstroemeria, carnations, delphinium, asters, statice, eucalyptus, and fern in Teleflora's Celebrate in Style Cube.",
+      "price": 59.99,
+      "currency": "USD",
+      "image": {
+        "src": "https://img.teleflora.com/images/o_0/l_flowers:TBC07-1A,pg_6/w_272,h_340,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/TBC07-1A/Teleflora'sBestWishesBouquet",
+        "alt": "Teleflora's Best Wishes Bouquet"
+      },
+      "images": [
+        {
+          "src": "https://img.teleflora.com/images/o_0/l_flowers:TBC07-1A,pg_6/w_900,h_900,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/TBC07-1A/Teleflora'sBestWishesBouquet",
+          "alt": "Front view of Teleflora's Best Wishes Bouquet"
+        }
+      ],
+      "badges": ["Birthday", "Bestseller"],
+      "deliveryNote": "Same-day delivery may be available when ordered before the cutoff.",
+      "sku": "TBC07-1A",
+      "skuId": "TBC07-1A",
+      "category": {
+        "slug": "birthday-flowers",
+        "title": "Birthday Flowers",
+        "catId": "cat210012"
+      },
+      "subcategory": "Birthday Bestsellers",
+      "occasion": ["Birthday", "Congratulations", "Thank You"],
+      "categorySlugs": ["flowers", "birthday-flowers", "congratulations-flowers", "flower-bestsellers", "same-day-flower-delivery"],
+      "variants": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "description": "Full and Lush",
+          "price": 59.99,
+          "sku": "TBC07-1A",
+          "height": "13 1/4 in H",
+          "width": "14 in W"
+        },
+        {
+          "id": "deluxe",
+          "label": "Deluxe",
+          "description": "Opulent floral display",
+          "price": 69.99,
+          "sku": "TBC07-1B",
+          "height": "14 in H",
+          "width": "14 1/4 in W"
+        },
+        {
+          "id": "premium",
+          "label": "Premium",
+          "description": "Luxurious and Majestic",
+          "price": 79.99,
+          "sku": "TBC07-1C",
+          "height": "14 1/4 in H",
+          "width": "14 3/4 in W"
+        }
+      ],
+      "details": {
+        "description": "Peach roses, white alstroemeria, hot pink miniature carnations, light blue delphinium, pink Matsumoto asters, purple statice, eucalyptus, and fern are arranged in Teleflora's Celebrate in Style Cube.",
+        "longDescription": "The shimmering golden metal cube has delicate cutouts and can later be used as a candleholder.",
+        "vase": "Golden metallic cube with lace-inspired cutouts.",
+        "orientation": "All-Around",
+        "composition": ["Peach roses", "White alstroemeria", "Hot pink carnations", "Light blue delphinium", "Pink Matsumoto asters"],
+        "careTips": ["Refresh water daily.", "Trim stems after delivery.", "Keep away from heat and drafts."]
+      },
+      "messageNote": "Add a birthday, congrats, or all-occasion card message.",
+      "giftOptionsNote": "Birthday balloons, plush gifts, and chocolates can be added before cart.",
+      "trustMessages": ["Bestseller-style birthday gift", "Local florist arranged", "Keepsake cube included"],
+      "relatedProductSlugs": ["birthday-bash-bouquet", "make-a-wish", "telefloras-marvelous-mosaic-bouquet"],
+      "filters": {
+        "flower": ["roses", "alstroemeria", "carnations"],
+        "color": ["pink", "purple", "blue", "orange"]
+      },
+      "rating": {
+        "value": 4.8,
+        "label": "Bestseller",
+        "count": 381
+      },
+      "seo": {
+        "title": "Teleflora's Best Wishes Bouquet | Birthday Flowers",
+        "description": "Send Teleflora's Best Wishes Bouquet for birthdays, congratulations, and cheerful occasions."
+      },
+      "sourceUrl": "https://www.teleflora.com/bouquet/telefloras-best-wishes-bouquet?prodID=P_TBC07-1A"
+    },
+    {
+      "id": "P_TBC04-1A",
+      "productId": "P_TBC04-1A",
+      "slug": "birthday-bash-bouquet",
+      "name": "Birthday Bash Bouquet",
+      "shortDescription": "Bright birthday flowers with a Happy Birthday balloon in a cheerful pink vase.",
+      "longDescription": "Birthday Bash Bouquet celebrates the day with hot pink roses, yellow lilies, orange alstroemeria, red miniature carnations, green button mums, and fresh greenery in a raspberry tapered vase.",
+      "price": 64.99,
+      "currency": "USD",
+      "image": {
+        "src": "https://img.teleflora.com/images/o_0/l_flowers:TBC04-1A,pg_6/w_272,h_340,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/TBC04-1A/BirthdayBashBouquet",
+        "alt": "Birthday Bash Bouquet"
+      },
+      "images": [
+        {
+          "src": "https://img.teleflora.com/images/o_0/l_flowers:TBC04-1A,pg_6/w_900,h_900,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/TBC04-1A/BirthdayBashBouquet",
+          "alt": "Front view of Birthday Bash Bouquet"
+        }
+      ],
+      "badges": ["Birthday", "Bestseller"],
+      "deliveryNote": "Same-day birthday delivery may be available.",
+      "sku": "TBC04-1A",
+      "skuId": "TBC04-1A",
+      "category": {
+        "slug": "birthday-flowers",
+        "title": "Birthday Flowers",
+        "catId": "cat210012"
+      },
+      "subcategory": "Birthday Bestsellers",
+      "occasion": ["Birthday", "Celebration"],
+      "categorySlugs": ["flowers", "birthday-flowers", "flower-bestsellers", "same-day-flower-delivery"],
+      "variants": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "description": "Full and Lush",
+          "price": 64.99,
+          "sku": "TBC04-1A",
+          "height": "25 in H",
+          "width": "19 in W"
+        },
+        {
+          "id": "deluxe",
+          "label": "Deluxe",
+          "description": "Opulent floral display",
+          "price": 74.99,
+          "sku": "TBC04-1B",
+          "height": "25 1/2 in H",
+          "width": "19 in W"
+        },
+        {
+          "id": "premium",
+          "label": "Premium",
+          "description": "Luxurious and Majestic",
+          "price": 84.99,
+          "sku": "TBC04-1C",
+          "height": "25 1/2 in H",
+          "width": "20 1/2 in W"
+        }
+      ],
+      "details": {
+        "description": "Hot pink roses, yellow asiatic lilies, orange alstroemeria, red miniature carnations, green button spray chrysanthemums, huckleberry, and oregonia arrive with a Happy Birthday balloon.",
+        "longDescription": "This bright birthday design is built for celebration and delivered in a raspberry tapered vase.",
+        "vase": "Raspberry tapered glass vase with birthday balloon.",
+        "orientation": "All-Around",
+        "composition": ["Hot pink roses", "Yellow lilies", "Orange alstroemeria", "Red carnations", "Green button mums"],
+        "careTips": ["Keep the vase full of water.", "Remove the balloon before trimming stems.", "Display in a cool indoor location."]
+      },
+      "messageNote": "Add a Happy Birthday card message during delivery setup.",
+      "giftOptionsNote": "Add chocolates or an extra balloon for a fuller birthday gift.",
+      "trustMessages": ["Birthday-ready balloon included", "Local florist hand delivery", "Same-day options may be available"],
+      "relatedProductSlugs": ["telefloras-best-wishes-bouquet", "make-a-wish", "your-wish-is-granted-birthday-cake-bouquet"],
+      "filters": {
+        "flower": ["roses", "lilies", "alstroemeria", "carnations", "chrysanthemums"],
+        "color": ["pink", "yellow", "orange", "green"]
+      },
+      "rating": {
+        "value": 4.8,
+        "label": "Birthday favorite",
+        "count": 412
+      },
+      "seo": {
+        "title": "Birthday Bash Bouquet | Birthday Flower Delivery",
+        "description": "Send Birthday Bash Bouquet with a Happy Birthday balloon and local florist delivery."
+      },
+      "sourceUrl": "https://www.teleflora.com/bouquet/birthday-bash-bouquet?prodID=P_TBC04-1A"
+    },
+    {
+      "id": "P_TEV13-6A",
+      "productId": "P_TEV13-6A",
+      "slug": "make-a-wish",
+      "name": "Make a Wish",
+      "shortDescription": "Sunny yellow, purple, orange, and red birthday flowers with a cheerful ribbon accent.",
+      "longDescription": "Make a Wish is a bright all-around bouquet with daisy chrysanthemums, Matsumoto asters, miniature carnations, orange carnations, alstroemeria, and bupleurum in a petite vase.",
+      "price": 39.99,
+      "currency": "USD",
+      "image": {
+        "src": "https://img.teleflora.com/images/o_0/l_flowers:TEV13-6A,pg_6/w_272,h_340,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/TEV13-6A/MakeaWish",
+        "alt": "Make a Wish Bouquet"
+      },
+      "images": [
+        {
+          "src": "https://img.teleflora.com/images/o_0/l_flowers:TEV13-6A,pg_6/w_900,h_900,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/TEV13-6A/MakeaWish",
+          "alt": "Front view of Make a Wish"
+        }
+      ],
+      "badges": ["Birthday", "Great Value"],
+      "deliveryNote": "Same-day delivery may be available for this value bouquet.",
+      "sku": "TEV13-6A",
+      "skuId": "TEV13-6A",
+      "category": {
+        "slug": "birthday-flowers",
+        "title": "Birthday Flowers",
+        "catId": "cat210012"
+      },
+      "subcategory": "Birthday Bestsellers",
+      "occasion": ["Birthday", "Get Well", "Just Because"],
+      "categorySlugs": ["flowers", "birthday-flowers", "flowers-under-60", "same-day-flower-delivery"],
+      "variants": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "description": "Full and Lush",
+          "price": 39.99,
+          "sku": "TEV13-6A",
+          "height": "12 1/4 in H",
+          "width": "10 1/2 in W"
+        },
+        {
+          "id": "deluxe",
+          "label": "Deluxe",
+          "description": "Opulent floral display",
+          "price": 49.99,
+          "sku": "TEV13-6B",
+          "height": "13 3/4 in H",
+          "width": "12 1/2 in W"
+        },
+        {
+          "id": "premium",
+          "label": "Premium",
+          "description": "Luxurious and Majestic",
+          "price": 59.99,
+          "sku": "TEV13-6C",
+          "height": "15 1/2 in H",
+          "width": "14 1/2 in W"
+        }
+      ],
+      "details": {
+        "description": "Yellow daisy spray chrysanthemums, purple Matsumoto asters, red miniature carnations, orange carnations, alstroemeria, and bupleurum are arranged with a cheerful ribbon.",
+        "longDescription": "The bright color story makes this bouquet a flexible birthday, get well, or everyday pick.",
+        "vase": "Miniature ginger vase with a decorative ribbon.",
+        "orientation": "All-Around",
+        "composition": ["Yellow daisy chrysanthemums", "Purple asters", "Red miniature carnations", "Orange carnations", "Alstroemeria"],
+        "careTips": ["Refresh water every day.", "Trim stems before placing in a bright room.", "Remove leaves below the water line."]
+      },
+      "messageNote": "Include a cheerful note for a birthday or everyday surprise.",
+      "giftOptionsNote": "Birthday add-ons can be selected after size.",
+      "trustMessages": ["Budget-friendly bouquet", "Florist hand delivery", "Same-day options may be available"],
+      "relatedProductSlugs": ["birthday-bash-bouquet", "how-sweet-it-is", "telefloras-best-wishes-bouquet"],
+      "filters": {
+        "flower": ["chrysanthemums", "carnations", "alstroemeria"],
+        "color": ["yellow", "purple", "orange", "red"]
+      },
+      "rating": {
+        "value": 4.7,
+        "label": "Great value",
+        "count": 533
+      },
+      "seo": {
+        "title": "Make a Wish | Birthday Bouquet Delivery",
+        "description": "Send Make a Wish, a cheerful birthday bouquet with yellow, purple, orange, and red blooms."
+      },
+      "sourceUrl": "https://www.teleflora.com/bouquet/make-a-wish?prodID=P_TEV13-6A"
+    },
+    {
+      "id": "P_TBC06-1A",
+      "productId": "P_TBC06-1A",
+      "slug": "your-wish-is-granted-birthday-cake-bouquet",
+      "name": "Your Wish Is Granted Birthday Cake Bouquet",
+      "shortDescription": "A playful birthday cake-inspired floral arrangement topped with birthday candles.",
+      "longDescription": "This cake-inspired floral gift combines yellow roses, orange spray roses, red miniature carnations, white cushion mums, blue statice, and ruscus on a designer tray.",
+      "price": 64.99,
+      "currency": "USD",
+      "image": {
+        "src": "https://img.teleflora.com/images/o_0/l_flowers:TBC06-1A,pg_6/w_272,h_340,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/TBC06-1A/YourWishIsGrantedBirthdayCakeBouquet",
+        "alt": "Your Wish Is Granted Birthday Cake Bouquet"
+      },
+      "images": [
+        {
+          "src": "https://img.teleflora.com/images/o_0/l_flowers:TBC06-1A,pg_6/w_900,h_900,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/TBC06-1A/YourWishIsGrantedBirthdayCakeBouquet",
+          "alt": "Front view of Your Wish Is Granted Birthday Cake Bouquet"
+        }
+      ],
+      "badges": ["Birthday", "Unique Design"],
+      "deliveryNote": "Same-day birthday delivery may be available.",
+      "sku": "TBC06-1A",
+      "skuId": "TBC06-1A",
+      "category": {
+        "slug": "birthday-flowers",
+        "title": "Birthday Flowers",
+        "catId": "cat210012"
+      },
+      "subcategory": "Birthday For Kids",
+      "occasion": ["Birthday", "Sweet 16", "For Kids"],
+      "categorySlugs": ["flowers", "birthday-flowers", "birthday-flowers-for-kids", "birthday-flowers-sweet-16"],
+      "variants": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "description": "Full and Lush",
+          "price": 64.99,
+          "sku": "TBC06-1A",
+          "height": "8 1/2 in H",
+          "width": "9 in W"
+        },
+        {
+          "id": "deluxe",
+          "label": "Deluxe",
+          "description": "Opulent floral display",
+          "price": 74.99,
+          "sku": "TBC06-1B",
+          "height": "8 1/2 in H",
+          "width": "9 1/2 in W"
+        },
+        {
+          "id": "premium",
+          "label": "Premium",
+          "description": "Luxurious and Majestic",
+          "price": 84.99,
+          "sku": "TBC06-1C",
+          "height": "9 in H",
+          "width": "10 in W"
+        }
+      ],
+      "details": {
+        "description": "A colorful birthday cake look made from yellow roses, orange spray roses, red miniature carnations, white cushion spray chrysanthemums, blue statice, and Israeli ruscus.",
+        "longDescription": "This floral cake is decorative and not intended for consumption.",
+        "vase": "Designed on a birthday tray.",
+        "orientation": "All-Around",
+        "composition": ["Yellow roses", "Orange spray roses", "Red miniature carnations", "White cushion mums", "Blue statice"],
+        "careTips": ["Keep the floral foam moist.", "Do not eat the decorative design.", "Display away from heat."]
+      },
+      "messageNote": "Add a fun birthday note during checkout setup.",
+      "giftOptionsNote": "Pair with balloons or chocolates for an expanded birthday gift.",
+      "trustMessages": ["Birthday-ready design", "Local florist hand delivery", "Same-day options may be available"],
+      "relatedProductSlugs": ["birthday-bash-bouquet", "make-a-wish", "telefloras-birthday-sparkle-bouquet"],
+      "filters": {
+        "flower": ["roses", "carnations", "chrysanthemums"],
+        "color": ["yellow", "orange", "red", "blue"]
+      },
+      "rating": {
+        "value": 4.8,
+        "label": "Celebration pick",
+        "count": 205
+      },
+      "seo": {
+        "title": "Your Wish Is Granted Birthday Cake Bouquet | Teleflora",
+        "description": "Send a cake-inspired birthday flower arrangement with local florist delivery."
+      },
+      "sourceUrl": "https://www.teleflora.com/flower-arrangement/your-wish-is-granted-birthday-cake-bouquet?prodID=P_TBC06-1A"
+    },
+    {
+      "id": "P_T20S100A",
+      "productId": "P_T20S100A",
+      "slug": "telefloras-marvelous-mosaic-bouquet",
+      "name": "Teleflora's Marvelous Mosaic Bouquet",
+      "shortDescription": "Jewel-toned blooms and a succulent in a stained-glass-inspired mosaic cylinder.",
+      "longDescription": "A stylish all-around bouquet with purple alstroemeria, green carnations, peach miniature carnations, purple mums, statice, eucalyptus, dusty miller, and a green echeveria succulent.",
+      "price": 54.99,
+      "currency": "USD",
+      "image": {
+        "src": "https://img.teleflora.com/images/o_0/l_flowers:T20S100A,pg_6/w_272,h_340,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/T20S100A/Teleflora'sMarvelousMosaicBouquet",
+        "alt": "Teleflora's Marvelous Mosaic Bouquet"
+      },
+      "images": [
+        {
+          "src": "https://img.teleflora.com/images/o_0/l_flowers:T20S100A,pg_6/w_900,h_900,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/T20S100A/Teleflora'sMarvelousMosaicBouquet",
+          "alt": "Front view of Teleflora's Marvelous Mosaic Bouquet"
+        }
+      ],
+      "badges": ["Bestseller", "Keepsake"],
+      "deliveryNote": "Same-day delivery may be available.",
+      "sku": "T20S100A",
+      "skuId": "T20S100A",
+      "category": {
+        "slug": "birthday-flowers",
+        "title": "Birthday Flowers",
+        "catId": "cat210012"
+      },
+      "subcategory": "Birthday Bestsellers",
+      "occasion": ["Birthday", "Thank You", "Congratulations"],
+      "categorySlugs": ["flowers", "birthday-flowers", "congratulations-flowers", "flower-bestsellers", "same-day-flower-delivery"],
+      "variants": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "description": "Full and Lush",
+          "price": 54.99,
+          "sku": "T20S100A",
+          "height": "12 1/2 in H",
+          "width": "13 3/4 in W"
+        },
+        {
+          "id": "deluxe",
+          "label": "Deluxe",
+          "description": "Opulent floral display",
+          "price": 64.99,
+          "sku": "T20S100B",
+          "height": "12 3/4 in H",
+          "width": "14 in W"
+        },
+        {
+          "id": "premium",
+          "label": "Premium",
+          "description": "Luxurious and Majestic",
+          "price": 74.99,
+          "sku": "T20S100C",
+          "height": "13 1/2 in H",
+          "width": "14 1/2 in W"
+        }
+      ],
+      "details": {
+        "description": "Purple alstroemeria, green carnations, peach miniature carnations, purple cushion mums, statice, silver dollar eucalyptus, dusty miller, and echeveria are delivered in a Marvelous Mosaic cylinder.",
+        "longDescription": "The mosaic cylinder is inspired by stained glass and can be displayed long after the bouquet is enjoyed.",
+        "vase": "Stained-glass-inspired mosaic cylinder vase.",
+        "orientation": "All-Around",
+        "composition": ["Purple alstroemeria", "Green carnations", "Peach carnations", "Purple mums", "Echeveria succulent"],
+        "careTips": ["Refresh water daily.", "Keep the succulent above standing water.", "Trim flowers as needed."]
+      },
+      "messageNote": "Use the card message for birthdays, thanks, or congratulations.",
+      "giftOptionsNote": "Optional add-ons are available after selecting a size.",
+      "trustMessages": ["Keepsake vase", "Local florist arranged", "Same-day options may be available"],
+      "relatedProductSlugs": ["telefloras-best-wishes-bouquet", "telefloras-sapphire-skies-bouquet", "telefloras-desert-sunrise-bouquet"],
+      "filters": {
+        "flower": ["alstroemeria", "carnations", "chrysanthemums", "succulents"],
+        "color": ["purple", "green", "orange"]
+      },
+      "rating": {
+        "value": 4.8,
+        "label": "Keepsake favorite",
+        "count": 296
+      },
+      "seo": {
+        "title": "Teleflora's Marvelous Mosaic Bouquet | Flower Delivery",
+        "description": "Send a jewel-toned bouquet with a mosaic keepsake vase and local florist delivery."
+      },
+      "sourceUrl": "https://www.teleflora.com/bouquet/telefloras-marvelous-mosaic-bouquet?prodID=P_T20S100A"
+    },
+    {
+      "id": "P_T46-1A",
+      "productId": "P_T46-1A",
+      "slug": "how-sweet-it-is",
+      "name": "How Sweet It Is",
+      "shortDescription": "Warm pink and orange flowers with fresh green accents in a clear glass vase.",
+      "longDescription": "A sweet all-occasion bouquet with orange roses, hot pink Matsumoto asters, hot pink carnations, and bright greenery in a clear vase.",
+      "price": 39.99,
+      "currency": "USD",
+      "image": {
+        "src": "https://img.teleflora.com/images/o_0/l_flowers:T46-1A,pg_6/w_272,h_340,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/T46-1A/HowSweetItIs",
+        "alt": "How Sweet It Is Bouquet"
+      },
+      "images": [
+        {
+          "src": "https://img.teleflora.com/images/o_0/l_flowers:T46-1A,pg_6/w_900,h_900,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/T46-1A/HowSweetItIs",
+          "alt": "Front view of How Sweet It Is"
+        }
+      ],
+      "badges": ["Great Value"],
+      "deliveryNote": "Same-day delivery may be available.",
+      "sku": "T46-1A",
+      "skuId": "T46-1A",
+      "category": {
+        "slug": "birthday-flowers",
+        "title": "Birthday Flowers",
+        "catId": "cat210012"
+      },
+      "subcategory": "Birthday Bestsellers",
+      "occasion": ["Birthday", "Mother's Day", "Just Because"],
+      "categorySlugs": ["flowers", "birthday-flowers", "mothers-day-flowers", "flowers-under-60", "same-day-flower-delivery"],
+      "variants": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "description": "Full and Lush",
+          "price": 39.99,
+          "sku": "T46-1A",
+          "height": "11 in H",
+          "width": "10 1/2 in W"
+        },
+        {
+          "id": "deluxe",
+          "label": "Deluxe",
+          "description": "Opulent floral display",
+          "price": 49.99,
+          "sku": "T46-1B",
+          "height": "12 in H",
+          "width": "12 in W"
+        },
+        {
+          "id": "premium",
+          "label": "Premium",
+          "description": "Luxurious and Majestic",
+          "price": 59.99,
+          "sku": "T46-1C",
+          "height": "14 3/4 in H",
+          "width": "14 in W"
+        }
+      ],
+      "details": {
+        "description": "Orange roses, hot pink Matsumoto asters, hot pink carnations, and fresh greenery create a warm and sweet bouquet for birthdays, Mother's Day, or everyday sends.",
+        "longDescription": "The clear glass vase keeps the design flexible for many occasions.",
+        "vase": "Clear glass vase.",
+        "orientation": "All-Around",
+        "composition": ["Orange roses", "Hot pink asters", "Hot pink carnations", "Fresh greenery"],
+        "careTips": ["Refresh water daily.", "Trim stems every two days.", "Keep away from heat."]
+      },
+      "messageNote": "Add a sweet birthday or just-because note.",
+      "giftOptionsNote": "Optional balloons, chocolates, and plush gifts can be added.",
+      "trustMessages": ["Great value", "Hand-arranged by a local florist", "Same-day options may be available"],
+      "relatedProductSlugs": ["make-a-wish", "telefloras-watercolor-garden-bouquet", "birthday-bash-bouquet"],
+      "filters": {
+        "flower": ["roses", "carnations"],
+        "color": ["pink", "orange", "green"]
+      },
+      "rating": {
+        "value": 4.7,
+        "label": "Classic favorite",
+        "count": 489
+      },
+      "seo": {
+        "title": "How Sweet It Is | Teleflora Bouquet Delivery",
+        "description": "Send How Sweet It Is with warm pink and orange flowers arranged by a local florist."
+      },
+      "sourceUrl": "https://www.teleflora.com/flowers/bouquet/how-sweet-it-is-372559p.asp"
+    },
+    {
+      "id": "P_TEV55-6A",
+      "productId": "P_TEV55-6A",
+      "slug": "telefloras-desert-sunrise-bouquet",
+      "name": "Teleflora's Desert Sunrise Bouquet",
+      "shortDescription": "A modern peach, white, and green bouquet with a succulent in a natural bamboo cube.",
+      "longDescription": "Desert Sunrise pairs peach roses, white lilies, peach miniature carnations, white stock, dusty miller, pitta negra, and a green echeveria succulent in a natural bamboo cube.",
+      "price": 59.99,
+      "currency": "USD",
+      "image": {
+        "src": "https://img.teleflora.com/images/o_0/l_flowers:TEV55-6A,pg_6/w_272,h_340,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/TEV55-6A/Teleflora'sDesertSunriseBouquet",
+        "alt": "Teleflora's Desert Sunrise Bouquet"
+      },
+      "images": [
+        {
+          "src": "https://img.teleflora.com/images/o_0/l_flowers:TEV55-6A,pg_6/w_900,h_900,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/TEV55-6A/Teleflora'sDesertSunriseBouquet",
+          "alt": "Front view of Teleflora's Desert Sunrise Bouquet"
+        }
+      ],
+      "badges": ["Bestseller", "Modern"],
+      "deliveryNote": "Same-day delivery may be available in the recipient's area.",
+      "sku": "TEV55-6A",
+      "skuId": "TEV55-6A",
+      "category": {
+        "slug": "flowers",
+        "title": "Flowers",
+        "catId": "cat1780001"
+      },
+      "subcategory": "Bestsellers",
+      "occasion": ["Birthday", "Congratulations", "Just Because"],
+      "categorySlugs": ["flowers", "birthday-flowers", "congratulations-flowers", "flower-bestsellers", "same-day-flower-delivery"],
+      "variants": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "description": "Full and Lush",
+          "price": 59.99,
+          "sku": "TEV55-6A",
+          "height": "13 1/4 in H",
+          "width": "14 3/4 in W"
+        },
+        {
+          "id": "deluxe",
+          "label": "Deluxe",
+          "description": "Opulent floral display",
+          "price": 69.99,
+          "sku": "TEV55-6B",
+          "height": "13 1/4 in H",
+          "width": "15 1/4 in W"
+        },
+        {
+          "id": "premium",
+          "label": "Premium",
+          "description": "Luxurious and Majestic",
+          "price": 79.99,
+          "sku": "TEV55-6C",
+          "height": "14 in H",
+          "width": "15 1/4 in W"
+        }
+      ],
+      "details": {
+        "description": "Peach roses, white asiatic lilies, peach miniature carnations, white stock, dusty miller, pitta negra, and echeveria create a one-sided modern arrangement.",
+        "longDescription": "The real bamboo cube can later be used as a stylish cachepot for small green plants.",
+        "vase": "Small natural bamboo cube.",
+        "orientation": "One-Sided",
+        "composition": ["Peach roses", "White lilies", "Peach carnations", "White stock", "Echeveria succulent"],
+        "careTips": ["Refresh water daily.", "Protect the bamboo cube from standing overflow.", "Keep away from direct heat."]
+      },
+      "messageNote": "Add a modern birthday, congratulations, or just-because message.",
+      "giftOptionsNote": "Optional gifts are available after size selection.",
+      "trustMessages": ["Modern keepsake cube", "Local florist delivery", "Same-day options may be available"],
+      "relatedProductSlugs": ["telefloras-marvelous-mosaic-bouquet", "telefloras-sapphire-skies-bouquet", "telefloras-best-wishes-bouquet"],
+      "filters": {
+        "flower": ["roses", "lilies", "carnations", "succulents"],
+        "color": ["orange", "white", "green"]
+      },
+      "rating": {
+        "value": 4.8,
+        "label": "Modern favorite",
+        "count": 318
+      },
+      "seo": {
+        "title": "Teleflora's Desert Sunrise Bouquet | Flower Delivery",
+        "description": "Send a modern peach and white bouquet with a succulent in a natural bamboo cube."
+      },
+      "sourceUrl": "https://www.teleflora.com/bouquet/telefloras-desert-sunrise-bouquet?prodID=P_TEV55-6A"
+    },
+    {
+      "id": "P_TEV25-3A",
+      "productId": "P_TEV25-3A",
+      "slug": "telefloras-sapphire-skies-bouquet",
+      "name": "Teleflora's Sapphire Skies Bouquet",
+      "shortDescription": "Cream roses and white lilies with purple statice in a dazzling sapphire cube.",
+      "longDescription": "A serene blue-and-white floral gift with creme roses, white asiatic lilies, white miniature carnations, purple statice, and green pitta negra arranged in Teleflora's glass cube.",
+      "price": 49.99,
+      "currency": "USD",
+      "image": {
+        "src": "https://img.teleflora.com/images/o_0/l_flowers:TEV25-3A,pg_6/w_272,h_340,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/TEV25-3A/Teleflora'sSapphireSkiesBouquet",
+        "alt": "Teleflora's Sapphire Skies Bouquet"
+      },
+      "images": [
+        {
+          "src": "https://img.teleflora.com/images/o_0/l_flowers:TEV25-3A,pg_6/w_900,h_900,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/TEV25-3A/Teleflora'sSapphireSkiesBouquet",
+          "alt": "Front view of Teleflora's Sapphire Skies Bouquet"
+        }
+      ],
+      "badges": ["Bestseller", "Great Value"],
+      "deliveryNote": "Same-day delivery may be available.",
+      "sku": "TEV25-3A",
+      "skuId": "TEV25-3A",
+      "category": {
+        "slug": "flowers",
+        "title": "Flowers",
+        "catId": "cat1780001"
+      },
+      "subcategory": "Bestsellers",
+      "occasion": ["Sympathy", "Thinking of You", "Congratulations"],
+      "categorySlugs": ["flowers", "congratulations-flowers", "sympathy-flowers", "flower-bestsellers", "same-day-flower-delivery"],
+      "variants": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "description": "Full and Lush",
+          "price": 49.99,
+          "sku": "TEV25-3A",
+          "height": "11 1/2 in H",
+          "width": "12 in W"
+        },
+        {
+          "id": "deluxe",
+          "label": "Deluxe",
+          "description": "Opulent floral display",
+          "price": 59.99,
+          "sku": "TEV25-3B",
+          "height": "12 1/2 in H",
+          "width": "12 1/2 in W"
+        },
+        {
+          "id": "premium",
+          "label": "Premium",
+          "description": "Luxurious and Majestic",
+          "price": 69.99,
+          "sku": "TEV25-3C",
+          "height": "13 1/2 in H",
+          "width": "13 in W"
+        }
+      ],
+      "details": {
+        "description": "Creme roses, white asiatic lilies, white miniature carnations, purple statice, and green pitta negra are arranged in Teleflora's sapphire glass cube.",
+        "longDescription": "The limited-edition cube is part of Teleflora's Flowers-in-a-Gift collection.",
+        "vase": "Sapphire glass cube keepsake.",
+        "orientation": "All-Around",
+        "composition": ["Creme roses", "White asiatic lilies", "White carnations", "Purple statice", "Pitta negra"],
+        "careTips": ["Refresh water daily.", "Trim stems every two days.", "Remove spent lilies as they fade."]
+      },
+      "messageNote": "Add a thoughtful card message for sympathy, congratulations, or thinking-of-you occasions.",
+      "giftOptionsNote": "Optional chocolates, balloons, and plush gifts are available.",
+      "trustMessages": ["Keepsake cube", "Local florist arranged", "Same-day options may be available"],
+      "relatedProductSlugs": ["telefloras-marvelous-mosaic-bouquet", "telefloras-desert-sunrise-bouquet", "telefloras-blue-belle-bouquet"],
+      "filters": {
+        "flower": ["roses", "lilies", "carnations"],
+        "color": ["blue", "white", "purple"]
+      },
+      "rating": {
+        "value": 4.8,
+        "label": "Customer favorite",
+        "count": 377
+      },
+      "seo": {
+        "title": "Teleflora's Sapphire Skies Bouquet | Flower Delivery",
+        "description": "Send cream roses and white lilies in a sapphire cube with local florist delivery."
+      },
+      "sourceUrl": "https://www.teleflora.com/bouquet/telefloras-sapphire-skies-bouquet?prodID=P_TEV25-3A"
+    },
+    {
+      "id": "P_T409-2A",
+      "productId": "P_T409-2A",
+      "slug": "telefloras-crazy-for-you-bouquet-with-red-roses",
+      "aliases": ["red-roses"],
+      "name": "Teleflora's Crazy for You Bouquet with Red Roses",
+      "shortDescription": "Romantic red roses, white alstroemeria, and pink carnations in a silver reflections vase.",
+      "longDescription": "A lush romantic bouquet featuring red roses, red spray roses, white alstroemeria, pink miniature carnations, and assorted greenery in Teleflora's silver reflections vase.",
+      "price": 59.99,
+      "currency": "USD",
+      "image": {
+        "src": "https://img.teleflora.com/images/o_0/l_flowers:T409-2A,pg_6/w_272,h_340,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/T409-2A/Teleflora'sCrazyforYouBouquetwithRedRoses",
+        "alt": "Teleflora's Crazy for You Bouquet with Red Roses"
+      },
+      "images": [
+        {
+          "src": "https://img.teleflora.com/images/o_0/l_flowers:T409-2A,pg_6/w_900,h_900,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/T409-2A/Teleflora'sCrazyforYouBouquetwithRedRoses",
+          "alt": "Front view of Teleflora's Crazy for You Bouquet with Red Roses"
+        }
+      ],
+      "badges": ["Roses", "Love & Romance"],
+      "deliveryNote": "Same-day delivery may be available for romantic occasions.",
+      "sku": "T409-2A",
+      "skuId": "T409-2A",
+      "category": {
+        "slug": "love-romance-flowers",
+        "title": "Love & Romance",
+        "catId": "cat210087"
+      },
+      "subcategory": "Red Roses",
+      "occasion": ["Love & Romance", "Anniversary", "Birthday"],
+      "categorySlugs": ["flowers", "love-romance-flowers", "roses", "red-bouquets", "same-day-flower-delivery"],
+      "variants": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "description": "Full and Lush",
+          "price": 59.99,
+          "sku": "T409-2A",
+          "height": "17 1/2 in H",
+          "width": "13 in W"
+        },
+        {
+          "id": "deluxe",
+          "label": "Deluxe",
+          "description": "Opulent floral display",
+          "price": 69.99,
+          "sku": "T409-2B",
+          "height": "18 in H",
+          "width": "14 1/2 in W"
+        },
+        {
+          "id": "premium",
+          "label": "Premium",
+          "description": "Luxurious and Majestic",
+          "price": 79.99,
+          "sku": "T409-2C",
+          "height": "18 1/2 in H",
+          "width": "15 in W"
+        }
+      ],
+      "details": {
+        "description": "Red roses, red spray roses, white alstroemeria, pink miniature carnations, and assorted greenery are designed in a silver reflections vase.",
+        "longDescription": "This romantic Flowers-in-a-Gift design brings a classic red rose story into a keepsake ceramic vase with a luminous silver finish.",
+        "vase": "Luminous silver reflections ceramic vase.",
+        "orientation": "All-Around",
+        "composition": ["Red roses", "Red spray roses", "White alstroemeria", "Pink miniature carnations", "Assorted greenery"],
+        "careTips": ["Refresh water daily.", "Trim rose stems at an angle.", "Keep away from heat and direct sunlight."]
+      },
+      "messageNote": "Add a romantic or anniversary card message before checkout.",
+      "giftOptionsNote": "Chocolates, plush gifts, and balloons can be added from the PDP.",
+      "trustMessages": ["Hand-arranged by a local florist", "Keepsake vase included", "Same-day options may be available"],
+      "relatedProductSlugs": ["telefloras-best-wishes-bouquet", "telefloras-sapphire-skies-bouquet", "birthday-bash-bouquet"],
+      "filters": {
+        "flower": ["roses", "alstroemeria", "carnations"],
+        "color": ["red", "white", "pink"]
+      },
+      "rating": {
+        "value": 4.8,
+        "label": "Romantic favorite",
+        "count": 354
+      },
+      "seo": {
+        "title": "Teleflora's Crazy for You Bouquet with Red Roses",
+        "description": "Send a romantic red rose bouquet in a silver keepsake vase with local florist delivery."
+      },
+      "sourceUrl": "https://www.teleflora.com/bouquet/telefloras-crazy-for-you-bouquet-with-red-roses?prodID=P_T409-2A"
+    },
+    {
+      "id": "prod220003",
+      "productId": "prod220003",
+      "slug": "deal-of-the-day",
+      "name": "Deal of the Day",
+      "shortDescription": "A one-of-a-kind arrangement designed by a local florist using fresh seasonal flowers.",
+      "longDescription": "Deal of the Day lets the sender choose the budget while the local florist creates a unique seasonal bouquet based on fresh available stems and the recipient occasion.",
+      "price": 49.99,
+      "currency": "USD",
+      "image": {
+        "src": "https://img.teleflora.com/image/upload/f_auto,q_auto/backgrounds/DOTD_160x200_Spring26",
+        "alt": "Deal of the Day flowers"
+      },
+      "images": [
+        {
+          "src": "https://img.teleflora.com/image/upload/f_auto,q_auto,w_900/backgrounds/DOTD_160x200_Spring26",
+          "alt": "Seasonal Deal of the Day flowers"
+        }
+      ],
+      "badges": ["Deal", "Florist Designed"],
+      "deliveryNote": "Same-day delivery may be available for florist-designed seasonal arrangements.",
+      "sku": "sku220006",
+      "skuId": "sku220006",
+      "category": {
+        "slug": "flowers",
+        "title": "Flowers",
+        "catId": "cat1780001"
+      },
+      "subcategory": "Deal of the Day",
+      "occasion": ["Birthday", "Thank You", "Just Because", "Mother's Day"],
+      "categorySlugs": ["flowers", "mothers-day-flowers", "birthday-flowers", "flower-bestsellers", "same-day-flower-delivery"],
+      "variants": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "description": "Florist-designed seasonal bouquet",
+          "price": 49.99,
+          "sku": "sku220006",
+          "height": "Florist selected",
+          "width": "Florist selected"
+        },
+        {
+          "id": "deluxe",
+          "label": "Deluxe",
+          "description": "Larger florist-designed bouquet",
+          "price": 59.99,
+          "sku": "sku220007",
+          "height": "Florist selected",
+          "width": "Florist selected"
+        },
+        {
+          "id": "premium",
+          "label": "Premium",
+          "description": "Most generous florist-designed bouquet",
+          "price": 69.99,
+          "sku": "sku220008",
+          "height": "Florist selected",
+          "width": "Florist selected"
+        }
+      ],
+      "details": {
+        "description": "A local florist creates a unique bouquet using seasonal stems and their own design style. Flowers, colors, and containers vary by shop and availability.",
+        "longDescription": "This flexible Teleflora merchandising product is best for shoppers who want a local florist-designed surprise at a chosen budget.",
+        "vase": "Florist-selected container.",
+        "orientation": "Florist designed",
+        "composition": ["Seasonal flowers", "Florist-selected greenery", "Florist-selected container"],
+        "careTips": ["Refresh water daily.", "Follow any florist-provided care card.", "Display away from direct heat."],
+        "substitutionPolicy": "Flowers and designs vary because local florists use the freshest seasonal stems available."
+      },
+      "messageNote": "Use the card message to share the occasion and sentiment.",
+      "giftOptionsNote": "Optional add-ons can be selected after choosing the budget.",
+      "trustMessages": ["Designed by a local florist", "Seasonal fresh flowers", "Budget-friendly gift option"],
+      "relatedProductSlugs": ["how-sweet-it-is", "make-a-wish", "telefloras-watercolor-garden-bouquet"],
+      "filters": {
+        "flower": ["roses", "daisies", "carnations"],
+        "color": ["pink", "yellow", "purple", "orange"]
+      },
+      "rating": {
+        "value": 4.7,
+        "label": "Flexible gift",
+        "count": 612
+      },
+      "seo": {
+        "title": "Deal of the Day Flowers | Teleflora",
+        "description": "Choose a bouquet budget and let a local florist create a seasonal Deal of the Day arrangement."
+      },
+      "sourceUrl": "https://www.teleflora.com/deal-of-the-day/?prodID=prod220003"
+    },
+    {
+      "id": "P_T26M210A",
+      "productId": "P_T26M210A",
+      "slug": "telefloras-garden-whimsy-bouquet",
+      "name": "Teleflora's Garden Whimsy Bouquet",
+      "shortDescription": "A playful garden-style Mother's Day bouquet with soft spring color.",
+      "longDescription": "Garden Whimsy is a Teleflora-style spring arrangement with layered pink, lavender, peach, and green blooms designed for Mother's Day and celebratory gifting.",
+      "price": 69.99,
+      "currency": "USD",
+      "image": {
+        "src": "https://img.teleflora.com/images/o_0/l_flowers:T26M210A,pg_1/w_360,h_360,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T26M210A/TeleflorasGardenWhimsyBouquet",
+        "alt": "Teleflora's Garden Whimsy Bouquet"
+      },
+      "images": [
+        {
+          "src": "https://img.teleflora.com/images/o_0/l_flowers:T26M210A,pg_1/w_900,h_900,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T26M210A/TeleflorasGardenWhimsyBouquet",
+          "alt": "Front view of Teleflora's Garden Whimsy Bouquet"
+        }
+      ],
+      "badges": ["Mother's Day", "Trending"],
+      "deliveryNote": "Same-day delivery may be available.",
+      "sku": "T26M210A",
+      "skuId": "T26M210A",
+      "category": {
+        "slug": "mothers-day-flowers",
+        "title": "Mother's Day Flowers",
+        "catId": "cat210089"
+      },
+      "subcategory": "Mother's Day Bestsellers",
+      "occasion": ["Mother's Day", "Spring", "Congratulations"],
+      "categorySlugs": ["flowers", "mothers-day-flowers", "congratulations-flowers", "same-day-flower-delivery"],
+      "variants": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "description": "Full and Lush",
+          "price": 69.99,
+          "sku": "T26M210A",
+          "height": "Approx. 16 in H",
+          "width": "Approx. 15 in W"
+        },
+        {
+          "id": "deluxe",
+          "label": "Deluxe",
+          "description": "Opulent floral display",
+          "price": 79.99,
+          "sku": "T26M210B",
+          "height": "Approx. 17 in H",
+          "width": "Approx. 16 in W"
+        },
+        {
+          "id": "premium",
+          "label": "Premium",
+          "description": "Luxurious and Majestic",
+          "price": 89.99,
+          "sku": "T26M210C",
+          "height": "Approx. 18 in H",
+          "width": "Approx. 17 in W"
+        }
+      ],
+      "details": {
+        "description": "A garden-inspired mix of soft spring blooms, fresh greenery, and a keepsake presentation chosen for Mother's Day merchandising.",
+        "vase": "Coordinated keepsake vase selected for the arrangement.",
+        "orientation": "All-Around",
+        "composition": ["Spring roses", "Seasonal accent flowers", "Fresh greenery"],
+        "careTips": ["Refresh water daily.", "Trim stems after two days.", "Keep away from direct heat."]
+      },
+      "messageNote": "Add a Mother's Day or congratulatory card message.",
+      "giftOptionsNote": "Optional gifts are available on the PDP.",
+      "trustMessages": ["Local florist arranged", "Same-day options may be available", "Fresh spring style"],
+      "relatedProductSlugs": ["telefloras-pretty-daydream-bouquet", "telefloras-watercolor-garden-bouquet", "telefloras-pink-rhapsody-bouquet"],
+      "filters": {
+        "flower": ["roses", "alstroemeria"],
+        "color": ["pink", "purple", "green"]
+      },
+      "rating": {
+        "value": 4.7,
+        "label": "Trending",
+        "count": 141
+      },
+      "seo": {
+        "title": "Teleflora's Garden Whimsy Bouquet",
+        "description": "Send a garden-inspired spring bouquet with local florist delivery."
+      },
+      "sourceUrl": "https://www.teleflora.com/mothers-day-flowers?catID=cat210089"
+    },
+    {
+      "id": "P_T25F110A",
+      "productId": "P_T25F110A",
+      "slug": "telefloras-contemporary-blossoms-bouquet",
+      "name": "Teleflora's Contemporary Blossoms Bouquet",
+      "shortDescription": "A modern bouquet with fresh, bright blossoms for stylish spring gifting.",
+      "longDescription": "A contemporary Teleflora-style arrangement for Mother's Day, congratulations, and just-because gifting, with fresh color and a polished keepsake presentation.",
+      "price": 59.99,
+      "currency": "USD",
+      "image": {
+        "src": "https://img.teleflora.com/images/o_0/l_flowers:T25F110A,pg_1/w_360,h_360,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T25F110A/TeleflorasContemporaryBlossomsBouquet",
+        "alt": "Teleflora's Contemporary Blossoms Bouquet"
+      },
+      "images": [
+        {
+          "src": "https://img.teleflora.com/images/o_0/l_flowers:T25F110A,pg_1/w_900,h_900,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T25F110A/TeleflorasContemporaryBlossomsBouquet",
+          "alt": "Front view of Teleflora's Contemporary Blossoms Bouquet"
+        }
+      ],
+      "badges": ["Modern"],
+      "deliveryNote": "Same-day delivery may be available.",
+      "sku": "T25F110A",
+      "skuId": "T25F110A",
+      "category": {
+        "slug": "flowers",
+        "title": "Flowers",
+        "catId": "cat1780001"
+      },
+      "subcategory": "New Arrivals",
+      "occasion": ["Mother's Day", "Congratulations", "Just Because"],
+      "categorySlugs": ["flowers", "mothers-day-flowers", "congratulations-flowers", "new-arrivals"],
+      "variants": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "description": "Full and Lush",
+          "price": 59.99,
+          "sku": "T25F110A",
+          "height": "Approx. 15 in H",
+          "width": "Approx. 14 in W"
+        },
+        {
+          "id": "deluxe",
+          "label": "Deluxe",
+          "description": "Opulent floral display",
+          "price": 69.99,
+          "sku": "T25F110B",
+          "height": "Approx. 16 in H",
+          "width": "Approx. 15 in W"
+        },
+        {
+          "id": "premium",
+          "label": "Premium",
+          "description": "Luxurious and Majestic",
+          "price": 79.99,
+          "sku": "T25F110C",
+          "height": "Approx. 17 in H",
+          "width": "Approx. 16 in W"
+        }
+      ],
+      "details": {
+        "description": "A modern bouquet of bright seasonal blossoms arranged by a local florist in a coordinated vessel.",
+        "vase": "Modern coordinated vase.",
+        "orientation": "All-Around",
+        "composition": ["Seasonal blossoms", "Fresh greenery", "Textural accents"],
+        "careTips": ["Refresh water daily.", "Trim stems every two days.", "Display away from direct heat."]
+      },
+      "messageNote": "Add a personal note during delivery setup.",
+      "giftOptionsNote": "Optional gifts can be added on the PDP.",
+      "trustMessages": ["Modern floral style", "Local florist arranged", "Same-day options may be available"],
+      "relatedProductSlugs": ["telefloras-garden-whimsy-bouquet", "telefloras-lush-garden-bouquet", "telefloras-mod-magnifique-bouquet"],
+      "filters": {
+        "flower": ["roses", "daisies"],
+        "color": ["pink", "green", "yellow"]
+      },
+      "rating": {
+        "value": 4.6,
+        "label": "Modern pick",
+        "count": 89
+      },
+      "seo": {
+        "title": "Teleflora's Contemporary Blossoms Bouquet",
+        "description": "Send a modern spring bouquet arranged by a local florist."
+      },
+      "sourceUrl": "https://www.teleflora.com/"
+    },
+    {
+      "id": "P_T24S100A",
+      "productId": "P_T24S100A",
+      "slug": "telefloras-lush-garden-bouquet",
+      "name": "Teleflora's Lush Garden Bouquet",
+      "shortDescription": "A lush garden-style bouquet with layered fresh blooms and greenery.",
+      "longDescription": "A garden-inspired Teleflora arrangement with full spring color, textural greenery, and keepsake-style presentation for Mother's Day or everyday gifting.",
+      "price": 64.99,
+      "currency": "USD",
+      "image": {
+        "src": "https://img.teleflora.com/images/o_0/l_flowers:T24S100A,pg_1/w_360,h_360,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T24S100A/TeleflorasLushGardenBouquet",
+        "alt": "Teleflora's Lush Garden Bouquet"
+      },
+      "images": [
+        {
+          "src": "https://img.teleflora.com/images/o_0/l_flowers:T24S100A,pg_1/w_900,h_900,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T24S100A/TeleflorasLushGardenBouquet",
+          "alt": "Front view of Teleflora's Lush Garden Bouquet"
+        }
+      ],
+      "badges": ["Garden Style"],
+      "deliveryNote": "Same-day delivery may be available.",
+      "sku": "T24S100A",
+      "skuId": "T24S100A",
+      "category": {
+        "slug": "flowers",
+        "title": "Flowers",
+        "catId": "cat1780001"
+      },
+      "subcategory": "Spring Flowers",
+      "occasion": ["Mother's Day", "Spring", "Congratulations"],
+      "categorySlugs": ["flowers", "mothers-day-flowers", "spring-flowers", "congratulations-flowers"],
+      "variants": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "description": "Full and Lush",
+          "price": 64.99,
+          "sku": "T24S100A",
+          "height": "Approx. 16 in H",
+          "width": "Approx. 15 in W"
+        },
+        {
+          "id": "deluxe",
+          "label": "Deluxe",
+          "description": "Opulent floral display",
+          "price": 74.99,
+          "sku": "T24S100B",
+          "height": "Approx. 17 in H",
+          "width": "Approx. 16 in W"
+        },
+        {
+          "id": "premium",
+          "label": "Premium",
+          "description": "Luxurious and Majestic",
+          "price": 84.99,
+          "sku": "T24S100C",
+          "height": "Approx. 18 in H",
+          "width": "Approx. 17 in W"
+        }
+      ],
+      "details": {
+        "description": "A full garden-style mix of seasonal blooms and greenery arranged in a coordinated container.",
+        "vase": "Coordinated garden container.",
+        "orientation": "All-Around",
+        "composition": ["Seasonal roses", "Spring accent flowers", "Fresh greenery"],
+        "careTips": ["Refresh water daily.", "Trim stems regularly.", "Keep in a cool indoor spot."]
+      },
+      "messageNote": "Add a card message for the occasion.",
+      "giftOptionsNote": "Optional add-ons are available.",
+      "trustMessages": ["Garden-style arrangement", "Local florist delivery", "Fresh seasonal look"],
+      "relatedProductSlugs": ["telefloras-garden-whimsy-bouquet", "telefloras-contemporary-blossoms-bouquet", "telefloras-desert-sunrise-bouquet"],
+      "filters": {
+        "flower": ["roses", "alstroemeria"],
+        "color": ["green", "pink", "orange"]
+      },
+      "rating": {
+        "value": 4.6,
+        "label": "Garden style",
+        "count": 104
+      },
+      "seo": {
+        "title": "Teleflora's Lush Garden Bouquet",
+        "description": "Send a lush garden-style bouquet with local florist delivery."
+      },
+      "sourceUrl": "https://www.teleflora.com/"
+    },
+    {
+      "id": "P_TEV69-9A",
+      "productId": "P_TEV69-9A",
+      "slug": "telefloras-mod-magnifique-bouquet",
+      "name": "Teleflora's Mod Magnifique Bouquet",
+      "shortDescription": "A modern floral design with bright color and polished Teleflora styling.",
+      "longDescription": "A mod-inspired bouquet for shoppers who want a fresh, graphic color story for celebrations, congratulations, or stylish Mother's Day gifting.",
+      "price": 54.99,
+      "currency": "USD",
+      "image": {
+        "src": "https://img.teleflora.com/images/o_0/l_flowers:TEV69-9A,pg_1/w_360,h_360,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/TEV69-9A/TeleflorasModMagnifiqueBouquet",
+        "alt": "Teleflora's Mod Magnifique Bouquet"
+      },
+      "images": [
+        {
+          "src": "https://img.teleflora.com/images/o_0/l_flowers:TEV69-9A,pg_1/w_900,h_900,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/TEV69-9A/TeleflorasModMagnifiqueBouquet",
+          "alt": "Front view of Teleflora's Mod Magnifique Bouquet"
+        }
+      ],
+      "badges": ["Modern", "Great Value"],
+      "deliveryNote": "Same-day delivery may be available.",
+      "sku": "TEV69-9A",
+      "skuId": "TEV69-9A",
+      "category": {
+        "slug": "flowers",
+        "title": "Flowers",
+        "catId": "cat1780001"
+      },
+      "subcategory": "Modern Flowers",
+      "occasion": ["Congratulations", "Birthday", "Just Because"],
+      "categorySlugs": ["flowers", "congratulations-flowers", "birthday-flowers", "flowers-under-60"],
+      "variants": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "description": "Full and Lush",
+          "price": 54.99,
+          "sku": "TEV69-9A",
+          "height": "Approx. 15 in H",
+          "width": "Approx. 14 in W"
+        },
+        {
+          "id": "deluxe",
+          "label": "Deluxe",
+          "description": "Opulent floral display",
+          "price": 64.99,
+          "sku": "TEV69-9B",
+          "height": "Approx. 16 in H",
+          "width": "Approx. 15 in W"
+        },
+        {
+          "id": "premium",
+          "label": "Premium",
+          "description": "Luxurious and Majestic",
+          "price": 74.99,
+          "sku": "TEV69-9C",
+          "height": "Approx. 17 in H",
+          "width": "Approx. 16 in W"
+        }
+      ],
+      "details": {
+        "description": "A contemporary mix of seasonal flowers and bright accent color in a coordinated florist-selected vase.",
+        "vase": "Modern coordinated vase.",
+        "orientation": "All-Around",
+        "composition": ["Seasonal flowers", "Bright accent blooms", "Fresh greenery"],
+        "careTips": ["Refresh water daily.", "Trim stems every two days.", "Keep away from direct heat."]
+      },
+      "messageNote": "Add a message for the celebration.",
+      "giftOptionsNote": "Optional gifts are available.",
+      "trustMessages": ["Modern style", "Local florist arranged", "Same-day options may be available"],
+      "relatedProductSlugs": ["telefloras-contemporary-blossoms-bouquet", "telefloras-sapphire-skies-bouquet", "birthday-bash-bouquet"],
+      "filters": {
+        "flower": ["roses", "daisies"],
+        "color": ["purple", "pink", "yellow"]
+      },
+      "rating": {
+        "value": 4.6,
+        "label": "Modern pick",
+        "count": 112
+      },
+      "seo": {
+        "title": "Teleflora's Mod Magnifique Bouquet",
+        "description": "Send a modern bouquet with local florist delivery."
+      },
+      "sourceUrl": "https://www.teleflora.com/"
+    },
+    {
+      "id": "P_TEV75-5A",
+      "productId": "P_TEV75-5A",
+      "slug": "telefloras-citrus-sunset-bouquet",
+      "name": "Teleflora's Citrus Sunset Bouquet",
+      "shortDescription": "Citrus-toned flowers arranged for warm, cheerful gifting.",
+      "longDescription": "A bright Teleflora-style bouquet with sunset-inspired color for Mother's Day, birthday, congratulations, and everyday messages.",
+      "price": 49.99,
+      "currency": "USD",
+      "image": {
+        "src": "https://img.teleflora.com/images/o_0/l_flowers:TEV75-5A,pg_1/w_360,h_360,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/TEV75-5A/TeleflorasCitrusSunsetBouquet",
+        "alt": "Teleflora's Citrus Sunset Bouquet"
+      },
+      "images": [
+        {
+          "src": "https://img.teleflora.com/images/o_0/l_flowers:TEV75-5A,pg_1/w_900,h_900,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/TEV75-5A/TeleflorasCitrusSunsetBouquet",
+          "alt": "Front view of Teleflora's Citrus Sunset Bouquet"
+        }
+      ],
+      "badges": ["Great Value"],
+      "deliveryNote": "Same-day delivery may be available.",
+      "sku": "TEV75-5A",
+      "skuId": "TEV75-5A",
+      "category": {
+        "slug": "flowers",
+        "title": "Flowers",
+        "catId": "cat1780001"
+      },
+      "subcategory": "Flowers Under $60",
+      "occasion": ["Mother's Day", "Birthday", "Congratulations"],
+      "categorySlugs": ["flowers", "mothers-day-flowers", "birthday-flowers", "flowers-under-60"],
+      "variants": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "description": "Full and Lush",
+          "price": 49.99,
+          "sku": "TEV75-5A",
+          "height": "Approx. 14 in H",
+          "width": "Approx. 13 in W"
+        },
+        {
+          "id": "deluxe",
+          "label": "Deluxe",
+          "description": "Opulent floral display",
+          "price": 59.99,
+          "sku": "TEV75-5B",
+          "height": "Approx. 15 in H",
+          "width": "Approx. 14 in W"
+        },
+        {
+          "id": "premium",
+          "label": "Premium",
+          "description": "Luxurious and Majestic",
+          "price": 69.99,
+          "sku": "TEV75-5C",
+          "height": "Approx. 16 in H",
+          "width": "Approx. 15 in W"
+        }
+      ],
+      "details": {
+        "description": "A warm citrus-toned arrangement of seasonal blooms with fresh greenery in a coordinated florist-selected vase.",
+        "vase": "Coordinated florist-selected vase.",
+        "orientation": "All-Around",
+        "composition": ["Orange blooms", "Yellow accent flowers", "Fresh greenery"],
+        "careTips": ["Refresh water daily.", "Trim stems regularly.", "Keep away from direct heat."]
+      },
+      "messageNote": "Add a message for birthdays, Mother's Day, or everyday cheer.",
+      "giftOptionsNote": "Optional add-ons are available.",
+      "trustMessages": ["Bright seasonal color", "Local florist arranged", "Same-day options may be available"],
+      "relatedProductSlugs": ["how-sweet-it-is", "telefloras-desert-sunrise-bouquet", "telefloras-watercolor-garden-bouquet"],
+      "filters": {
+        "flower": ["roses", "carnations"],
+        "color": ["orange", "yellow", "pink"]
+      },
+      "rating": {
+        "value": 4.6,
+        "label": "Bright value",
+        "count": 127
+      },
+      "seo": {
+        "title": "Teleflora's Citrus Sunset Bouquet",
+        "description": "Send a warm citrus-toned bouquet with local florist delivery."
+      },
+      "sourceUrl": "https://www.teleflora.com/"
+    },
+    {
+      "id": "P_T55-2A",
+      "productId": "P_T55-2A",
+      "slug": "arrive-in-style",
+      "name": "Arrive In Style",
+      "shortDescription": "A stylish, soft-toned bouquet for Mother's Day and everyday gifting.",
+      "longDescription": "A classic Teleflora bouquet with pink, white, and green color for elegant everyday sends, Mother's Day, and celebration moments.",
+      "price": 44.99,
+      "currency": "USD",
+      "image": {
+        "src": "https://img.teleflora.com/images/o_0/l_flowers:T55-2A,pg_1/w_360,h_360,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T55-2A/ArriveInStyleBouquet",
+        "alt": "Arrive In Style Bouquet"
+      },
+      "images": [
+        {
+          "src": "https://img.teleflora.com/images/o_0/l_flowers:T55-2A,pg_1/w_900,h_900,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T55-2A/ArriveInStyleBouquet",
+          "alt": "Front view of Arrive In Style"
+        }
+      ],
+      "badges": ["Great Value"],
+      "deliveryNote": "Same-day delivery may be available.",
+      "sku": "T55-2A",
+      "skuId": "T55-2A",
+      "category": {
+        "slug": "flowers",
+        "title": "Flowers",
+        "catId": "cat1780001"
+      },
+      "subcategory": "Flowers Under $60",
+      "occasion": ["Mother's Day", "Birthday", "Just Because"],
+      "categorySlugs": ["flowers", "mothers-day-flowers", "flowers-under-60", "same-day-flower-delivery"],
+      "variants": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "description": "Full and Lush",
+          "price": 44.99,
+          "sku": "T55-2A",
+          "height": "Approx. 14 in H",
+          "width": "Approx. 13 in W"
+        },
+        {
+          "id": "deluxe",
+          "label": "Deluxe",
+          "description": "Opulent floral display",
+          "price": 54.99,
+          "sku": "T55-2B",
+          "height": "Approx. 15 in H",
+          "width": "Approx. 14 in W"
+        },
+        {
+          "id": "premium",
+          "label": "Premium",
+          "description": "Luxurious and Majestic",
+          "price": 64.99,
+          "sku": "T55-2C",
+          "height": "Approx. 16 in H",
+          "width": "Approx. 15 in W"
+        }
+      ],
+      "details": {
+        "description": "A soft, stylish bouquet of fresh seasonal blooms arranged in a coordinated vase.",
+        "vase": "Coordinated glass vase.",
+        "orientation": "All-Around",
+        "composition": ["Pink blooms", "White accent flowers", "Fresh greenery"],
+        "careTips": ["Refresh water daily.", "Trim stems after two days.", "Display in a cool room."]
+      },
+      "messageNote": "Add a personal card message before cart.",
+      "giftOptionsNote": "Optional add-ons are available.",
+      "trustMessages": ["Great value", "Local florist arranged", "Same-day options may be available"],
+      "relatedProductSlugs": ["how-sweet-it-is", "telefloras-watercolor-garden-bouquet", "telefloras-blue-belle-bouquet"],
+      "filters": {
+        "flower": ["roses", "carnations"],
+        "color": ["pink", "white", "green"]
+      },
+      "rating": {
+        "value": 4.6,
+        "label": "Elegant value",
+        "count": 261
+      },
+      "seo": {
+        "title": "Arrive In Style | Teleflora Bouquet Delivery",
+        "description": "Send a stylish fresh bouquet with local florist delivery."
+      },
+      "sourceUrl": "https://www.teleflora.com/mothers-day-flowers?catID=cat210089"
+    },
+    {
+      "id": "P_TEV70-6A",
+      "productId": "P_TEV70-6A",
+      "slug": "telefloras-pastel-party-bouquet",
+      "name": "Teleflora's Pastel Party Bouquet",
+      "shortDescription": "Soft pastel blooms for a sweet celebration or thoughtful spring send.",
+      "longDescription": "A pastel Teleflora-style bouquet with soft color, fresh greenery, and celebratory styling for Mother's Day, birthday, and congratulations.",
+      "price": 49.99,
+      "currency": "USD",
+      "image": {
+        "src": "https://img.teleflora.com/images/o_0/l_flowers:TEV70-6A,pg_1/w_360,h_360,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/TEV70-6A/TeleflorasPastelPartyBouquet",
+        "alt": "Teleflora's Pastel Party Bouquet"
+      },
+      "images": [
+        {
+          "src": "https://img.teleflora.com/images/o_0/l_flowers:TEV70-6A,pg_1/w_900,h_900,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/TEV70-6A/TeleflorasPastelPartyBouquet",
+          "alt": "Front view of Teleflora's Pastel Party Bouquet"
+        }
+      ],
+      "badges": ["Pastel", "Great Value"],
+      "deliveryNote": "Same-day delivery may be available.",
+      "sku": "TEV70-6A",
+      "skuId": "TEV70-6A",
+      "category": {
+        "slug": "flowers",
+        "title": "Flowers",
+        "catId": "cat1780001"
+      },
+      "subcategory": "Pastel Flowers",
+      "occasion": ["Mother's Day", "Birthday", "Congratulations"],
+      "categorySlugs": ["flowers", "mothers-day-flowers", "birthday-flowers", "congratulations-flowers", "pastel-bouquets"],
+      "variants": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "description": "Full and Lush",
+          "price": 49.99,
+          "sku": "TEV70-6A",
+          "height": "Approx. 14 in H",
+          "width": "Approx. 13 in W"
+        },
+        {
+          "id": "deluxe",
+          "label": "Deluxe",
+          "description": "Opulent floral display",
+          "price": 59.99,
+          "sku": "TEV70-6B",
+          "height": "Approx. 15 in H",
+          "width": "Approx. 14 in W"
+        },
+        {
+          "id": "premium",
+          "label": "Premium",
+          "description": "Luxurious and Majestic",
+          "price": 69.99,
+          "sku": "TEV70-6C",
+          "height": "Approx. 16 in H",
+          "width": "Approx. 15 in W"
+        }
+      ],
+      "details": {
+        "description": "A pastel mix of fresh seasonal blooms and greenery arranged in a coordinated florist-selected vase.",
+        "vase": "Coordinated florist-selected vase.",
+        "orientation": "All-Around",
+        "composition": ["Pastel blooms", "Seasonal accent flowers", "Fresh greenery"],
+        "careTips": ["Refresh water daily.", "Trim stems regularly.", "Keep away from heat."]
+      },
+      "messageNote": "Add a personal note during delivery setup.",
+      "giftOptionsNote": "Optional gifts are available on the PDP.",
+      "trustMessages": ["Soft pastel style", "Local florist arranged", "Same-day options may be available"],
+      "relatedProductSlugs": ["arrive-in-style", "telefloras-blue-belle-bouquet", "telefloras-watercolor-garden-bouquet"],
+      "filters": {
+        "flower": ["roses", "carnations"],
+        "color": ["pastel", "pink", "purple"]
+      },
+      "rating": {
+        "value": 4.6,
+        "label": "Pastel pick",
+        "count": 135
+      },
+      "seo": {
+        "title": "Teleflora's Pastel Party Bouquet",
+        "description": "Send a soft pastel bouquet with local florist delivery."
+      },
+      "sourceUrl": "https://www.teleflora.com/"
+    },
+    {
+      "id": "P_TBC03-1A",
+      "productId": "P_TBC03-1A",
+      "slug": "telefloras-birthday-sparkle-bouquet",
+      "name": "Teleflora's Birthday Sparkle Bouquet",
+      "shortDescription": "Fresh birthday flowers with bright color and keepsake sparkle.",
+      "longDescription": "A festive Teleflora birthday arrangement with cheerful blooms, bright color, and a polished keepsake presentation.",
+      "price": 59.99,
+      "currency": "USD",
+      "image": {
+        "src": "https://img.teleflora.com/images/o_0/l_flowers:TBC03-1A,pg_6/w_272,h_340,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/TBC03-1A/Teleflora'sBirthdaySparkleBouquet",
+        "alt": "Teleflora's Birthday Sparkle Bouquet"
+      },
+      "images": [
+        {
+          "src": "https://img.teleflora.com/images/o_0/l_flowers:TBC03-1A,pg_6/w_900,h_900,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/TBC03-1A/Teleflora'sBirthdaySparkleBouquet",
+          "alt": "Front view of Teleflora's Birthday Sparkle Bouquet"
+        }
+      ],
+      "badges": ["Birthday"],
+      "deliveryNote": "Same-day delivery may be available.",
+      "sku": "TBC03-1A",
+      "skuId": "TBC03-1A",
+      "category": {
+        "slug": "birthday-flowers",
+        "title": "Birthday Flowers",
+        "catId": "cat210012"
+      },
+      "subcategory": "Birthday Bestsellers",
+      "occasion": ["Birthday", "Celebration"],
+      "categorySlugs": ["flowers", "birthday-flowers", "same-day-flower-delivery"],
+      "variants": [
+        {
+          "id": "standard",
+          "label": "Standard",
+          "description": "Full and Lush",
+          "price": 59.99,
+          "sku": "TBC03-1A",
+          "height": "Approx. 15 in H",
+          "width": "Approx. 14 in W"
+        },
+        {
+          "id": "deluxe",
+          "label": "Deluxe",
+          "description": "Opulent floral display",
+          "price": 69.99,
+          "sku": "TBC03-1B",
+          "height": "Approx. 16 in H",
+          "width": "Approx. 15 in W"
+        },
+        {
+          "id": "premium",
+          "label": "Premium",
+          "description": "Luxurious and Majestic",
+          "price": 79.99,
+          "sku": "TBC03-1C",
+          "height": "Approx. 17 in H",
+          "width": "Approx. 16 in W"
+        }
+      ],
+      "details": {
+        "description": "A cheerful birthday bouquet with fresh colorful flowers in a celebratory Teleflora keepsake style.",
+        "vase": "Birthday keepsake vase.",
+        "orientation": "All-Around",
+        "composition": ["Bright birthday blooms", "Fresh greenery", "Seasonal accent flowers"],
+        "careTips": ["Refresh water daily.", "Trim stems every two days.", "Display away from heat."]
+      },
+      "messageNote": "Add a Happy Birthday card message.",
+      "giftOptionsNote": "Birthday add-ons are available.",
+      "trustMessages": ["Birthday-ready style", "Local florist arranged", "Same-day options may be available"],
+      "relatedProductSlugs": ["birthday-bash-bouquet", "telefloras-best-wishes-bouquet", "make-a-wish"],
+      "filters": {
+        "flower": ["roses", "carnations"],
+        "color": ["pink", "yellow", "orange"]
+      },
+      "rating": {
+        "value": 4.7,
+        "label": "Birthday pick",
+        "count": 174
+      },
+      "seo": {
+        "title": "Teleflora's Birthday Sparkle Bouquet",
+        "description": "Send a bright birthday bouquet with local florist delivery."
+      },
+      "sourceUrl": "https://www.teleflora.com/birthday-flowers?catID=cat210012"
+    }
+  ]
+}

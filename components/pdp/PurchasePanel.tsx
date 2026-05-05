@@ -2,8 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 
-import type { ProductPageData, ProductVariant } from "@/lib/api/types";
-import { getCategoryHref } from "@/lib/config/category-routes";
+import type { ProductAddOn, ProductPageData, ProductVariant } from "@/lib/api/types";
 import { formatPrice } from "@/lib/utils";
 
 type PurchasePanelProps = {
@@ -11,75 +10,6 @@ type PurchasePanelProps = {
 };
 
 type AvailabilityState = "idle" | "checking" | "available" | "unavailable" | "error";
-
-type AddOnDropdownOption = {
-  label: string;
-  value: string;
-  price?: number;
-};
-
-type AddOnDropdown = {
-  key: string;
-  label: string;
-  labelId: string;
-  selectId: string;
-  hiddenInputName: string;
-  selectName: string;
-  productId: string;
-  ariaLabel: string;
-  options: AddOnDropdownOption[];
-};
-
-const ADD_ON_DROPDOWNS: AddOnDropdown[] = [
-  {
-    key: "mylar",
-    label: "Mylar Balloons",
-    labelId: "addon-mylar-label",
-    selectId: "addon-mylar-select",
-    hiddenInputName: "_D:/atg/commerce/order/purchase/CartModifierFormHandler.addOnItems.AP_MYLAR1",
-    selectName: "/atg/commerce/order/purchase/CartModifierFormHandler.addOnItems.AP_MYLAR1",
-    productId: "AP_MYLAR1",
-    ariaLabel: "Add on Mylar Balloons",
-    options: [
-      { label: "Select Quantity", value: "" },
-      { label: "1 Balloon - $5.99", value: "MYLAR1", price: 5.99 },
-      { label: "2 Balloons - $10.99", value: "MYLAR2", price: 10.99 },
-      { label: "3 Balloons - $15.99", value: "MYLAR3", price: 15.99 }
-    ]
-  },
-  {
-    key: "plush",
-    label: "Stuffed Animal",
-    labelId: "addon-plush-label",
-    selectId: "addon-plush-select",
-    hiddenInputName: "_D:/atg/commerce/order/purchase/CartModifierFormHandler.addOnItems.AP_PLUSH1",
-    selectName: "/atg/commerce/order/purchase/CartModifierFormHandler.addOnItems.AP_PLUSH1",
-    productId: "AP_PLUSH1",
-    ariaLabel: "Add on Stuffed Animal",
-    options: [
-      { label: "Select Size", value: "" },
-      { label: "Small - $9.99", value: "PLUSH1", price: 9.99 },
-      { label: "Medium - $19.99", value: "PLUSH2", price: 19.99 },
-      { label: "Large - $29.99", value: "PLUSH3", price: 29.99 }
-    ]
-  },
-  {
-    key: "chocolates",
-    label: "Chocolates",
-    labelId: "addon-chocolates-label",
-    selectId: "addon-chocolates-select",
-    hiddenInputName: "_D:/atg/commerce/order/purchase/CartModifierFormHandler.addOnItems.AP_CHOC1",
-    selectName: "/atg/commerce/order/purchase/CartModifierFormHandler.addOnItems.AP_CHOC1",
-    productId: "AP_CHOC1",
-    ariaLabel: "Add on Chocolates",
-    options: [
-      { label: "Select Size", value: "" },
-      { label: "Small Box - $9.99", value: "CHOC1", price: 9.99 },
-      { label: "Medium Box - $19.99", value: "CHOC2", price: 19.99 },
-      { label: "Large Box - $29.99", value: "CHOC3", price: 29.99 }
-    ]
-  }
-];
 
 function getFallbackVariants(product: ProductPageData): ProductVariant[] {
   return [
@@ -93,15 +23,32 @@ function getFallbackVariants(product: ProductPageData): ProductVariant[] {
   ];
 }
 
-function getAddOnTotal(selectedAddOnValues: Record<string, string>) {
-  return ADD_ON_DROPDOWNS.reduce((total, addOn) => {
-    const selectedOption = addOn.options.find((option) => option.value === selectedAddOnValues[addOn.productId]);
+function getAddOnOptions(addOn: ProductAddOn) {
+  if (addOn.options?.length) {
+    return addOn.options;
+  }
+
+  return typeof addOn.price === "number"
+    ? [
+        {
+          id: addOn.id,
+          label: addOn.label,
+          price: addOn.price
+        }
+      ]
+    : [];
+}
+
+function getAddOnTotal(addOns: ProductAddOn[], selectedAddOnValues: Record<string, string>) {
+  return addOns.reduce((total, addOn) => {
+    const selectedOption = getAddOnOptions(addOn).find((option) => option.id === selectedAddOnValues[addOn.id]);
     return total + (selectedOption?.price ?? 0);
   }, 0);
 }
 
 export function PurchasePanel({ product }: PurchasePanelProps) {
   const variants = useMemo(() => (product.variants?.length ? product.variants : getFallbackVariants(product)), [product]);
+  const addOns = useMemo(() => product.addOns ?? [], [product.addOns]);
   const [selectedVariantId, setSelectedVariantId] = useState(variants[0]?.id ?? "standard");
   const [selectedAddOnValues, setSelectedAddOnValues] = useState<Record<string, string>>({});
   const [recipientZip, setRecipientZip] = useState("");
@@ -110,7 +57,7 @@ export function PurchasePanel({ product }: PurchasePanelProps) {
   const [cartState, setCartState] = useState<"idle" | "added">("idle");
   const availabilityTimer = useRef<number | null>(null);
   const selectedVariant = variants.find((variant) => variant.id === selectedVariantId) ?? variants[0];
-  const addOnTotal = getAddOnTotal(selectedAddOnValues);
+  const addOnTotal = getAddOnTotal(addOns, selectedAddOnValues);
   const configuredTotal = (selectedVariant?.price ?? product.price) + addOnTotal;
   const canAddToCart = availabilityState === "available" && Boolean(deliveryDate) && Boolean(selectedVariant);
   const isChecking = availabilityState === "checking";
@@ -176,48 +123,56 @@ export function PurchasePanel({ product }: PurchasePanelProps) {
       </fieldset>
 
 
+      {addOns.length ? (
       <div className="purchase-panel__section">
         <h2>Add something extra</h2>
         <div className="purchase-panel__addons" id="addExtraContainer">
-          {ADD_ON_DROPDOWNS.map((addOn) => (
+          {addOns.map((addOn) => {
+            const labelId = `addon-${addOn.id}-label`;
+            const selectId = `addon-${addOn.id}-select`;
+            const options = getAddOnOptions(addOn);
+
+            return (
             <div
-              key={addOn.key}
+              key={addOn.id}
               className="purchase-panel__addon-row addOnWrapDivClass"
               role="region"
-              aria-labelledby={addOn.labelId}
+              aria-labelledby={labelId}
             >
-              <input name={addOn.hiddenInputName} type="hidden" defaultValue=" " />
-              <label id={addOn.labelId} className="purchase-panel__addon-label" htmlFor={addOn.selectId}>
+              <label id={labelId} className="purchase-panel__addon-label" htmlFor={selectId}>
                 {addOn.label}
               </label>
               <div className="purchase-panel__addon-select-wrap">
                 <select
-                  data-productid={addOn.productId}
+                  data-productid={addOn.id}
                   data-showspecialmessage="false"
-                  name={addOn.selectName}
-                  id={addOn.selectId}
+                  name={`addOnItems.${addOn.id}`}
+                  id={selectId}
                   className="purchase-panel__addon-select addOnProduct"
-                  aria-label={addOn.ariaLabel}
-                  value={selectedAddOnValues[addOn.productId] ?? ""}
+                  aria-label={`Add on ${addOn.label}`}
+                  value={selectedAddOnValues[addOn.id] ?? ""}
                   onChange={(event) => {
                     setSelectedAddOnValues((currentValues) => ({
                       ...currentValues,
-                      [addOn.productId]: event.target.value
+                      [addOn.id]: event.target.value
                     }));
                     setCartState("idle");
                   }}
                 >
-                  {addOn.options.map((option) => (
-                    <option key={option.value || option.label} value={option.value}>
-                      {option.label}
+                  <option value="">Select {addOn.label}</option>
+                  {options.map((option) => (
+                    <option key={option.id} value={option.id}>
+                      {option.label} - {formatPrice(option.price, product.currency)}
                     </option>
                   ))}
                 </select>
               </div>
             </div>
-          ))}
+            );
+          })}
         </div>
       </div>
+      ) : null}
 
       <div className="purchase-panel__section">
         <h2>Delivery details</h2>

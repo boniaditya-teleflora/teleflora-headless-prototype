@@ -77,7 +77,7 @@ function categoryCta(categoryKey: string, label: string) {
   };
 }
 
-const dealOfTheDayHref = "/deal-of-the-day/?prodID=prod220003";
+const dealOfTheDayHref = "/product/deal-of-the-day";
 const subscriptionsHref = "/subscriptions";
 const dropdownPromoImageSrc =
   "https://img.teleflora.com/image/upload/e_sharpen:100/w_195/f_auto,q_auto/backgrounds/MDAY_Nav_T26M400A";

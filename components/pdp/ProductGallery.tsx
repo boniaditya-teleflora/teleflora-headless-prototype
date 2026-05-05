@@ -7,7 +7,7 @@ type ProductGalleryProps = {
 };
 
 export function ProductGallery({ product }: ProductGalleryProps) {
-  const featuredImage = product.images[0] ?? product.image;
+  const featuredImage = product.image ?? product.images[0];
 
   return (
     <section className="gallery-panel" aria-label={`${product.name} images`}>

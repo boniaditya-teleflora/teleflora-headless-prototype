@@ -17,18 +17,22 @@ export function ProductDetails({ product }: ProductDetailsProps) {
         <p>{details?.description ?? product.shortDescription}</p>
       </div>
       <ProductDetailsTabs
+        productName={product.name}
         description={details?.description ?? product.shortDescription}
         orientation={details?.orientation}
         vase={details?.vase}
+        vaseImage={details?.vaseImage}
+        variants={product.variants}
+        sizeGuideImage={details?.sizeGuideImage ?? product.image}
+        currency={product.currency}
       />
       <section className="substitution-policy" aria-labelledby="substitution-policy-title">
         <h3 id="substitution-policy-title" className="substitution-policy__title">
           SUBSTITUTION POLICY &ndash; <em>Always deliver the freshest flowers!</em>
         </h3>
         <p className="substitution-policy__text">
-          Please note the bouquet pictured reflects our original design. If the exact flowers or
-          container in this arrangement are not available, our local florists will create a
-          beautiful bouquet with the freshest available flowers.
+          {details?.substitutionPolicy ??
+            "Please note the bouquet pictured reflects our original design. If the exact flowers or container in this arrangement are not available, our local florists will create a beautiful bouquet with the freshest available flowers."}
         </p>
       </section>
     </section>

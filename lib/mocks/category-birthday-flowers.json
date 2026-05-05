@@ -3,9 +3,9 @@
   "catId": "cat210012",
   "title": "Birthday Flowers",
   "headerTitle": "Birthday Flowers & Bouquets",
-  "description": "Send a birthday flower delivery to make their day extra special! Our beautiful birthday bouquets, plants, and arrangements are always arranged and delivered by a trusted local florist!",
+  "description": "Send a birthday flower delivery to make their day extra special. Birthday bouquets, plants, and arrangements are arranged and delivered by a trusted local florist.",
   "seoTitle": "Birthday Flowers Delivery | Happy Birthday Bouquets | Teleflora",
-  "seoDescription": "Surprise them with a Happy Birthday flower delivery from Teleflora. We have Happy Birthday flowers, plants, and more that make the perfect birthday gift.",
+  "seoDescription": "Surprise them with Happy Birthday flowers and plants from Teleflora-style local florist delivery.",
   "breadcrumbs": [
     {
       "slug": "occasions",
@@ -51,7 +51,19 @@
     }
   ],
   "defaultSort": "bestsellers",
-  "resultCount": 58,
+  "resultCount": 10,
+  "productSlugs": [
+    "telefloras-best-wishes-bouquet",
+    "birthday-bash-bouquet",
+    "make-a-wish",
+    "how-sweet-it-is",
+    "your-wish-is-granted-birthday-cake-bouquet",
+    "deal-of-the-day",
+    "telefloras-birthday-sparkle-bouquet",
+    "telefloras-marvelous-mosaic-bouquet",
+    "telefloras-desert-sunrise-bouquet",
+    "telefloras-citrus-sunset-bouquet"
+  ],
   "facets": [
     {
       "title": "Price Ranges",
@@ -60,27 +72,22 @@
         {
           "label": "Under $40.00",
           "href": "?catID=cat210012&price=under-40",
-          "count": 2
+          "count": 1
         },
         {
           "label": "$40.00 - $60.00",
           "href": "?catID=cat210012&price=40-60",
-          "count": 31
+          "count": 6
         },
         {
           "label": "$60.00 - $80.00",
           "href": "?catID=cat210012&price=60-80",
-          "count": 18
+          "count": 3
         },
         {
           "label": "$80.00 - $100.00",
           "href": "?catID=cat210012&price=80-100",
-          "count": 5
-        },
-        {
-          "label": "Over $100.00",
-          "href": "?catID=cat210012&price=over-100",
-          "count": 2
+          "count": 0
         }
       ]
     },
@@ -91,42 +98,27 @@
         {
           "label": "Alstroemeria",
           "href": "?catID=cat210012&flower=alstroemeria",
-          "count": 8
+          "count": 3
         },
         {
           "label": "Carnations",
           "href": "?catID=cat210012&flower=carnations",
-          "count": 18
+          "count": 8
         },
         {
           "label": "Chrysanthemums",
           "href": "?catID=cat210012&flower=chrysanthemums",
-          "count": 21
-        },
-        {
-          "label": "Daisies",
-          "href": "?catID=cat210012&flower=daisies",
-          "count": 20
-        },
-        {
-          "label": "Gerbera Daisies",
-          "href": "?catID=cat210012&flower=gerbera-daisies",
-          "count": 12
-        },
-        {
-          "label": "Hydrangea",
-          "href": "?catID=cat210012&flower=hydrangea",
-          "count": 8
+          "count": 5
         },
         {
           "label": "Lilies",
           "href": "?catID=cat210012&flower=lilies",
-          "count": 14
+          "count": 2
         },
         {
           "label": "Roses",
           "href": "?catID=cat210012&flower=roses",
-          "count": 76
+          "count": 7
         }
       ]
     },
@@ -184,370 +176,33 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Best Online Birthday Flower Delivery?",
+          "name": "Can I get same-day birthday flowers?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Teleflora has birthday bouquets for everyone in your life making it the best destination for online birthday flower delivery. Whether you live near or far from your loved ones, you can feel confident knowing Teleflora will take the utmost care of their flowers."
+            "text": "Same-day delivery is available for many birthday arrangements when the recipient ZIP code, date, and local florist cutoff support it."
           }
         },
         {
           "@type": "Question",
-          "name": "Can I Get Same Day Birthday Flowers?",
+          "name": "What are popular birthday flowers?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, Teleflora offers same day delivery on all our birthday flowers. So whether you need a last-minute birthday gift or just want to send something extra to make their day bigger, their flowers are sure to be delivered right to their door."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the Best Flowers to Send for Someone’s Birthday?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Any birthday flower delivery is going to be appreciated by your loved one, but we always recommend sending someone’s favorite flowers or favorite color. This personal touch shows how well you know your loved one and makes a great birthday gift."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are Birthday Flowers by Month?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Teleflora makes it easy to order birth flowers for every month. You can customize your birthday flower delivery by sending your loved one’s birth month flowers, to make it an even more special birthday gift."
+            "text": "Bright roses, carnations, lilies, chrysanthemums, alstroemeria, and mixed seasonal bouquets are popular choices for birthday delivery."
           }
         }
       ]
     },
     "blocks": [
       {
-        "heading": "Order the Best Birthday Flower Delivery",
+        "heading": "Order birthday flower delivery online",
         "headingLevel": "h2",
-        "bodyHtml": "<p>Brighten their day with the perfect birthday flowers from Teleflora. We have <a href=\"https://www.teleflora.com/birthday-flowers/for-him?catID=cat210041\">birthday gifts for him</a> and <a href=\"https://www.teleflora.com/birthday-flowers/for-her?catID=cat210014\">birthday flowers for her</a>, plus birthday bouquets for occasions like a <a href=\"https://www.teleflora.com/birthday-flowers/sweet-16?catID=cat210061\">Sweet 16</a> or <a href=\"https://www.teleflora.com/birthday-flowers/quinceanera?catID=cat210060\">Quinceanera</a>. For an extra special birthday flowers delivery, you can even add a box of chocolates or a birthday balloon. Teleflora's Happy Birthday flower arrangements come in various price ranges and are made up of multiple types of flowers, giving you ultimate flexibility when looking for <a href=\"/gift-giving-ideas/birthday\" title=\"Check out our birthday flower gift guide\">birthday gift ideas</a> for everyone in your life. We even have <a href=\"/gift-giving-ideas/birth-month-flower\" title=\"Learn the flower of every month\">birth month flowers</a> if you want to give a personalized birthday gift this year.</p><p>It’s always a good idea to send someone’s favorite flowers on their birthday. It is a day to celebrate them, so it only makes sense to order a surprise delivery that you know they'll love. If you don’t know their favorite flowers, here are the top birthday flowers to send:</p>"
+        "bodyHtml": "<p>Birthday bouquets can be merchandised from the shared product catalog with consistent names, product IDs, pricing, images, variants, delivery messaging, and PDP details. The same products can appear in birthday PLPs, homepage birthday rails, landing pages, and related product modules without duplicating product data.</p>"
       },
       {
-        "heading": "Send Birthday Flowers or Plants Anytime You Need",
+        "heading": "Send birthday flowers or plants anytime",
         "headingLevel": "h4",
-        "bodyHtml": "<p>If you need <a href=\"https://www.teleflora.com/everyday-arrangements/same-day-flower-delivery?catID=cat480085\" title=\"Get flowers delivered the same day you order\">same-day flower delivery</a> for birthday flowers or plants, we have you covered. Place your order before 2:00 p.m., Monday - Friday, or by 12:00 p.m. on Saturday or Sunday (in your recipient's time zone) and we can deliver your arrangement that day. When you check out, remember to set up a gift reminder so that next year you can wish them \"Happy Birthday\" with another magnificent birthday gift delivery from Teleflora!</p>"
-      },
-      {
-        "heading": "Birthday Flower Delivery: Frequently Asked Questions",
-        "headingLevel": "h2"
-      },
-      {
-        "heading": "How to Order Birthday Flower Delivery Online?",
-        "headingLevel": "h4",
-        "bodyHtml": "<p>Teleflora has birthday bouquets for everyone in your life making it the best destination for online birthday flower delivery. Whether you live near or far from your loved ones, you can feel confident knowing Teleflora will take the utmost care of their flowers.</p>"
-      },
-      {
-        "heading": "Can I Send Same-Day Birthday Flowers?",
-        "headingLevel": "h4",
-        "bodyHtml": "<p>Yes, Teleflora offers same-day delivery on many of our birthday arranagements. So whether you need a last-minute birthday gift or just want to send something extra to make their day more memorable, their flowers will be delivered right to their door by one of our expert florists.</p>"
-      },
-      {
-        "heading": "What are the Best Birthday Gifts to Send?",
-        "headingLevel": "h4",
-        "bodyHtml": "<p>Any birthday flower delivery is going to be appreciated by your loved ones, but we always recommend sending someone’s favorite flowers or a bouquet in their favorite color. This personal touch shows how well you know your loved one and makes a great birthday gift! Many of our arrangements come with special vases or containers that will add another special element to their gift delivery. Teleflora makes it easy to customize your birthday flower delivery by sending your loved one’s birth month flowers, to make it an even more special birthday gift.</p>"
+        "bodyHtml": "<p>For last-minute gifts, the product data carries same-day messaging that can be displayed on PLP cards and PDP availability panels while leaving final delivery checks to checkout or availability services.</p>"
       }
     ]
-  },
-  "products": [
-    {
-      "slug": "telefloras-best-wishes-bouquet",
-      "name": "Teleflora's Best Wishes Bouquet",
-      "shortDescription": "A bright birthday bouquet arranged and hand-delivered by a trusted local florist.",
-      "price": 59.99,
-      "currency": "USD",
-      "image": {
-        "src": "https://img.teleflora.com/images/o_0/l_flowers:TBC07-1A,pg_6/w_272,h_340,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/TBC07-1A/Teleflora'sBestWishesBouquet",
-        "alt": "Teleflora's Best Wishes Bouquet"
-      },
-      "badges": [],
-      "deliveryNote": "Same-day delivery available",
-      "productId": "P_TBC07-1A",
-      "skuId": "TBC07-1A"
-    },
-    {
-      "slug": "birthday-bash-bouquet",
-      "name": "Birthday Bash Bouquet",
-      "shortDescription": "A festive birthday bouquet with cheerful color and a celebratory floral style.",
-      "price": 64.99,
-      "currency": "USD",
-      "image": {
-        "src": "https://img.teleflora.com/images/o_0/l_flowers:TBC04-1A,pg_6/w_272,h_340,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/TBC04-1A/BirthdayBashBouquet",
-        "alt": "Birthday Bash Bouquet"
-      },
-      "badges": ["Bestseller"],
-      "deliveryNote": "Same-day delivery available",
-      "productId": "P_TBC04-1A",
-      "skuId": "TBC04-1A"
-    },
-    {
-      "slug": "make-a-wish",
-      "name": "Make a Wish",
-      "shortDescription": "A cheerful birthday arrangement designed to make their day brighter.",
-      "price": 39.99,
-      "currency": "USD",
-      "image": {
-        "src": "https://img.teleflora.com/images/o_0/l_flowers:TEV13-6A,pg_6/w_272,h_340,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/TEV13-6A/MakeaWish",
-        "alt": "Make a Wish Bouquet"
-      },
-      "badges": ["Bestseller"],
-      "deliveryNote": "Same-day delivery available",
-      "productId": "P_TEV13-6A",
-      "skuId": "TEV13-6A"
-    },
-    {
-      "slug": "how-sweet-it-is",
-      "name": "How Sweet It Is",
-      "shortDescription": "A sweet birthday floral gift with classic Teleflora charm.",
-      "price": 39.99,
-      "currency": "USD",
-      "image": {
-        "src": "https://img.teleflora.com/images/o_0/l_flowers:T46-1A,pg_6/w_272,h_340,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/T46-1A/HowSweetItIs",
-        "alt": "How Sweet It Is Bouquet"
-      },
-      "badges": [],
-      "deliveryNote": "Same-day delivery available",
-      "productId": "P_T46-1A",
-      "skuId": "T46-1A"
-    },
-    {
-      "slug": "your-wish-is-granted-birthday-cake-bouquet",
-      "name": "Your Wish Is Granted Birthday Cake Bouquet",
-      "shortDescription": "A birthday cake-inspired floral arrangement for a joyful celebration.",
-      "price": 64.99,
-      "currency": "USD",
-      "image": {
-        "src": "https://img.teleflora.com/images/o_0/l_flowers:TBC06-1A,pg_6/w_272,h_340,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/TBC06-1A/YourWishIsGrantedBirthdayCakeBouquet",
-        "alt": "Your Wish Is Granted Birthday Cake Bouquet"
-      },
-      "badges": [],
-      "deliveryNote": "Same-day delivery available",
-      "productId": "P_TBC06-1A",
-      "skuId": "TBC06-1A"
-    },
-    {
-      "slug": "deal-of-the-day",
-      "name": "Deal of the Day",
-      "shortDescription": "A one-of-a-kind birthday arrangement created by a local florist.",
-      "price": 49.99,
-      "currency": "USD",
-      "image": {
-        "src": "https://img.teleflora.com/image/upload/f_auto,q_auto/backgrounds/DOTD_160x200_Spring26",
-        "alt": "Deal of the Day Flowers"
-      },
-      "badges": ["Deal"],
-      "deliveryNote": "Same-day delivery available",
-      "productId": "prod220003",
-      "skuId": "sku220006"
-    },
-    {
-      "slug": "telefloras-birthday-sparkle-bouquet",
-      "name": "Teleflora's Birthday Sparkle Bouquet",
-      "shortDescription": "A sparkling birthday bouquet with fresh flowers and keepsake style.",
-      "price": 59.99,
-      "currency": "USD",
-      "image": {
-        "src": "https://img.teleflora.com/images/o_0/l_flowers:TBC03-1A,pg_6/w_272,h_340,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/TBC03-1A/Teleflora'sBirthdaySparkleBouquet",
-        "alt": "Teleflora's Birthday Sparkle Bouquet"
-      },
-      "badges": [],
-      "deliveryNote": "Same-day delivery available",
-      "productId": "P_TBC03-1A",
-      "skuId": "TBC03-1A"
-    },
-    {
-      "slug": "telefloras-marvelous-mosaic-bouquet",
-      "name": "Teleflora's Marvelous Mosaic Bouquet",
-      "shortDescription": "A colorful bouquet arranged for joyful birthday gifting.",
-      "price": 54.99,
-      "currency": "USD",
-      "image": {
-        "src": "https://img.teleflora.com/images/o_0/l_flowers:T20S100A,pg_6/w_272,h_340,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/T20S100A/Teleflora'sMarvelousMosaicBouquet",
-        "alt": "Teleflora's Marvelous Mosaic Bouquet"
-      },
-      "badges": [],
-      "deliveryNote": "Same-day delivery available",
-      "productId": "P_T20S100A",
-      "skuId": "T20S100A"
-    },
-    {
-      "slug": "telefloras-hummingbird-surprise-bouquet",
-      "name": "Teleflora's Hummingbird Surprise Bouquet",
-      "shortDescription": "A bright surprise bouquet for memorable birthday delivery.",
-      "price": 49.99,
-      "currency": "USD",
-      "image": {
-        "src": "https://img.teleflora.com/images/o_0/l_flowers:TEV71-2A,pg_6/w_272,h_340,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/TEV71-2A/Teleflora'sHummingbirdSurpriseBouquet",
-        "alt": "Teleflora's Hummingbird Surprise Bouquet"
-      },
-      "badges": [],
-      "deliveryNote": "Same-day delivery available",
-      "productId": "P_TEV71-2A",
-      "skuId": "TEV71-2A"
-    },
-    {
-      "slug": "telefloras-sweetest-mauve-bouquet",
-      "name": "Teleflora's Sweetest Mauve Bouquet",
-      "shortDescription": "Soft mauve blooms arranged for a sweet birthday moment.",
-      "price": 49.99,
-      "currency": "USD",
-      "image": {
-        "src": "https://img.teleflora.com/images/o_0/l_flowers:TEV76-1A,pg_6/w_272,h_340,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/TEV76-1A/Teleflora'sSweetestMauveBouquet",
-        "alt": "Teleflora's Sweetest Mauve Bouquet"
-      },
-      "badges": [],
-      "deliveryNote": "Same-day delivery available",
-      "productId": "P_TEV76-1A",
-      "skuId": "TEV76-1A"
-    },
-    {
-      "slug": "telefloras-golden-mod-bouquet",
-      "name": "Teleflora's Golden Mod Bouquet",
-      "shortDescription": "Golden birthday flowers with modern Teleflora styling.",
-      "price": 59.99,
-      "currency": "USD",
-      "image": {
-        "src": "https://img.teleflora.com/images/o_0/l_flowers:TWR17-8A,pg_6/w_272,h_340,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/TWR17-8A/Teleflora'sGoldenModBouquet",
-        "alt": "Teleflora's Golden Mod Bouquet"
-      },
-      "badges": [],
-      "deliveryNote": "Same-day delivery available",
-      "productId": "P_TWR17-8A",
-      "skuId": "TWR17-8A"
-    },
-    {
-      "slug": "telefloras-sunset-sorbet-bouquet",
-      "name": "Teleflora's Sunset Sorbet Bouquet",
-      "shortDescription": "Sunset-toned birthday blooms hand-arranged by a florist.",
-      "price": 54.99,
-      "currency": "USD",
-      "image": {
-        "src": "https://img.teleflora.com/images/o_0/l_flowers:TEV76-6A,pg_6/w_272,h_340,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/TEV76-6A/Teleflora'sSunsetSorbetBouquet",
-        "alt": "Teleflora's Sunset Sorbet Bouquet"
-      },
-      "badges": [],
-      "deliveryNote": "Same-day delivery available",
-      "productId": "P_TEV76-6A",
-      "skuId": "TEV76-6A"
-    },
-    {
-      "slug": "telefloras-enchanting-garden-bouquet",
-      "name": "Teleflora's Enchanting Garden Bouquet",
-      "shortDescription": "Garden-inspired birthday flowers with fresh seasonal color.",
-      "price": 44.99,
-      "currency": "USD",
-      "image": {
-        "src": "https://img.teleflora.com/images/o_0/l_flowers:TEV73-1A,pg_6/w_272,h_340,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/TEV73-1A/Teleflora'sEnchantingGardenBouquet",
-        "alt": "Teleflora's Enchanting Garden Bouquet"
-      },
-      "badges": [],
-      "deliveryNote": "Same-day delivery available",
-      "productId": "P_TEV73-1A",
-      "skuId": "TEV73-1A"
-    },
-    {
-      "slug": "telefloras-gemstone-radiance-bouquet",
-      "name": "Teleflora's Gemstone Radiance Bouquet",
-      "shortDescription": "Radiant jewel-toned birthday flowers for an unforgettable gift.",
-      "price": 59.99,
-      "currency": "USD",
-      "image": {
-        "src": "https://img.teleflora.com/images/o_0/l_flowers:TEV75-7A,pg_6/w_272,h_340,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/TEV75-7A/Teleflora'sGemstoneRadianceBouquet",
-        "alt": "Teleflora's Gemstone Radiance Bouquet"
-      },
-      "badges": [],
-      "deliveryNote": "Same-day delivery available",
-      "productId": "P_TEV75-7A",
-      "skuId": "TEV75-7A"
-    },
-    {
-      "slug": "telefloras-playfully-yours-bouquet",
-      "name": "Teleflora's Playfully Yours Bouquet",
-      "shortDescription": "Playful birthday flowers designed for bright celebrations.",
-      "price": 49.99,
-      "currency": "USD",
-      "image": {
-        "src": "https://img.teleflora.com/images/o_0/l_flowers:TEV70-7A,pg_6/w_272,h_340,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/TEV70-7A/Teleflora'sPlayfullyYoursBouquet",
-        "alt": "Teleflora's Playfully Yours Bouquet"
-      },
-      "badges": [],
-      "deliveryNote": "Same-day delivery available",
-      "productId": "P_TEV70-7A",
-      "skuId": "TEV70-7A"
-    },
-    {
-      "slug": "telefloras-sapphire-skies-bouquet",
-      "name": "Teleflora's Sapphire Skies Bouquet",
-      "shortDescription": "Blue-toned blooms arranged for peaceful birthday beauty.",
-      "price": 49.99,
-      "currency": "USD",
-      "image": {
-        "src": "https://img.teleflora.com/images/o_0/l_flowers:TEV25-3A,pg_6/w_272,h_340,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/TEV25-3A/Teleflora'sSapphireSkiesBouquet",
-        "alt": "Teleflora's Sapphire Skies Bouquet"
-      },
-      "badges": [],
-      "deliveryNote": "Same-day delivery available",
-      "productId": "P_TEV25-3A",
-      "skuId": "TEV25-3A"
-    },
-    {
-      "slug": "zen-artistry",
-      "name": "Zen Artistry",
-      "shortDescription": "A refined floral arrangement for thoughtful birthday sending.",
-      "price": 69.99,
-      "currency": "USD",
-      "image": {
-        "src": "https://img.teleflora.com/images/o_0/l_flowers:T81-1A,pg_6/w_272,h_340,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/T81-1A/ZenArtistry",
-        "alt": "Zen Artistry"
-      },
-      "badges": [],
-      "deliveryNote": "Same-day delivery available",
-      "productId": "P_T81-1A",
-      "skuId": "T81-1A"
-    },
-    {
-      "slug": "your-special-day",
-      "name": "Your Special Day",
-      "shortDescription": "Fresh flowers for celebrating their special birthday moment.",
-      "price": 64.99,
-      "currency": "USD",
-      "image": {
-        "src": "https://img.teleflora.com/images/o_0/l_flowers:T16-3A,pg_6/w_272,h_340,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/T16-3A/YourSpecialDay",
-        "alt": "Your Special Day"
-      },
-      "badges": [],
-      "deliveryNote": "Same-day delivery available",
-      "productId": "P_T16-3A",
-      "skuId": "T16-3A"
-    },
-    {
-      "slug": "telefloras-be-bright-bouquet",
-      "name": "Teleflora's Be Bright Bouquet",
-      "shortDescription": "Bright birthday flowers for a cheerful hand-delivered surprise.",
-      "price": 59.99,
-      "currency": "USD",
-      "image": {
-        "src": "https://img.teleflora.com/images/o_0/l_flowers:TEV71-5A,pg_6/w_272,h_340,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/TEV71-5A/Teleflora'sBeBrightBouquet",
-        "alt": "Teleflora's Be Bright Bouquet"
-      },
-      "badges": [],
-      "deliveryNote": "Same-day delivery available",
-      "productId": "P_TEV71-5A",
-      "skuId": "TEV71-5A"
-    },
-    {
-      "slug": "telefloras-desert-sunrise-bouquet",
-      "name": "Teleflora's Desert Sunrise Bouquet",
-      "shortDescription": "Warm birthday blooms in desert sunrise shades.",
-      "price": 59.99,
-      "currency": "USD",
-      "image": {
-        "src": "https://img.teleflora.com/images/o_0/l_flowers:TEV55-6A,pg_6/w_272,h_340,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:150/flowers/TEV55-6A/Teleflora'sDesertSunriseBouquet",
-        "alt": "Teleflora's Desert Sunrise Bouquet"
-      },
-      "badges": [],
-      "deliveryNote": "Same-day delivery available",
-      "productId": "P_TEV55-6A",
-      "skuId": "TEV55-6A"
-    }
-  ]
+  }
 }

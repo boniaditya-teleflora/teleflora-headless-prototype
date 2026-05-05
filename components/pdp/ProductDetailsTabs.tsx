@@ -3,10 +3,18 @@
 import Image from "next/image";
 import { useRef, useState, type KeyboardEvent } from "react";
 
+import type { MediaAsset, ProductVariant } from "@/lib/api/types";
+import { formatPrice } from "@/lib/utils";
+
 type ProductDetailsTabsProps = {
+  productName: string;
   description?: string;
   orientation?: string;
   vase?: string;
+  vaseImage?: MediaAsset;
+  variants?: ProductVariant[];
+  sizeGuideImage?: MediaAsset;
+  currency: string;
 };
 
 type TabKey = "description" | "vase" | "sizes";
@@ -32,48 +40,19 @@ const tabs: { key: TabKey; label: string; tabId: string; panelId: string }[] = [
   }
 ];
 
-const SIZE_GUIDE_IMAGE =
-  "https://img.teleflora.com/images/o_0/l_flowers:T26M200C,pg_6/w_272,h_340,cs_no_cmyk,c_pad/f_auto,q_auto:eco,e_sharpen:150/flowers/T26M200C/Teleflora%27sBlueBelleBouquetPM";
-
-const VASE_IMAGE = "https://assets.teleflora.com/assets/products/AE1_/26M200.jpg";
-
-const sizeGuideItems = [
-  {
-    name: "Standard",
-    code: "T26M200A",
-    height: '13 3/4" H',
-    heightLabel: "Height 13 3/4 inches",
-    width: '15" W',
-    widthLabel: "Width 15 inches",
-    price: "$59.99",
-    imageAlt: "Standard bouquet size"
-  },
-  {
-    name: "Deluxe",
-    code: "T26M200B",
-    height: '13 3/4" H',
-    heightLabel: "Height 13 3/4 inches",
-    width: '14 3/4" W',
-    widthLabel: "Width 14 3/4 inches",
-    price: "$69.99",
-    imageAlt: "Deluxe bouquet size"
-  },
-  {
-    name: "Premium",
-    code: "T26M200C",
-    height: '13 3/4" H',
-    heightLabel: "Height 13 3/4 inches",
-    width: '14 3/4" W',
-    widthLabel: "Width 14 3/4 inches",
-    price: "$79.99",
-    imageAlt: "Premium bouquet size"
-  }
-];
+function getDimensionLabel(value: string | undefined, axis: "Height" | "Width") {
+  return value ? `${axis} ${value.replace(/\bin\b/g, "inches")}` : `${axis} varies by local florist design`;
+}
 
 export function ProductDetailsTabs({
+  productName,
   description,
   orientation,
-  vase
+  vase,
+  vaseImage,
+  variants = [],
+  sizeGuideImage,
+  currency
 }: ProductDetailsTabsProps) {
   const [activeTab, setActiveTab] = useState<TabKey>("description");
   const tabRefs = useRef<Array<HTMLButtonElement | null>>([]);
@@ -167,16 +146,18 @@ export function ProductDetailsTabs({
         hidden={activeTab !== "vase"}
       >
         <div className="vase-info">
-          <div className="vase-info__image-wrap">
-            <Image
-              className="vase-info__image"
-              src={VASE_IMAGE}
-              alt="Blue Belle Vase"
-              width={340}
-              height={340}
-              sizes="(min-width: 768px) 260px, 70vw"
-            />
-          </div>
+          {vaseImage ? (
+            <div className="vase-info__image-wrap">
+              <Image
+                className="vase-info__image"
+                src={vaseImage.src}
+                alt={vaseImage.alt}
+                width={340}
+                height={340}
+                sizes="(min-width: 768px) 260px, 70vw"
+              />
+            </div>
+          ) : null}
 
           <div className="vase-info__content">
             <h3 className="vase-info__title">VASE</h3>
@@ -195,35 +176,42 @@ export function ProductDetailsTabs({
         hidden={activeTab !== "sizes"}
       >
         <div className="product-details-tabs__sizes size-guide">
-          {sizeGuideItems.map((size) => (
-            <article className="size-guide__item" key={size.code}>
+          {variants.map((variant) => {
+            const image = variant.image ?? sizeGuideImage;
+
+            return (
+            <article className="size-guide__item" key={variant.sku}>
               <div className="size-guide__visual">
-                <div className="size-guide__height" aria-label={size.heightLabel}>
-                  <span>{size.height}</span>
+                <div className="size-guide__height" aria-label={getDimensionLabel(variant.height, "Height")}>
+                  <span>{variant.height ?? "Florist selected"}</span>
                 </div>
 
-                <Image
-                  className="size-guide__image"
-                  src={SIZE_GUIDE_IMAGE}
-                  alt={size.imageAlt}
-                  width={272}
-                  height={340}
-                  sizes="(min-width: 721px) 220px, 70vw"
-                  loading="lazy"
-                  unoptimized
-                />
+                {image ? (
+                  <Image
+                    className="size-guide__image"
+                    src={image.src}
+                    alt={image.alt}
+                    width={272}
+                    height={340}
+                    sizes="(min-width: 721px) 220px, 70vw"
+                    loading="lazy"
+                    unoptimized
+                  />
+                ) : null}
 
-                <div className="size-guide__width" aria-label={size.widthLabel}>
-                  <span>{size.width}</span>
+                <div className="size-guide__width" aria-label={getDimensionLabel(variant.width, "Width")}>
+                  <span>{variant.width ?? "Florist selected"}</span>
                 </div>
               </div>
 
               <p className="size-guide__name">
-                {size.name} - <span>{size.price}</span>
+                {variant.label} - <span>{formatPrice(variant.price, currency)}</span>
               </p>
-              <p className="size-guide__code">{size.code}</p>
+              <p className="size-guide__code">{variant.sku}</p>
             </article>
-          ))}
+            );
+          })}
+          {!variants.length ? <p>{productName} size details are selected by the local florist.</p> : null}
         </div>
       </section>
     </div>
