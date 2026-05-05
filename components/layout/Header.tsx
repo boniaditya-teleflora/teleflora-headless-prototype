@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { Container } from "@/components/layout/Container";
+import { HeaderActionPanels } from "@/components/layout/HeaderActionPanels";
 import { Navigation } from "@/components/layout/Navigation";
 import { getCategoryHref } from "@/lib/config/category-routes";
 
@@ -74,14 +75,24 @@ export function Header() {
             <Link href={getCategoryHref("flowers")} className="utility-bar__help">
               Need Help?
             </Link>
-            <Link href={getCategoryHref("flowers")} className="header-icon-link">
-              <UserIcon />
-              <span>Log In</span>
-            </Link>
-            <Link href="/product/red-roses" className="header-icon-link header-icon-link--cart" aria-label="Cart">
-              <CartIcon />
-              <span className="sr-only">Cart</span>
-            </Link>
+            <span className="header-action-anchor">
+              <Link href={getCategoryHref("flowers")} className="header-icon-link" aria-controls="header-action-panel" aria-expanded={false}>
+                <UserIcon />
+                <span>Log In</span>
+              </Link>
+            </span>
+            <span className="header-action-anchor">
+              <Link
+                href="/product/red-roses"
+                className="header-icon-link header-icon-link--cart"
+                aria-label="Cart"
+                aria-controls="header-action-panel"
+                aria-expanded={false}
+              >
+                <CartIcon />
+                <span className="sr-only">Cart</span>
+              </Link>
+            </span>
           </nav>
 
           <form className="header-search" action={getCategoryHref("flowers")} role="search">
@@ -110,14 +121,30 @@ export function Header() {
             >
               <TelefloraLogo />
             </Link>
-            <Link href={getCategoryHref("flowers")} className="header-icon-link mobile-header-actions__icon" aria-label="Log in">
-              <UserIcon />
-              <span className="sr-only">Log In</span>
-            </Link>
-            <Link href="/product/red-roses" className="header-icon-link header-icon-link--cart mobile-header-actions__icon" aria-label="Cart">
-              <CartIcon />
-              <span className="sr-only">Cart</span>
-            </Link>
+            <span className="header-action-anchor">
+              <Link
+                href={getCategoryHref("flowers")}
+                className="header-icon-link mobile-header-actions__icon"
+                aria-label="Log in"
+                aria-controls="header-action-panel"
+                aria-expanded={false}
+              >
+                <UserIcon />
+                <span className="sr-only">Log In</span>
+              </Link>
+            </span>
+            <span className="header-action-anchor">
+              <Link
+                href="/product/red-roses"
+                className="header-icon-link header-icon-link--cart mobile-header-actions__icon"
+                aria-label="Cart"
+                aria-controls="header-action-panel"
+                aria-expanded={false}
+              >
+                <CartIcon />
+                <span className="sr-only">Cart</span>
+              </Link>
+            </span>
           </nav>
           <form className="header-quick-order" action={getCategoryHref("flowers")}>
             <button type="submit">In a hurry?</button>
@@ -128,6 +155,7 @@ export function Header() {
           </form>
         </Container>
       </div>
+      <HeaderActionPanels />
     </header>
   );
 }
