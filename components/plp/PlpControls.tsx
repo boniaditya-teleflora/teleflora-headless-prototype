@@ -13,6 +13,7 @@ type PlpControlsProps = {
   category: CategoryPageData;
   controlsCategory?: CategoryPageData;
   options?: CategorySortOption[];
+  facets?: CategoryPageData["facets"];
   selectedSort?: string;
   catId?: string;
   filters?: CategoryFilterState;
@@ -24,6 +25,7 @@ export function PlpControls({
   category,
   controlsCategory = category,
   options,
+  facets,
   selectedSort,
   catId,
   filters,
@@ -32,7 +34,8 @@ export function PlpControls({
 }: PlpControlsProps) {
   const filterPanelId = useId();
   const [isFilterPanelOpen, setIsFilterPanelOpen] = useState(false);
-  const hasFilterFacets = Boolean(controlsCategory.facets?.some((facet) => getFacetFilterParam(facet)));
+  const controlFacets = facets ?? controlsCategory.facets;
+  const hasFilterFacets = Boolean(controlFacets?.some((facet) => getFacetFilterParam(facet)));
 
   return (
     <div className="plp-controls">
@@ -61,7 +64,7 @@ export function PlpControls({
           isMobileOpen={isFilterPanelOpen}
           categorySlug={category.slug}
           catId={catId ?? category.catId}
-          facets={controlsCategory.facets}
+          facets={controlFacets}
           filters={filters}
           selectedSort={selectedSort}
           zip={zip}

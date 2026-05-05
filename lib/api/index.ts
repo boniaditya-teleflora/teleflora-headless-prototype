@@ -56,7 +56,7 @@ export async function getCategoryBySlug(slug: string): Promise<CategoryPageData 
       ...category,
       products,
       breadcrumbTitle: categoryConfig.breadcrumbLabel ?? category.title,
-      facets: category.facets?.length ? category.facets : buildCategoryFacets(products, categoryConfig.catId),
+      facets: buildCategoryFacets(products, categoryConfig.catId),
       subcategories: category.subcategories?.length ? category.subcategories : getCategorySubcategoryLinks(categoryConfig.key),
       breadcrumbs: category.breadcrumbs?.length ? category.breadcrumbs : getCategoryBreadcrumbs(categoryConfig.key),
       resultCount: category.resultCount ?? products.length
@@ -86,7 +86,7 @@ export async function getCategoryBySlug(slug: string): Promise<CategoryPageData 
     breadcrumbs: getCategoryBreadcrumbs(categoryConfig.key),
     subcategories: getCategorySubcategoryLinks(categoryConfig.key),
     products: fallbackProducts,
-    facets: baseCategory.facets?.length ? baseCategory.facets : buildCategoryFacets(fallbackProducts, categoryConfig.catId),
+    facets: buildCategoryFacets(fallbackProducts, categoryConfig.catId),
     resultCount: fallbackProducts.length
   } satisfies CategoryPageData;
 }

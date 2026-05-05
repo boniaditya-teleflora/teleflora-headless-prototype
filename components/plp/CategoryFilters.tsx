@@ -83,7 +83,7 @@ function CategoryFilterSelect({
           const countLabel = typeof option.count === "number" ? ` (${option.count})` : "";
 
           return (
-            <option key={`${param}-${value}`} value={value}>
+            <option key={`${param}-${value}`} value={value} disabled={option.disabled}>
               {option.label}
               {countLabel}
             </option>

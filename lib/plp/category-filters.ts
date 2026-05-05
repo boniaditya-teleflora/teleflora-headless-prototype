@@ -139,6 +139,8 @@ const flowerFacetLabels: Record<string, string> = {
 const colorFacetLabels: Record<string, { label: string; swatch: string }> = {
   blue: { label: "Blue", swatch: "#005ec8" },
   green: { label: "Green", swatch: "#04ac63" },
+  lavender: { label: "Lavender", swatch: "#b497d6" },
+  pastel: { label: "Pastel", swatch: "#f0bfd2" },
   white: { label: "White", swatch: "#ffffff" },
   purple: { label: "Purple", swatch: "#a859cd" },
   red: { label: "Red", swatch: "#e20000" },
@@ -147,14 +149,30 @@ const colorFacetLabels: Record<string, { label: string; swatch: string }> = {
   yellow: { label: "Yellow", swatch: "#ffd200" }
 };
 
-function getFacetHref(catId: string | undefined, param: CategoryFilterKey, value: string) {
+const categoryFilterKeys: CategoryFilterKey[] = ["price", "flower", "color"];
+
+function toTitleCase(value: string) {
+  return value
+    .split("-")
+    .filter(Boolean)
+    .map((word) => `${word.charAt(0).toUpperCase()}${word.slice(1)}`)
+    .join(" ");
+}
+
+function getFacetHref(catId: string | undefined, filters: CategoryFilterState) {
   const params = new URLSearchParams();
 
   if (catId) {
     params.set("catID", catId);
   }
 
-  params.set(param, value);
+  categoryFilterKeys.forEach((key) => {
+    const value = filters[key];
+
+    if (value) {
+      params.set(key, value);
+    }
+  });
 
   return `?${params.toString()}`;
 }
@@ -191,27 +209,29 @@ function matchesPriceFilter(product: ProductSummary, priceFilter?: string) {
     return true;
   }
 
+  const price = product.salePrice ?? product.price;
+
   if (priceFilter === "under-40") {
-    return product.price < 40;
+    return price < 40;
   }
 
   if (priceFilter === "40-60") {
-    return product.price >= 40 && product.price < 60;
+    return price >= 40 && price < 60;
   }
 
   if (priceFilter === "60-80") {
-    return product.price >= 60 && product.price < 80;
+    return price >= 60 && price < 80;
   }
 
   if (priceFilter === "80-100") {
-    return product.price >= 80 && product.price < 100;
+    return price >= 80 && price < 100;
   }
 
   if (priceFilter === "over-100") {
-    return product.price >= 100;
+    return price >= 100;
   }
 
-  return true;
+  return false;
 }
 
 function getProductFilterMetadata(product: ProductSummary): ProductFilterMetadata {
@@ -225,69 +245,128 @@ function matchesMetadataFilter(values: string[], selectedValue?: string) {
   return !selectedValue || values.includes(selectedValue);
 }
 
-export function filterProductsByCategoryFilters(products: ProductSummary[], filters: CategoryFilterState) {
-  return products.filter((product) => {
-    const metadata = getProductFilterMetadata(product);
+function matchesProductCategoryFilters(product: ProductSummary, filters: CategoryFilterState) {
+  const metadata = getProductFilterMetadata(product);
 
-    return (
-      matchesPriceFilter(product, filters.price) &&
-      matchesMetadataFilter(metadata.flower, filters.flower) &&
-      matchesMetadataFilter(metadata.color, filters.color)
-    );
-  });
+  return (
+    matchesPriceFilter(product, filters.price) &&
+    matchesMetadataFilter(metadata.flower, filters.flower) &&
+    matchesMetadataFilter(metadata.color, filters.color)
+  );
 }
 
-export function buildCategoryFacets(products: ProductSummary[], catId?: string): CategoryFacet[] {
-  const priceOptions = priceFacetDefinitions
-    .map((option) => ({
-      label: option.label,
-      href: getFacetHref(catId, "price", option.value),
-      count: products.filter((product) => matchesPriceFilter(product, option.value)).length
-    }))
-    .filter((option) => option.count > 0);
-  const flowerCounts = new Map<string, number>();
-  const colorCounts = new Map<string, number>();
+export function filterProductsByCategoryFilters(products: ProductSummary[], filters: CategoryFilterState) {
+  return products.filter((product) => matchesProductCategoryFilters(product, filters));
+}
+
+function getFacetCandidateValues(products: ProductSummary[], param: CategoryFilterKey, selectedValue?: string) {
+  const values = new Set<string>();
+
+  if (param === "price") {
+    priceFacetDefinitions.forEach((option) => values.add(option.value));
+  }
 
   products.forEach((product) => {
     const metadata = getProductFilterMetadata(product);
 
-    metadata.flower.forEach((value) => {
-      flowerCounts.set(value, (flowerCounts.get(value) ?? 0) + 1);
-    });
+    if (param === "flower") {
+      metadata.flower.forEach((value) => values.add(value));
+    }
 
-    metadata.color.forEach((value) => {
-      colorCounts.set(value, (colorCounts.get(value) ?? 0) + 1);
-    });
+    if (param === "color") {
+      metadata.color.forEach((value) => values.add(value));
+    }
   });
 
-  const flowerOptions = Object.entries(flowerFacetLabels)
-    .map(([value, label]) => ({
-      label,
-      href: getFacetHref(catId, "flower", value),
-      count: flowerCounts.get(value) ?? 0
+  if (selectedValue) {
+    values.add(selectedValue);
+  }
+
+  return Array.from(values);
+}
+
+function getFacetOptionLabel(param: CategoryFilterKey, value: string) {
+  if (param === "price") {
+    return priceFacetDefinitions.find((option) => option.value === value)?.label ?? toTitleCase(value);
+  }
+
+  if (param === "flower") {
+    return flowerFacetLabels[value] ?? toTitleCase(value);
+  }
+
+  return colorFacetLabels[value]?.label ?? toTitleCase(value);
+}
+
+function getFacetTitle(param: CategoryFilterKey) {
+  if (param === "price") {
+    return "Price Ranges";
+  }
+
+  if (param === "flower") {
+    return "Flower Type";
+  }
+
+  return "Color";
+}
+
+function getOptionSortIndex(param: CategoryFilterKey, value: string) {
+  if (param === "price") {
+    const optionIndex = priceFacetDefinitions.findIndex((option) => option.value === value);
+
+    return optionIndex === -1 ? Number.MAX_SAFE_INTEGER : optionIndex;
+  }
+
+  return 0;
+}
+
+function buildFacetOptions(products: ProductSummary[], filters: CategoryFilterState, catId: string | undefined, param: CategoryFilterKey) {
+  const selectedValue = filters[param];
+
+  return getFacetCandidateValues(products, param, selectedValue)
+    .map((value) => {
+      const optionFilters = {
+        ...filters,
+        [param]: value
+      };
+      const count = products.filter((product) => matchesProductCategoryFilters(product, optionFilters)).length;
+      const colorDisplay = param === "color" ? colorFacetLabels[value] : undefined;
+
+      return {
+        label: getFacetOptionLabel(param, value),
+        href: getFacetHref(catId, optionFilters),
+        count,
+        disabled: count === 0,
+        ...(colorDisplay?.swatch ? { swatch: colorDisplay.swatch } : {})
+      } satisfies CategoryFacetOption;
+    })
+    .filter((option) => option.count > 0 || getFacetOptionValue(option, param) === selectedValue)
+    .sort((firstOption, secondOption) => {
+      const firstValue = getFacetOptionValue(firstOption, param);
+      const secondValue = getFacetOptionValue(secondOption, param);
+      const firstSortIndex = getOptionSortIndex(param, firstValue);
+      const secondSortIndex = getOptionSortIndex(param, secondValue);
+
+      if (firstSortIndex !== secondSortIndex) {
+        return firstSortIndex - secondSortIndex;
+      }
+
+      return firstOption.label.localeCompare(secondOption.label);
+    });
+}
+
+export function buildCategoryFacets(products: ProductSummary[], catId?: string, filters: CategoryFilterState = {}): CategoryFacet[] {
+  return categoryFilterKeys
+    .map((param) => ({
+      title: getFacetTitle(param),
+      expanded: true,
+      options: buildFacetOptions(products, filters, catId, param)
     }))
-    .filter((option) => option.count > 0);
-  const colorOptions = Object.entries(colorFacetLabels)
-    .map(([value, { label, swatch }]) => ({
-      label,
-      href: getFacetHref(catId, "color", value),
-      count: colorCounts.get(value) ?? 0,
-      swatch
-    }))
-    .filter((option) => option.count > 0);
-  const facets: CategoryFacet[] = [];
+    .filter((facet) => facet.options.length);
+}
 
-  if (priceOptions.length) {
-    facets.push({ title: "Price Ranges", expanded: true, options: priceOptions });
-  }
-
-  if (flowerOptions.length) {
-    facets.push({ title: "Flower Type", expanded: true, options: flowerOptions });
-  }
-
-  if (colorOptions.length) {
-    facets.push({ title: "Color", expanded: true, options: colorOptions });
-  }
-
-  return facets;
+export function getCategoryFilterModel(products: ProductSummary[], filters: CategoryFilterState, catId?: string) {
+  return {
+    products: filterProductsByCategoryFilters(products, filters),
+    facets: buildCategoryFacets(products, catId, filters)
+  };
 }

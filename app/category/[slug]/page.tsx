@@ -11,7 +11,7 @@ import { Breadcrumbs } from "@/components/shared/Breadcrumbs";
 import { getCategoryBySlug, getCategoryNavigationContextBySlug, getCategorySlugs } from "@/lib/api";
 import { generateCategoryMetadata } from "@/lib/seo";
 import type { ProductSummary } from "@/lib/api/types";
-import { filterProductsByCategoryFilters, hasActiveCategoryFilters } from "@/lib/plp/category-filters";
+import { getCategoryFilterModel, hasActiveCategoryFilters } from "@/lib/plp/category-filters";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -108,10 +108,10 @@ export default async function CategoryPage({ params, searchParams }: PageProps) 
     flower: getSearchParamValue(query.flower) || undefined,
     color: getSearchParamValue(query.color) || undefined
   };
-  const hasActiveFilters = hasActiveCategoryFilters(selectedFilters);
-  const filteredProducts = filterProductsByCategoryFilters(category.products, selectedFilters);
-  const products = sortProducts(filteredProducts, selectedSort);
   const catId = getSearchParamValue(query.catID) ?? category.catId;
+  const hasActiveFilters = hasActiveCategoryFilters(selectedFilters);
+  const filterModel = getCategoryFilterModel(category.products, selectedFilters, catId);
+  const products = sortProducts(filterModel.products, selectedSort);
   const zip = getSearchParamValue(query.zip) ?? "";
   const deliveryDate = getSearchParamValue(query.deliveryDate) ?? "";
   const breadcrumbs = getBreadcrumbs(category);
@@ -132,6 +132,7 @@ export default async function CategoryPage({ params, searchParams }: PageProps) 
               options={navigationCategory.sortOptions}
               selectedSort={selectedSort}
               catId={catId}
+              facets={filterModel.facets}
               filters={selectedFilters}
               zip={zip}
               deliveryDate={deliveryDate}

@@ -158,6 +158,7 @@ export type CategorySortOption = {
 export type CategoryFacetOption = LinkItem & {
   count?: number;
   swatch?: string;
+  disabled?: boolean;
 };
 
 export type CategoryFacet = {
