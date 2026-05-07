@@ -1,8 +1,9 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { type MouseEvent, useEffect, useMemo, useRef, useState } from "react";
 
 import type { ProductAddOn, ProductPageData, ProductVariant } from "@/lib/api/types";
+import { addMiniCartItem, MINI_CART_OPEN_EVENT } from "@/lib/cart/mini-cart";
 import { formatPrice } from "@/lib/utils";
 
 type PurchasePanelProps = {
@@ -87,6 +88,31 @@ export function PurchasePanel({ product }: PurchasePanelProps) {
     availabilityTimer.current = window.setTimeout(() => {
       setAvailabilityState(recipientZip.trim() === "00000" ? "unavailable" : "available");
     }, 500);
+  }
+
+  function handleAddToCart(event: MouseEvent<HTMLButtonElement>) {
+    const cartImage = selectedVariant?.image ?? product.image ?? product.images[0];
+    const selectedAddOnSignature = Object.entries(selectedAddOnValues)
+      .filter(([, value]) => Boolean(value))
+      .sort(([firstKey], [secondKey]) => firstKey.localeCompare(secondKey))
+      .map(([key, value]) => `${key}:${value}`)
+      .join("|");
+
+    setCartState("added");
+    addMiniCartItem({
+      currency: product.currency,
+      deliveryDate,
+      href: product.href ?? `/product/${product.slug}`,
+      id: [product.slug, selectedVariant?.id ?? "standard", selectedAddOnSignature || "no-addons", recipientZip.trim(), deliveryDate].join("-"),
+      image: cartImage?.src,
+      imageAlt: cartImage?.alt ?? product.name,
+      name: product.name,
+      quantity: 1,
+      recipientZip: recipientZip.trim(),
+      unitPrice: configuredTotal,
+      variantLabel: selectedVariant?.label
+    });
+    window.dispatchEvent(new CustomEvent(MINI_CART_OPEN_EVENT, { detail: { trigger: event.currentTarget } }));
   }
 
   return (
@@ -227,7 +253,7 @@ export function PurchasePanel({ product }: PurchasePanelProps) {
           type="button"
           className="purchase-panel__cart-button"
           disabled={!canAddToCart}
-          onClick={() => setCartState("added")}
+          onClick={handleAddToCart}
         >
           {cartState === "added" ? "Added" : "Add to cart"}
         </button>

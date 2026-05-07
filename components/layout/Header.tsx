@@ -76,18 +76,27 @@ export function Header() {
               Need Help?
             </Link>
             <span className="header-action-anchor">
-              <Link href={getCategoryHref("flowers")} className="header-icon-link" aria-controls="header-action-panel" aria-expanded={false}>
+              <Link
+                href="#login"
+                className="header-icon-link"
+                aria-controls="header-action-panel-login"
+                aria-expanded={false}
+                aria-haspopup="dialog"
+                data-header-action="login"
+              >
                 <UserIcon />
                 <span>Log In</span>
               </Link>
             </span>
             <span className="header-action-anchor">
               <Link
-                href="/product/red-roses"
+                href="#cart"
                 className="header-icon-link header-icon-link--cart"
                 aria-label="Cart"
-                aria-controls="header-action-panel"
+                aria-controls="header-action-panel-cart"
                 aria-expanded={false}
+                aria-haspopup="dialog"
+                data-header-action="cart"
               >
                 <CartIcon />
                 <span className="sr-only">Cart</span>
@@ -123,11 +132,13 @@ export function Header() {
             </Link>
             <span className="header-action-anchor">
               <Link
-                href={getCategoryHref("flowers")}
+                href="#login"
                 className="header-icon-link mobile-header-actions__icon"
                 aria-label="Log in"
-                aria-controls="header-action-panel"
+                aria-controls="header-action-panel-login"
                 aria-expanded={false}
+                aria-haspopup="dialog"
+                data-header-action="login"
               >
                 <UserIcon />
                 <span className="sr-only">Log In</span>
@@ -135,11 +146,13 @@ export function Header() {
             </span>
             <span className="header-action-anchor">
               <Link
-                href="/product/red-roses"
+                href="#cart"
                 className="header-icon-link header-icon-link--cart mobile-header-actions__icon"
                 aria-label="Cart"
-                aria-controls="header-action-panel"
+                aria-controls="header-action-panel-cart"
                 aria-expanded={false}
+                aria-haspopup="dialog"
+                data-header-action="cart"
               >
                 <CartIcon />
                 <span className="sr-only">Cart</span>

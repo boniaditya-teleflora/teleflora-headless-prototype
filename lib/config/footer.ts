@@ -62,7 +62,8 @@ export const footerConfig = {
     {
       title: "Our Company",
       links: [
-        { label: "About Us", href: placeholderHref },
+        { label: "About Us", href: "/about-original" },
+        { label: "Modern About Us", href: "/about-modern" },
         { label: "Careers", href: placeholderHref },
         { label: "Our Services", href: placeholderHref },
         { label: "Partnership Program", href: placeholderHref },
