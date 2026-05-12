@@ -12,3 +12,9 @@ env.local
 !.env.example
 .chrome-*
 homepage-*.png
+breadcrumb-*.png
+product-data-*.png
+.codex-*.html
+teleflora-live-cart.html
+teleflora-screen*.css
+teleflora-headless-prototype.git/

@@ -166,7 +166,10 @@ function TrustBadge() {
 
 function FooterTrustSection() {
   return (
-    <section className="site-footer__trust-section" aria-label="Trust badges">
+    <section className="site-footer__trust-section" aria-labelledby="footer-trust-title">
+      <h2 id="footer-trust-title" className="footer-trust-badges__title">
+        {footerConfig.trust.heading}
+      </h2>
       <div className="footer-trust-badges">
         <TrustBadge />
       </div>

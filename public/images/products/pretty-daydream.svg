@@ -1,0 +1,29 @@
+<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="640" rx="36" fill="#FFFFFF"/>
+  <ellipse cx="320" cy="544" rx="154" ry="26" fill="#E8DDE4"/>
+  <path d="M236 382H404L377 562H263L236 382Z" fill="#A37AC0"/>
+  <path d="M255 410H385L364 538H276L255 410Z" fill="#C6A5DB"/>
+  <path d="M247 382H393C396 396 387 411 372 411H268C253 411 244 396 247 382Z" fill="#7E5699"/>
+  <path d="M294 386C286 330 254 278 211 231" stroke="#6D8A54" stroke-width="16" stroke-linecap="round"/>
+  <path d="M319 386C315 316 321 262 337 204" stroke="#6D8A54" stroke-width="16" stroke-linecap="round"/>
+  <path d="M346 386C354 321 383 272 428 227" stroke="#6D8A54" stroke-width="16" stroke-linecap="round"/>
+  <path d="M275 358C238 329 210 294 188 251" stroke="#7FA162" stroke-width="12" stroke-linecap="round"/>
+  <path d="M365 360C401 328 429 293 454 246" stroke="#7FA162" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="203" cy="230" r="56" fill="#F7A66A"/>
+  <circle cx="203" cy="230" r="28" fill="#F6D9A4"/>
+  <circle cx="279" cy="196" r="60" fill="#E64A8A"/>
+  <circle cx="279" cy="196" r="29" fill="#F6BCD2"/>
+  <circle cx="357" cy="184" r="58" fill="#ECE166"/>
+  <circle cx="357" cy="184" r="27" fill="#FFF3A8"/>
+  <circle cx="436" cy="232" r="60" fill="#C58ED2"/>
+  <circle cx="436" cy="232" r="29" fill="#E9CEF0"/>
+  <circle cx="257" cy="300" r="55" fill="#F39F9A"/>
+  <circle cx="257" cy="300" r="27" fill="#F9D5D0"/>
+  <circle cx="340" cy="294" r="62" fill="#F2B7D2"/>
+  <circle cx="340" cy="294" r="29" fill="#FCE0EC"/>
+  <circle cx="420" cy="320" r="50" fill="#8CCF7B"/>
+  <circle cx="420" cy="320" r="23" fill="#D6F0C9"/>
+  <path d="M171 318C192 300 216 292 243 296" stroke="#5E7D4A" stroke-width="14" stroke-linecap="round"/>
+  <path d="M470 320C443 304 417 301 392 312" stroke="#5E7D4A" stroke-width="14" stroke-linecap="round"/>
+  <path d="M287 482C316 500 352 495 374 472" stroke="#DFC8ED" stroke-width="10" stroke-linecap="round"/>
+</svg>

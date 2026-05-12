@@ -14,6 +14,11 @@ export const metadata: Metadata = {
   },
   description:
     "A headless florist storefront prototype built with Next.js, mock commerce data, and production-minded structure.",
+  icons: {
+    icon: [{ url: "https://assets.teleflora.com/images/favicon.png", type: "image/png" }],
+    shortcut: [{ url: "https://assets.teleflora.com/images/favicon.png", type: "image/png" }],
+    apple: [{ url: "https://assets.teleflora.com/images/favicon.png", type: "image/png" }]
+  },
   alternates: {
     canonical: buildAbsoluteUrl("/")
   },
@@ -43,7 +48,7 @@ export default function RootLayout({
   return (
     <html lang="en" data-scroll-behavior="smooth">
       <head>
-        <link rel="preconnect" href="https://assets.teleflora.com" crossOrigin="" />
+        <link rel="preconnect" href="https://assets.teleflora.com" />
         <link rel="preload" as="style" href="https://assets.teleflora.com/css/fonts.css?v=262" />
         <link rel="stylesheet" href="https://assets.teleflora.com/css/fonts.css?v=262" />
       </head>
